@@ -1,0 +1,87 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.goodsexchange";
+option java_outer_classname = "Exchange";
+
+
+// 获取兑换商品列表请求
+message GetExchangeItemListReq {
+    required uint32 item_type = 1;                      // 兑换商品类型 1:实物 2:虚拟
+    optional string user_id = 2;                        // 用户ID
+}
+
+
+// 获取兑换商品列表回复
+message GetExchangeItemListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional uint32 user_coin = 3;                      //用户剩余财币
+    repeated ExchangeItem exchange_items = 4;          // 兑换商品列表
+}
+
+
+// 兑换商品请求
+message DoExchangeItemReq {
+    required string user_id = 1;    // 用户ID
+    required string item_id = 2;    // 兑换商品ID
+}
+
+
+// 兑换商品回复
+message DoExchangeItemResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional uint32 user_coin = 3;                      // 用户剩余财币
+    optional ExchangeRecord exchange_record = 4;        // 兑换得到的商品记录
+}
+
+
+// 添加实物商品的收件人信息请求
+message AddReceiverInfoReq {
+    required string record_id = 1;          // 兑换记录ID
+    required string receiver_name = 2;      // 收件人姓名
+    required string receiver_address = 3;   // 收件人地址
+    required string receiver_tel = 4;       // 收件人电话
+    required string receiver_zip = 5;       // 收件人邮编
+}
+
+
+// 添加实物商品的收件人信息回复
+message AddReceiverInfoResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+}
+
+
+// 获取我的兑换记录请求
+message GetExchangeRecordListReq {
+    required string user_id = 1;
+}
+
+
+// 获取我的兑换记录回复
+message GetExchangeRecordListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated ExchangeRecord exchange_records = 3;        // 兑换商品记录列表
+}
+
+/*
+service chronos {
+
+    // 获取可兑换商品列表
+    rpc get_exchange_item_list(GetExchangeItemListReq) returns (GetExchangeItemListResponse);
+
+    // 兑换指定商品
+    rpc do_exchange_item(DoExchangeItemReq) returns (DoExchangeItemResponse);
+
+    // 实物商品填写邮寄地址
+    rpc add_receiver_info(AddReceiverInfoReq) returns (AddReceiverInfoResponse);
+
+    // 获取用户的兑换记录
+    rpc get_exchange_record_list(GetExchangeRecordListReq) returns (GetExchangeRecordListResponse);
+
+}
+*/

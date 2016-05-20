@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/ll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ebebeb">
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zhicai:leftImg="@drawable/arrow"
+        zhicai:titleName="我的资料"/>
+
+    <LinearLayout
+        android:id="@+id/ll_photo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head_view"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/myitem_select_bg"
+        android:padding="8dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="头像"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/icon"
+            android:layout_width="60dp"
+            android:elevation="8dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            zhicai:type="circle"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/forward_detail"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_1"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/ll_photo"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/alpha_black"/>
+
+    <LinearLayout
+        android:id="@+id/ll_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_1"
+        android:background="@drawable/myitem_select_bg"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="15dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="昵称"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="代码先森"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/forward_detail"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_2"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/ll_nickname"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/alpha_black"/>
+
+    <LinearLayout
+        android:id="@+id/ll_sex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_2"
+        android:background="@drawable/myitem_select_bg"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="15dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="性别"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="男"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/forward_detail"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_3"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/ll_sex"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/alpha_black"/>
+
+    <LinearLayout
+        android:id="@+id/ll_select_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_3"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/myitem_select_bg"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="15dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="所在城市"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="北京"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/forward_detail"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_4"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/ll_select_city"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/alpha_black"/>
+
+    <LinearLayout
+        android:id="@+id/ll_select_birthday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_4"
+        android:background="@drawable/myitem_select_bg"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="15dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="生日"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="1992-09-16"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/forward_detail"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_5"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/ll_select_birthday"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/alpha_black"/>
+
+    <LinearLayout
+        android:id="@+id/ll_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/line_5"
+        android:background="@drawable/myitem_select_bg"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="15dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="身份证号码"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+
+            android:textSize="@dimen/font_small5_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/forward_detail"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_6"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@+id/ll_card"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/alpha_black"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll_change_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line_6"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/myitem_select_bg"
+        android:paddingBottom="15dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="15dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="修改密码"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/forward_detail"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/ll_change_pwd"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@color/alpha_black"/>
+</RelativeLayout>

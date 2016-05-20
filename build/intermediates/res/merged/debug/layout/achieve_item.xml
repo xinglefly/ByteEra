@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/margin"
+    android:padding="@dimen/margin"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="wrap_content">
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_achieve_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连续登陆"
+        android:textColor="@color/wealth_item"
+        android:textSize="@dimen/font_small6_size" />
+
+
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_achieve_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_achieve_day"
+        android:text="50"
+        android:drawableLeft="@drawable/coin_sm"
+        android:drawablePadding="@dimen/margin_doubleside"
+        android:layout_margin="@dimen/margin_doubleside"
+        android:textSize="@dimen/font_small5_size"
+         />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:textColor="@color/black"
+        android:id="@+id/tv_achieve_explain"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_achieve_day"
+        android:layout_toRightOf="@id/tv_achieve_coin"
+        android:textSize="@dimen/font_small5_size"
+        android:layout_marginLeft="@dimen/margin"
+        android:singleLine="true"
+        android:layout_margin="@dimen/margin_doubleside"
+        android:gravity="center|left"
+        android:visibility="invisible"
+        android:text="任务说明" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:textColor="@color/white"
+        android:id="@+id/tv_achieve_action"
+        android:layout_width="@dimen/margin75"
+        android:layout_height="@dimen/margin35"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/textview_corner"
+        android:layout_marginRight="@dimen/margin_oneside"
+        android:textSize="@dimen/font_small4_size"
+        android:gravity="center"
+        android:text="待完成" />
+
+    <!--invisiable-->
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_achieveid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_condition_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_jumpurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_jumppoint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    android:orientation="vertical">
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/head_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zhicai:leftImg="@drawable/arrow"
+        zhicai:rightText="发布"
+        zhicai:titleName="评论详情"/>
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/head_title"
+        android:background="@color/white"
+        android:gravity="top"
+        android:hint="请发表您的意见"
+        android:padding="5dp"
+        android:textSize="@dimen/font_small6_size"/>
+
+    <com.zhicai.byteera.widget.HasHeadLoadMoreListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head_title"/>
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_empty_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_comment"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="赶快来抢沙发吧"
+        android:textColor="@color/theme_gray"
+        android:textSize="@dimen/font_small8_size"/>
+</RelativeLayout>

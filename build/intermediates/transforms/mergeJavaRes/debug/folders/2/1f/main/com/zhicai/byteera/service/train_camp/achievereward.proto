@@ -1,0 +1,108 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.train_camp";
+option java_outer_classname = "AchieveReward";
+
+
+// 相同判断规则的成就被认为是一个成就。举个例子： 连续登录3 5 7 天分别奖励 100 150 200 财币被认为是一个成就，拥有一个成就id
+// [3, 5, 7] 是该成就的判断条件 (condition)，3 5 7 这些数字是判断条件中的不同级别（level），3 就是级别1 5就是级别2 7就是级别3,
+// [100, 150, 200] 就是相应级别的奖励数值。
+// 基础对象， 该对象代表某个成就的某个level
+message AchieveLevel {
+    required string achieve_id = 1;
+    required uint32 condition_level = 2;
+    required string title = 3;          // UI 上显示的文字
+    required bool time_limited = 4;     // 限时成就？ true 是 false 不是，为true时 start_time,end_time就被设置，目前都是false
+    required bool achieve_done = 5;     // 成就达成? UI上把该Item设置为不可点击状态，提示用户该成就已达成
+    required bool level_done = 6;       // 成就的该level已达成？如果为true，需要提示用户领取奖励，false 还未达成
+    required uint32 reward_coin = 7;    // 达成该成就奖励的财币数
+    optional uint32 start_time = 8;
+    optional uint32 end_time = 9;
+    optional JumpPoint jump_point = 10;  // APP 内部跳转     jump_point jump_url 最多只能有一项有值，
+    optional string jump_url = 11;       // 跳转到 URL       如果都没有值就是不能跳转的成就
+    optional string extra_info = 12;            // 额外的说明信息
+}
+
+// 1 获取所有成就，进入成就页面时发送该消息，服务端返回 AchieveResponse，客户端直接遍历成就列表显示在UI上
+message AchieveReq {
+    optional string user_id = 1;
+}
+
+message AchieveResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated AchieveLevel achieve = 3;
+    optional uint32 coin = 4;             // 财币数
+    optional uint32 ranking = 5;          // 财币排名
+    optional uint32 con_login = 6;        // 连续登录天数
+}
+
+// 2 用户点击领取奖励时时发送该消息, 服务器返回 GetRewardResponse
+message GetRewardReq {
+    required string achieve_id = 1;
+    required uint32 condition_level = 2;
+    required string user_id = 3;
+}
+
+message GetRewardResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional AchieveLevel next_level = 3;      // 成就的下一个level，在UI上用此更新原来的条目
+    optional uint32 coin = 4;                  // 财币
+    optional uint32 ranking = 5;               // 财币排名
+}
+
+enum DailyTaskStatus {
+    TASK_DOING = 1;         //未完成
+    TASK_DONE = 2;          //已完成
+    TASK_OBTAINED = 3;      //已领取
+}
+
+message DailyTask {
+    required string id = 1;                 // 任务ID
+    required string abbr = 2;               // 任务简写
+    required string name = 3;               // 任务名称
+    required uint32 coin = 4;               // 奖励财币数
+    required DailyTaskStatus status = 5;    // 任务状态
+}
+
+message GetDailyTaskListReq {
+    optional string user_id = 1;
+}
+
+message GetDailyTaskListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated DailyTask tasks = 3;           // 任务列表
+    optional uint32 user_coin = 4;          // 财币
+    optional uint32 user_rank = 5;          // 财币排名
+    optional uint32 con_login = 6;          // 连续登录天数
+}
+
+message SetDailyTaskRewardReq {
+    required string user_id = 1;            // 用户ID
+    required string task_id = 2;            // 任务ID
+}
+
+message SetDailyTaskRewardResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional uint32 user_coin = 3;          // 财币
+    optional uint32 user_rank = 4;          // 财币排名
+    optional uint32 con_login = 5;          // 连续登录天数
+}
+
+/*
+service chronos {
+
+    rpc get_achieve_list(AchieveReq) returns (AchieveResponse);
+
+    rpc get_reward(GetRewardReq) returns (GetRewardResponse);
+
+    rpc get_daily_task_list(GetDailyTaskListReq) returns (GetDailyTaskListResponse);
+
+    rpc set_daily_task_reward(SetDailyTaskRewardReq) returns (SetDailyTaskRewardResponse);
+}
+*/

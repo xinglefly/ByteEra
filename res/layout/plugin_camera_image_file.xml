@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/albumback">
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zhicai:leftText="取消"
+        zhicai:titleName="选择相册"/>
+
+    <GridView
+        android:id="@+id/fileGridView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/head_view"
+        android:layout_centerInParent="true"
+        android:background="@color/albumback"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"/>
+
+
+</RelativeLayout>

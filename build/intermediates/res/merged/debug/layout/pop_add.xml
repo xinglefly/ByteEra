@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/pop_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#90000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linear_group_chat"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:orientation="vertical"
+            android:paddingLeft="14dip" >
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:text="@string/Select_the_contact"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/font_small8_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_add_friends"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:orientation="vertical"
+            android:paddingLeft="14dip" >
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:text="@string/add_friends"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_small8_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_daily_tasks"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:orientation="vertical"
+            android:paddingLeft="14dip" >
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:text="@string/daily_tasks"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_small8_size" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear_feedback"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:orientation="vertical"
+            android:paddingLeft="14dip" >
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_vertical"
+                android:text="@string/feedback"
+                android:textColor="#fff"
+                android:textSize="@dimen/font_small8_size" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

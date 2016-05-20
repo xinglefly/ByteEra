@@ -1,0 +1,111 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.information";
+option java_outer_classname = "InformationSecondary";
+
+// 1 发送该消息获取咨询部分的详情页内容，服务器返回 DetailsPage 消息
+message DetailsPageReq {
+    required string zixunId = 1;                // 资讯ID                 必选
+    optional uint32 comment_index = 2;              // 评论ID                 必选
+    optional uint32 isafter = 3;                // 方向（1-> 后 , <-0 前） 可选
+    optional string user_id = 4;
+}
+
+message DetailsPage {
+    required uint32 errorno = 1;                //错误代码
+    optional string error_description = 2;      //错误描述
+    optional string detail_url = 3;             //详情地址
+    optional uint32 total_comment_cnt = 4;      //评论总数
+    repeated Comment comment = 5;               //评论数组
+    optional bool is_collect = 6;               //已经收藏? true 已收藏 false 未收藏
+    optional string small_image = 7;            //缩略图
+    optional string title = 8;                  //标题
+}
+
+// 2 收藏，发送 DoCollectReq 服务端返回 DoCollectResponse
+message DoCollectReq {
+    required string user_id = 1;
+    required string zixunId = 2;
+}
+
+message DoCollectResponse {
+    required uint32 errorno = 1;            //错误代码
+    optional string error_description = 2;  //错误描述
+}
+
+// 3 取消收藏
+message UndoCollectReq {
+    required string user_id = 1;
+    required string zixunId = 2;
+}
+
+message UndoCollectResponse {
+    required uint32 errorno = 1;            //错误代码
+    optional string error_description = 2;  //错误描述
+}
+
+// + 获取用户的收藏, 服务器返回 GetUserCollectResponse
+message GetUserCollectReq {
+    required string user_id = 1;
+}
+
+// 资讯 碰上了 bug 不得已把information.proto 中的Zixun 拷贝了过来, 又没有 ProductType，先注释掉
+message TZixun {
+    required string zixunId = 1; //资讯 ID
+    required string title = 2;          //标题
+    required string image_url = 3;      //小缩略图
+    required uint32 comment_times = 4;  //评论次数
+    required uint32 publish_time = 5;   //发布时间
+    // required ProductType product_type = 6; // 类型
+}
+
+message GetUserCollectResponse {
+    required uint32 errorno = 1;            //错误代码
+    optional string error_description = 2;  //错误描述
+    repeated TZixun zixun = 3;
+}
+
+// 4 评论。发送 DoComment 服务端返回 DoCommentResponse
+message Z_DoComment {
+    required string zixunId = 1;
+    required string user_id = 2;
+    optional string content = 3;
+}
+
+message Z_DoCommentResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional Comment comment = 3;
+    optional uint32 total_comment_cnt = 4; // 评论总数
+}
+
+// 5 取消评论. 发送 UndoComment 服务端返回 UndoCommentResponse
+// 只能是发评论的人自己取消评论，参数中的 user_id 也是评论者的
+message Z_UndoComment {
+    required string zixunId = 1;
+    required uint32 comment_index = 2;
+    required string user_id = 3;
+}
+
+message Z_UndoCommentResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional uint32 total_comment_cnt = 3; // 评论总数
+}
+
+service chronos {
+
+    rpc get_info(DetailsPageReq) returns (DetailsPage);
+
+    rpc zixun_do_collect(DoCollectReq) returns (DoCollectResponse);
+
+    rpc zixun_undo_collect(UndoCollectReq) returns (UndoCollectResponse);
+
+    rpc zixun_get_user_collect(GetUserCollectReq) returns (GetUserCollectResponse);
+
+    rpc zixun_do_comment(Z_DoComment) returns (Z_DoCommentResponse);
+
+    rpc zixun_undo_comment(Z_UndoComment) returns (Z_UndoCommentResponse);
+}

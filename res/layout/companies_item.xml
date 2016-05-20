@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:gravity="center|left">
+
+
+    <ImageView
+        android:id="@+id/iv_ck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:src="@drawable/company_no" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/frame_05dp"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:layout_toRightOf="@id/iv_ck"
+        android:src="@drawable/zhicai" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:paddingLeft="15dp"
+        android:text="爱钱帮"
+        android:textColor="#616161"
+        android:textSize="@dimen/font_small5_size" />
+
+
+</RelativeLayout>

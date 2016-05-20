@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/share_bottom_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/default_white"
+    android:orientation="vertical">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="分享到" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_wx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_05dp"
+            android:drawableTop="@drawable/logo_wechat"
+            android:gravity="center"
+            android:text="微信"
+            android:textColor="#838383" />
+
+        <TextView
+            android:id="@+id/tv_wxfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_05dp"
+            android:drawableTop="@drawable/logo_wechatmoments"
+            android:gravity="center"
+            android:text="朋友圈"
+            android:textColor="#838383" />
+
+        <TextView
+            android:id="@+id/tv_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_05dp"
+            android:drawableTop="@drawable/logo_qq"
+            android:gravity="center"
+            android:text="QQ"
+            android:textColor="#838383" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_qzone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_05dp"
+            android:drawableTop="@drawable/logo_qzone"
+            android:gravity="center"
+            android:text="QQ空间"
+            android:textColor="#838383" />
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_05dp"
+            android:drawableTop="@drawable/logo_sinaweibo"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:text="新浪"
+            android:textColor="#838383" />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_05dp"
+            android:drawableTop="@drawable/logo_qq"
+            android:gravity="center"
+            android:text="QQ"
+            android:textColor="#838383" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,178 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/head_view_bg">
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zhicai:leftImg="@drawable/arrow"
+        zhicai:titleName="登录" />
+
+
+    <ImageView
+        android:id="@+id/circle_avatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@id/title_bar"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/frame_25dp"
+        android:src="@drawable/login_icon" />
+
+
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/circle_avatar"
+        android:layout_marginLeft="@dimen/margin4"
+        android:layout_marginRight="@dimen/margin4"
+        android:layout_marginTop="@dimen/margin4"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/shouji"
+        android:drawablePadding="@dimen/frame_10dp"
+        android:hint="输入手机号"
+        android:inputType="phone"
+        android:padding="@dimen/frame_10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/font_small6_size" />
+
+    <View
+        android:id="@+id/view_1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/et_username"
+        android:layout_marginLeft="@dimen/margin4"
+        android:layout_marginRight="@dimen/margin4"
+        android:background="@color/white" />
+
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view_1"
+        android:layout_marginLeft="@dimen/margin4"
+        android:layout_marginRight="@dimen/margin4"
+        android:layout_marginTop="@dimen/frame_15dp"
+        android:background="@color/transparent"
+        android:drawableLeft="@drawable/pswlock"
+        android:drawablePadding="@dimen/frame_10dp"
+        android:hint="密码"
+        android:inputType="textPassword"
+        android:padding="@dimen/frame_10dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/font_small6_size" />
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/et_password"
+        android:layout_marginLeft="@dimen/margin4"
+        android:layout_marginRight="@dimen/margin4"
+        android:background="@color/white" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_forget_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/view_2"
+        android:layout_marginRight="@dimen/margin4"
+        android:layout_marginTop="@dimen/frame_15dp"
+        android:text="忘记密码?"
+        android:textColor="#eeeeee"
+        android:textSize="@dimen/font_small2_size" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_forget_pwd"
+        android:layout_marginLeft="@dimen/margin4"
+        android:layout_marginRight="@dimen/margin4"
+        android:layout_marginTop="60dp"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_login"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginRight="@dimen/frame_10dp"
+            android:layout_marginTop="0.8dp"
+            android:layout_weight="2"
+            android:background="@drawable/login_selector"
+            android:gravity="center"
+            android:padding="@dimen/frame_10dp"
+            android:text="登录"
+            android:textColor="@color/head_view_bg"
+            android:textSize="@dimen/font_small6_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_register1"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_weight="1"
+            android:background="@drawable/register_selector"
+            android:gravity="center"
+            android:padding="@dimen/frame_10dp"
+            android:text="注册"
+            android:textColor="#eeeeee"
+            android:textSize="@dimen/font_small3_size" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:gravity="center">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="快捷登录"
+            android:textColor="#eeeeee"
+            android:textSize="@dimen/font_small4_size" />
+
+        <ImageView
+            android:id="@+id/img_sina"
+            android:layout_width="@dimen/margin35"
+            android:layout_height="@dimen/margin35"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin2"
+            android:layout_toRightOf="@+id/tv_show"
+            android:src="@drawable/xinlang" />
+
+        <ImageView
+            android:id="@+id/img_qq"
+            android:layout_width="@dimen/margin35"
+            android:layout_height="@dimen/margin35"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin2"
+            android:layout_toRightOf="@id/img_sina"
+            android:src="@drawable/qq" />
+
+        <ImageView
+            android:id="@+id/img_wx"
+            android:layout_width="@dimen/margin35"
+            android:layout_height="@dimen/margin35"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin2"
+            android:layout_toRightOf="@id/img_qq"
+            android:src="@drawable/weixin" />
+    </RelativeLayout>
+
+</RelativeLayout>

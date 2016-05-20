@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rl_income"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/income_background_shape_left_checked"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+
+            android:gravity="center"
+            android:text="收益"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_small2_size"/>
+
+        <ImageView
+            android:id="@+id/left_jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_income"
+            android:src="@drawable/shang"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_period"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/income_background_shape_mindum_unchecked"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_period"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="周期"
+            android:textColor="@color/head_view_bg"
+            android:textSize="@dimen/font_small2_size"/>
+
+        <ImageView
+            android:id="@+id/middle_jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_period"
+            android:src="@drawable/shang"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_index"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/income_background_shape_right_unchecked"
+        android:paddingBottom="3dp"
+        android:visibility="gone"
+        android:paddingTop="3dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="心动指数"
+            android:textColor="@color/head_view_bg"
+            android:textSize="@dimen/font_small2_size"/>
+
+        <ImageView
+            android:id="@+id/right_jiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_index"
+            android:src="@drawable/shang"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

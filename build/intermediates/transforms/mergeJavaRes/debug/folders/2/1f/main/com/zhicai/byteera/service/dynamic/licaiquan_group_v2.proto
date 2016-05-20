@@ -1,0 +1,96 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.dynamic";
+option java_outer_classname = "LicaiquanGroupV2";
+
+//理财圈小组
+message LicaiquanGroupEx {
+    required string licaiquan_group_id = 1;     //id
+    required string name = 2;                   //名称
+    required string image = 3;                  //图片
+    optional string description = 4;            //描述
+    optional uint32 member_count = 5;           //成员个数
+}
+
+//理财圈小组(包含是否已加入的标识)
+message LicaiquanGroupWithMembership {
+    required LicaiquanGroupEx group = 1;  //理财圈小组
+    required bool joined = 2; //是否已加入
+}
+
+
+message LicaiquanGroupGetAllReq {
+    optional string user_id = 1;
+}
+
+message LicaiquanGroupGetAllResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiquanGroupWithMembership licaiquan_groups_with_mem = 3; //理财圈小组列表(包含是否已加入的标识)
+}
+
+message LicaiquanGroupGetJoinedReq {
+    required string user_id = 1;
+}
+
+message LicaiquanGroupGetJoinedResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiquanGroupEx licaiquan_groups = 3;
+}
+
+message LicaiquanGroupGetReq {
+    required string licaiquan_group_id = 1;
+    optional string user_id = 2;
+}
+
+message LicaiquanGroupGetResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    required LicaiquanGroupWithMembership group = 3;
+}
+
+
+message LicaiquanGroupJoinReq {
+  required string my_user_id = 1;
+  required string licaiquan_group_id = 2;
+}
+
+message LicaiquanGroupJoinResponse  {
+  required uint32 errorno = 1;  //1.用户已加入;
+  optional string error_description = 2;
+}
+
+message LicaiquanGroupLeaveReq {
+  required string my_user_id = 1;
+  required string licaiquan_group_id = 2;
+}
+
+message LicaiquanGroupLeaveResponse  {
+  required uint32 errorno = 1;  //1.用户不在目标理财圈小组内;
+  optional string error_description = 2;
+}
+
+/*
+service chronos {
+
+    //获取所有理财圈小组的列表, 包含是否加入的标识.
+    rpc licaiquan_group_get_all(LicaiquanGroupGetAllReq) returns (LicaiquanGroupGetAllResponse);
+
+    //获取已加入的理财圈小组列表.
+    rpc licaiquan_group_get_joined(LicaiquanGroupGetJoinedReq) returns (LicaiquanGroupGetJoinedResponse);
+
+    //获取某个理财圈小组的信息.
+    rpc licaiquan_group_get(LicaiquanGroupGetReq) returns (LicaiquanGroupGetResponse)
+
+    //加入理财圈小组.
+    rpc licaiquan_group_join(LicaiquanGroupJoinReq) returns (LicaiquanGroupJoinResponse)
+
+    //退出理财圈小组.
+    rpc licaiquan_group_leave(LicaiquanGroupLeaveReq) returns (LicaiquanGroupLeaveResponse)
+
+
+}
+*/

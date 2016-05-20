@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="注册资本:"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_small5_size" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_content"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="3000万"
+        android:textSize="@dimen/font_small5_size" />
+</LinearLayout>

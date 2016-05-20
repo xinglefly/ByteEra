@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_head"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/group_background">
+
+    <View
+        android:id="@+id/top_head"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_head"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp">
+
+        <com.zhicai.byteera.widget.CircleView
+            android:id="@+id/iv_head"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/consult_default"
+            zhicai:border_outside_color="#55ffffff"
+            zhicai:border_thickness="8dp" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frame_05dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:ellipsize="end"
+            android:lineSpacingExtra="1.5dp"
+            android:lines="2"
+            android:textColor="#ffffff"
+            android:textScaleX="1"
+            android:textSize="@dimen/font_small5_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_fans_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_des"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="@dimen/frame_10dp"
+            android:layout_toRightOf="@id/iv_head"
+            android:padding="2dp"
+            android:text="212"
+            android:textColor="#e76915"
+            android:textSize="@dimen/font_small5_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_fans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_des"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/frame_06dp"
+            android:layout_marginRight="@dimen/frame_12dp"
+            android:layout_marginTop="@dimen/frame_14dp"
+            android:layout_toRightOf="@id/tv_fans_num"
+            android:text="粉丝"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_small3_size" />
+
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_focus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_des"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/frame_12dp"
+            android:layout_toRightOf="@id/tv_fans"
+            android:background="@drawable/organization_focus_bg"
+            android:drawableLeft="@drawable/group_joined"
+            android:drawablePadding="1dp"
+            android:paddingBottom="2dp"
+            android:paddingLeft="@dimen/frame_05dp"
+            android:paddingRight="@dimen/frame_05dp"
+            android:paddingTop="2dp"
+            android:text="关注"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_small3_size" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/frame_30dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/group_right_back" />
+</RelativeLayout>

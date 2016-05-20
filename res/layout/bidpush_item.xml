@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:gravity="center|left">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:layout_marginBottom="@dimen/frame_05dp"
+        android:layout_marginLeft="@dimen/frame_20dp"
+        android:src="@drawable/zhicai" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_name"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_marginTop="3dp"
+        android:paddingLeft="15dp"
+        android:text="爱车贷-梅德赛斯奔驰GL3"
+        android:textColor="#616161"
+        android:textSize="@dimen/font_small5_size" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:layout_marginTop="7dp"
+        android:paddingLeft="15dp"
+        android:singleLine="true"
+        android:text="收益8%"
+        android:textColor="#c0c0c0"
+        android:textSize="@dimen/font_small1_size" />
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_limittime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="7dp"
+        android:layout_toRightOf="@id/tv_income"
+        android:layout_marginLeft="@dimen/frame_10dp"
+        android:singleLine="true"
+        android:text="期限：30天"
+        android:textColor="#c0c0c0"
+        android:textSize="@dimen/font_small1_size" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_bidtime"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="7dp"
+        android:gravity="center|left"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/frame_20dp"
+        android:singleLine="true"
+        android:text="2015年9月30日 16:00发标"
+        android:textColor="#fdd56a"
+        android:textSize="@dimen/font_small1_size" />
+
+
+</RelativeLayout>

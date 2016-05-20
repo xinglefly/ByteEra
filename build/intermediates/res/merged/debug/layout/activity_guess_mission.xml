@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/head_view_guess"
+        android:id="@+id/in_guess_sec" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_placeholder"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_below="@id/in_guess_sec"
+        android:visibility="invisible"/>
+
+
+    <GridView
+        android:id="@+id/gv_guess_mission"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/tv_placeholder"
+        android:layout_height="fill_parent"
+        android:layout_margin="@dimen/margin_oneside"
+        android:padding="@dimen/margin"
+        android:gravity="center"
+        android:scrollbars="none"
+        android:numColumns="4"
+        android:horizontalSpacing="20dp"
+        android:verticalSpacing="40dp"></GridView>
+
+</RelativeLayout>

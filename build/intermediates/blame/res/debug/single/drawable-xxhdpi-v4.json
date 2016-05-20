@@ -1,0 +1,818 @@
+[
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/smiley_minus_btn_nor.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/smiley_minus_btn_nor.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/my_group_bg.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/my_group_bg.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/myheart.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/myheart.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/userhome_bg.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/userhome_bg.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/repost_detail.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/repost_detail.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/smiley_minus_btn_pressed.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/smiley_minus_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/appitem_del_btn_normal.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/appitem_del_btn_normal.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/password.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/password.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/funs.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/funs.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_btn_rating_star_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_id_card_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_id_card_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_ab_back_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/expression_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/expression_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/train_5.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/train_5.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_collection.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_collection.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/keyboard_fire.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/keyboard_fire.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/liuyanicon.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/liuyanicon.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tuijianma.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/tuijianma.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_go_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/yuandian.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/yuandian.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/coin_sm.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/coin_sm.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_1.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_1.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_card.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_card.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/train_2.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/train_2.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_collection_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_collection_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/xinlang.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/xinlang.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/all_group_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/all_group_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tick.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/tick.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_focused_holo.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_question.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_question.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/recording_fire_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/recording_fire_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/back_personal_hove.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/back_personal_hove.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_card.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/ic_card.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/train_head.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/train_head.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/users_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/users_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/my_setting.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/my_setting.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/share.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/share.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/licai_question_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/licai_question_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/organization_jinru.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/organization_jinru.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/frame.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/frame.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/bg.jpg",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/bg.jpg"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/identification.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/identification.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/group_fans.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/group_fans.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/expression.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/expression.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/userhome_bline.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/userhome_bline.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_cow.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_cow.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/know_xihuan.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/know_xihuan.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/tixian.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/tixian.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/train_1.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/train_1.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/keyboard.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/keyboard.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/home_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/home_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/know_fenxiang.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/know_fenxiang.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/newmessage.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/newmessage.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/head_group.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/head_group.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/yanzhenma_lv.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/yanzhenma_lv.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/album_photo.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/album_photo.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/xiala.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/xiala.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_location.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_location.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/shoucang_unselected.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/shoucang_unselected.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_on_fire_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_on_fire_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/chatgroup.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/chatgroup.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/group_ranking.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/group_ranking.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_smallcoin.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_smallcoin.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_camera.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_camera.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/user.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/user.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/all_group_bg.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/all_group_bg.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/user_home_focus.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/user_home_focus.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/un_xihuan.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/un_xihuan.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_bear.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_bear.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_location_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_location_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/know_neibu_fenxiang.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/know_neibu_fenxiang.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/group_guanzhu_bg.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/group_guanzhu_bg.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_pic.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_pic.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/appitem_del_btn_pressed.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/appitem_del_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/expression_fire.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/expression_fire.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/share_detail_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/share_detail_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/home.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/home.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/share_detail.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/share_detail.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/all_group.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/all_group.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/qq.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/qq.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/opinion_line.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/opinion_line.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/yanzhengma.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/yanzhengma.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_on_fire.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_on_fire.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/qipao3.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/qipao3.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/zhanghuguanli.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/zhanghuguanli.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/share_sina_p.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/share_sina_p.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/qipao4.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/qipao4.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_clear_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/name.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/name.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/zhi.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/zhi.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/organization_left.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/organization_left.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/addfiles.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/addfiles.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/user_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/user_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/into.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/into.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_camera_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_camera_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/know_guanbi.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/know_guanbi.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/juxing.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/juxing.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/shouji_lv.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/shouji_lv.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/user_home_unfocus.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/user_home_unfocus.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/addfiles_fire.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/addfiles_fire.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_text_cursor_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_text_cursor_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/phone.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/phone.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/back_personal.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/back_personal.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_pass.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_pass.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/search_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/search_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/keyboard_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/keyboard_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/forward_detail.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/forward_detail.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/addfiles_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/addfiles_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/know_pinglun.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/know_pinglun.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/chanpin_unselected.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/chanpin_unselected.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/plus.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/plus.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/arrow.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/arrow.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_lamp.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_lamp.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/smiley_add_btn_nor.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/smiley_add_btn_nor.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/accountmanagement.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/accountmanagement.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/setting_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/setting_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/heart_detail_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/heart_detail_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/earth.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/earth.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/train_3.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/train_3.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/group_ranking_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/group_ranking_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/group_bg.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/group_bg.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/search.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/search.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/users.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/users.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/gold.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/gold.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/change_nickname.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/change_nickname.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/addfiles_fire_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/addfiles_fire_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_coins.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_coins.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_fontframe.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_fontframe.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/group_guanzhu.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/group_guanzhu.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/licai_question.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/licai_question.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/expression_fire_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/expression_fire_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/iconfont_shouqi.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/iconfont_shouqi.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/recording_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/recording_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/hulianhudongpingtai.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/hulianhudongpingtai.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/news.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/news.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/my_group.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/my_group.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/focus.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/focus.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/organization_bg.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/organization_bg.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/qipao2.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/qipao2.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/head_liang.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/head_liang.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/juxing_bg.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/juxing_bg.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/repost_detail_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/repost_detail_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_btn_rating_star_on_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/verification.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/verification.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/recording_fire.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/recording_fire.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_help.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_help.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/qipao1.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/qipao1.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/setting.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/setting.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/gerenicon.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/gerenicon.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/train_next.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/train_next.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_id_card.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_id_card.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/caibiguanli.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/caibiguanli.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/heart_detail.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/heart_detail.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/iconfont_zhankai.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/iconfont_zhankai.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/more.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/more.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/recording.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/recording.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_lock.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_lock.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/weixin.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/weixin.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/share_sina_n.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/share_sina_n.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/take_photo.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/take_photo.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/fanhui.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/fanhui.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/xiaolian.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/xiaolian.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/chanpinjieshao.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/chanpinjieshao.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/add_pic_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/add_pic_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/topic_show.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/topic_show.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_close.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_close.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/smiley_add_btn_pressed.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/smiley_add_btn_pressed.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/my_group_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/my_group_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/my_dongtai.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/my_dongtai.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/plus_hover.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/plus_hover.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/guess_tips.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/guess_tips.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/train_4.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/drawable-xxhdpi/train_4.png"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png"
+    }
+]

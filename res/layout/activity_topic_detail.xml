@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/top_head"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:background="@color/head_view_bg" />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/top_head"
+        android:background="@color/head_view_bg">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/frame_10dp"
+            android:scaleType="center"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/img_share"
+            android:layout_width="50dip"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@drawable/share"
+            android:visibility="gone" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_more"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/img_share"
+            android:background="@drawable/circle_textview3"
+            android:gravity="center_horizontal"
+            android:padding="5dp"
+            android:text="更多"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small1_size" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_topic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_head"
+        android:layout_centerHorizontal="true">
+
+        <com.zhicai.byteera.widget.MyCircleStrokeView
+            android:id="@+id/tv_left"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            zhicai:circle_text="011期"
+            zhicai:circle_text_color="@color/white"
+            zhicai:circle_text_width="@dimen/font_small2_size"
+            zhicai:end_color_stroke="#b0f8ff"
+            zhicai:start_color_stroke="#b0f8ff"
+            zhicai:stroke_width="1dp" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_middle"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/circle_textview2"
+            android:gravity="center"
+            android:text="011期"
+            android:textColor="@color/head_view_bg" />
+
+        <com.zhicai.byteera.widget.MyCircleStrokeView
+            android:id="@+id/tv_right"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="8dp"
+            zhicai:circle_text="011期"
+            zhicai:circle_text_color="@color/white"
+            zhicai:circle_text_width="@dimen/font_small2_size"
+            zhicai:end_color_stroke="#b0f8ff"
+            zhicai:start_color_stroke="#b0f8ff"
+            zhicai:stroke_width="1dp" />
+    </LinearLayout>
+
+    <com.zhicai.byteera.widget.ZhiCaiLRefreshListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl" />
+
+    <RelativeLayout
+        android:id="@+id/rl_dianping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/default_white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/publish_opinion_shape">
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/iv"
+                android:drawableLeft="@drawable/comment"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="去点评"
+                android:textColor="#777777"
+                android:textSize="@dimen/font_small4_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.zhicai.byteera.widget.LoadingPage
+        android:id="@+id/loading_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl"
+        android:layout_marginTop="@dimen/frame_10dp" />
+
+    <com.zhicai.byteera.activity.community.topic.view.CommentView
+        android:id="@+id/comment_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#eeeeee"
+        android:visibility="gone" />
+</RelativeLayout>

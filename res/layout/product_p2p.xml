@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/company_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.zhicai.byteera.widget.MySwipeRefreshLayout
+            android:id="@+id/swipe_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.zhicai.byteera.widget.LoadMoreListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="wrap_content" />
+        </com.zhicai.byteera.widget.MySwipeRefreshLayout>
+
+        <com.zhicai.byteera.activity.product.view.DrawerRight
+            android:id="@+id/drawer_right"
+            android:layout_width="301dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:translationX="307dp" />
+    </RelativeLayout>
+
+    <com.zhicai.byteera.activity.product.view.AllView
+        android:id="@+id/all_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:visibility="gone" />
+</RelativeLayout>

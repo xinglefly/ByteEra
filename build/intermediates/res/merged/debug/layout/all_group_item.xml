@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/margin">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_head"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/consult_default"/>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_weight="1">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="理财达人"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/title_size"
+            />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_peopleNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:text="21876盟友"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/content_size"
+            />
+    </RelativeLayout>
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_watch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/yellow_shape_selector"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="5dp"
+        android:text="关注"/>
+
+</LinearLayout>

@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/top_head"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/head_view_bg"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/lay_header"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:background="@color/head_view_bg"
+        android:gravity="center">
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="70dp"
+            android:layout_height="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/img_back"
+            android:background="#fddc39" />
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:visibility="invisible" />
+
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_back">
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_topic"
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/financingpage"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_small8_size" />
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_dynamic"
+                android:layout_width="78dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_toRightOf="@+id/tv_topic"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/dynamic"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_small8_size" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/img_contact"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="55dp"
+            android:layout_marginRight="@dimen/margin_oneside"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/publish_edit"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img_cursor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/titleiconnorqw"
+        android:visibility="gone" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_knowpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:flipInterval="1000"
+        android:persistentDrawingCache="animation" />
+
+</LinearLayout>

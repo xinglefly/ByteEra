@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="40dp"
+    android:background="@color/head_view_bg">
+
+    <ImageView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/know_guanbi" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_prise_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/praises"
+        android:layout_toRightOf="@+id/back"
+        android:padding="3dp">
+
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="50dp"
+            android:drawableLeft="@drawable/comment_on"
+            android:drawablePadding="@dimen/frame_05dp"
+            android:text="评论"
+            android:textColor="#ffffff" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_comment_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/tv"
+            android:text="100"
+            android:textColor="#ffffff" />
+    </RelativeLayout>
+
+
+    <ImageView
+        android:id="@+id/praises"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/transpond"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/transpond"
+        android:padding="3dp"
+        android:src="@drawable/nolike" />
+
+
+    <ImageView
+        android:id="@+id/transpond"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/share"
+        android:padding="3dp"
+        android:src="@drawable/know_neibu_fenxiang" />
+
+    <ImageView
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:padding="3dp"
+        android:src="@drawable/know_fenxiang" />
+</RelativeLayout>

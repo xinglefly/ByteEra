@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/head_view"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <com.zhicai.byteera.widget.ExpandGridView
+                android:id="@+id/gridview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_below="@id/tv_placeholder"
+                android:gravity="center"
+                android:horizontalSpacing="1dp"
+                android:numColumns="2"
+                android:scrollbars="none"
+                android:verticalSpacing="1dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

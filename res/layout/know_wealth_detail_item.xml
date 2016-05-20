@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="20dp"
+    android:paddingTop="5dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_comment_user"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/start_logo"/>
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/iv_comment_user"
+        android:orientation="horizontal">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdafdag "
+            android:textColor="#1d1d1d"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_time"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="fdafd"
+            android:textColor="#333333"
+            android:textSize="@dimen/font_small3_size"/>
+    </LinearLayout>
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ll"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/iv_comment_user"
+        android:text="fdadgsgg"
+        android:textColor="#333333"
+        android:textSize="@dimen/font_small2_size"/>
+</RelativeLayout>

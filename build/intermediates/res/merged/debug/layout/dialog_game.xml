@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="180dp"
+    android:layout_gravity="center"
+    android:layout_centerInParent="true"
+    android:background="#F8DE50">
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_consumecoin_explain"
+        android:layout_width="fill_parent"
+        android:layout_height="87dp"
+        android:singleLine="false"
+        android:layout_margin="20dp"
+        android:background="@drawable/tv_edge_bg"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:padding="@dimen/margin"
+        android:textColor="#716742"
+        android:text="是否花费30财币提示品牌信息！"
+        android:textSize="@dimen/font_medium_size" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/tv_consumecoin_explain"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom|center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_edge_bg"
+            android:text="就不"
+            android:layout_marginRight="40dp"
+            android:textColor="#716742"
+            android:textSize="@dimen/font_small8_size" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tv_edge_bg"
+            android:text="好的"
+            android:textColor="#716742"
+            android:textSize="@dimen/font_small8_size" />
+    </LinearLayout>
+
+</RelativeLayout>

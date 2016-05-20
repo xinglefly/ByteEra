@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/frame_10dp"
+    android:layout_marginTop="@dimen/frame_10dp"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical"
+    android:padding="@dimen/margin">
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_day_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="每日登陆"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small6_size" />
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_coin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_day_task"
+        android:layout_margin="@dimen/margin_doubleside"
+        android:drawableLeft="@drawable/daytask_ic"
+        android:drawablePadding="@dimen/margin_doubleside"
+        android:text="50"
+        android:textColor="#4E4E4E"
+        android:textSize="@dimen/font_small5_size" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_action"
+        android:layout_width="@dimen/margin75"
+        android:layout_height="@dimen/margin3"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="@dimen/margin_oneside"
+        android:background="@drawable/textview_corner"
+        android:gravity="center"
+        android:text="待完成"
+        android:textColor="#ff3775"
+        android:textSize="@dimen/font_small4_size" />
+
+
+</RelativeLayout>
+
+

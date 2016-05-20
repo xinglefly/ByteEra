@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value="bytearea"/>
+    <version value="9"/>
+    <mapping class="com.zhicai.byteera.activity.community.dynamic.entity.DynamicEntity"/>
+    <mapping class="com.zhicai.byteera.activity.community.dynamic.entity.DynamicCommentEntity"/>
+    <mapping class="com.zhicai.byteera.activity.community.dynamic.entity.UserInfoEntity"/>
+    <mapping class="com.zhicai.byteera.activity.community.dynamic.entity.ImgEntity"/>
+</litepal>

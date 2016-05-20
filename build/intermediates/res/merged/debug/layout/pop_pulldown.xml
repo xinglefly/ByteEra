@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#aa000000"
+    android:orientation="vertical">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_allpage"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:padding="@dimen/margin_top"
+        android:text="@string/all"
+        android:textColor="@color/textview_color"
+        android:textSize="@dimen/font_small6_size" />
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_p2p"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:padding="@dimen/margin_top"
+        android:text="@string/p2p"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_small6_size" />
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_crowdfunding"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:padding="@dimen/margin_top"
+        android:text="@string/crowdfunding"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_small6_size" />
+
+
+    <!--<com.zhicai.byteera.widget.MyTextView-->
+    <!--android:id="@+id/tv_bill"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/transparent"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="@dimen/margin_top"-->
+    <!--android:text="@string/bill"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/font_small6_size"/>-->
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_bank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:padding="@dimen/margin_top"
+        android:text="@string/bank"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_small6_size" />
+
+    <!--<com.zhicai.byteera.widget.MyTextView-->
+    <!--android:id="@+id/tv_insurance"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:background="@color/transparent"-->
+    <!--android:gravity="center"-->
+    <!--android:padding="@dimen/margin_top"-->
+    <!--android:text="@string/insurance"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="@dimen/font_small6_size"/>-->
+
+</LinearLayout>

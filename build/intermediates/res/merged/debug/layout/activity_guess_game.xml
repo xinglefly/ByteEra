@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    android:columnCount="1"
+    android:orientation="vertical">
+
+    <include layout="@layout/head_view_guess" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_game_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/guess_coins"
+            android:drawablePadding="10dp"
+            android:text="5000"
+            android:textColor="#666666"
+            android:textSize="@dimen/font_small8_size" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lay_tips"
+                android:layout_width="55dp"
+                android:layout_height="66dp"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_tips"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#FB5151"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/guess_tips" />
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_showtips"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:background="#CF3636"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/guess_smallcoin"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="15"
+                    android:textColor="#FFF7F7" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_helper"
+                android:layout_width="55dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#466FD9"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="13dp"
+                    android:src="@drawable/guess_help" />
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:background="#284DAC"
+                    android:gravity="center"
+                    android:paddingLeft="2dp"
+                    android:paddingRight="2dp"
+                    android:text="求助好友"
+                    android:textColor="#FFF7F7"
+                    android:textSize="@dimen/font_small2_size" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_gamepic"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:adjustViewBounds="true"
+            android:background="@color/white"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lay_right_answer"
+                android:layout_width="55dp"
+                android:layout_height="66dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_right_answer"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#718FFF"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="13dp"
+                    android:src="@drawable/guess_lamp" />
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_answer_coin"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:background="#3659DC"
+                    android:drawableLeft="@drawable/guess_smallcoin"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="30" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_pass"
+                android:layout_width="55dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#4DCE46"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:src="@drawable/guess_pass" />
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_pass_coin"
+                    android:layout_width="match_parent"
+                    android:layout_height="26dp"
+                    android:background="#279321"
+                    android:drawableLeft="@drawable/guess_smallcoin"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="5" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <com.zhicai.byteera.activity.traincamp.view.GuessGridView
+        android:id="@+id/gv_answer"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:horizontalSpacing="-30dp"
+        android:stretchMode="columnWidth"
+        android:visibility="visible"
+        android:scrollbars="none" />
+
+
+    <com.zhicai.byteera.activity.traincamp.view.GuessGridView
+        android:id="@+id/gv_options"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:scrollbars="none"
+        android:focusable="false"
+        android:clickable="false"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/margin_oneside"
+        android:layout_weight="0.4"
+        android:visibility="visible"
+        android:numColumns="6" />
+
+</LinearLayout>

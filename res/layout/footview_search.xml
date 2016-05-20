@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linear_footview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="35.0dip"
+            android:layout_marginLeft="9.0dip"
+            android:gravity="center_vertical"
+            android:text="Seearch It"
+            android:textColor="#ffcccccc"
+            android:textSize="@dimen/font_small5_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="fill_parent"
+            android:layout_height="1.0dip"
+            android:layout_marginLeft="9.0dip"
+            android:layout_marginRight="9.0dip"
+            android:background="#ffcccccc" />
+
+        <LinearLayout
+            android:id="@+id/linear_search_other"
+            android:layout_width="fill_parent"
+            android:layout_height="43.0dip"
+            android:layout_marginTop="5.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9.0dip"
+                android:src="@drawable/zhi" />
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/text_search_condition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="13.0dip"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="90dp"
+    android:layout_height="90dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:id="@+id/rel_unlock"
+        android:layout_width="60dp"
+        android:background="#75C82E"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_height="60dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_30_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_guessmissionid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_lock"
+        android:layout_width="60dp"
+        android:background="#D95757"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_height="60dp">
+
+        <ImageView
+            android:id="@+id/img_locked"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/guess_lock" />
+    </RelativeLayout>
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_missionstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+</RelativeLayout>

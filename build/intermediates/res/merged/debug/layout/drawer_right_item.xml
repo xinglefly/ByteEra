@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="65dp"
+    android:layout_marginBottom="@dimen/frame_05dp"
+    android:layout_marginTop="@dimen/frame_05dp"
+    android:paddingBottom="@dimen/frame_05dp"
+    android:paddingTop="@dimen/frame_05dp">
+
+    <FrameLayout
+        android:id="@+id/ll_img"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="5dp">
+
+        <ImageView
+            android:id="@+id/iv_head"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ImageView
+            android:id="@+id/iv_bid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_toRightOf="@+id/ll_img"
+        android:padding="1dp"
+        android:singleLine="true"
+        android:text="好莱坞大片引进项目"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_small4_size" />
+
+    <TextView
+        android:id="@+id/tv_income"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_toRightOf="@+id/ll_img"
+        android:padding="1dp"
+        android:singleLine="true"
+        android:text="年化收益8%"
+        android:textSize="@dimen/font_small1_size" />
+
+    <TextView
+        android:id="@+id/tv_income_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_toRightOf="@+id/ll_img"
+        android:padding="1dp"
+        android:singleLine="true"
+        android:text="融资金额270万  期限12个月"
+        android:textSize="@dimen/font_small1_size" />
+
+
+</RelativeLayout>

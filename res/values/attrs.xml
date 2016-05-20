@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProcessButton">
+        <attr name="pb_textProgress" format="string"/>
+        <attr name="pb_textComplete" format="string"/>
+        <attr name="pb_textError" format="string"/>
+        <attr name="pb_colorProgress" format="color"/>
+        <attr name="pb_colorComplete" format="color"/>
+        <attr name="pb_colorError" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="FlatButton">
+        <attr name="pb_colorPressed" format="color"/>
+        <attr name="pb_colorNormal" format="color"/>
+        <attr name="pb_cornerRadius" format="dimension"/>
+    </declare-styleable>
+
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color"/>
+        <attr name="roundProgressColor" format="color"/>
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="progress" format="integer"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+
+    <attr name="borderRadius" format="dimension"/>
+    <attr name="type">
+        <enum name="circle" value="0"/>
+        <enum name="round" value="1"/>
+    </attr>
+    <declare-styleable name="TrainCampItem">
+        <attr name="buttonColor" format="color"/>
+        <attr name="buttonText" format="string|reference"/>
+        <attr name="leftImage" format="reference"/>
+        <attr name="primaryText" format="string"/>
+        <attr name="secondText" format="string"/>
+    </declare-styleable>
+
+    <attr name="ButtonImage" format="reference"/>
+    <attr name="ButtonText" format="string"/>
+    <attr name="ButtonColor" format="color"/>
+    <attr name="leftText" format="string"/>
+
+    <attr name="leftImg" format="reference"/>
+    <attr name="titleName" format="string"/>
+    <attr name="imgPullDown" format="boolean"/>
+    <attr name="rightText" format="string"/>
+    <attr name="middleText" format="string"/>
+    <attr name="rightImg" format="reference"/>
+
+
+    <declare-styleable name="WealthTaskItem">
+
+        <attr name="leftText"/>
+        <attr name="ButtonImage"/>
+        <attr name="ButtonText"/>
+        <attr name="ButtonColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="HeadViewMain">
+        <attr name="leftImg"/>
+        <attr name="titleName"/>
+        <attr name="imgPullDown"/>
+        <attr name="rightText"/>
+        <attr name="rightImg"/>
+        <attr name="leftText"/>
+        <attr name="background"/>
+    </declare-styleable>
+
+    <declare-styleable name="IncomeAccessItemView">
+        <attr name="leftText"/>
+    </declare-styleable>
+
+    <declare-styleable name="UserHomeTitleView">
+        <attr name="leftImg"/>
+        <attr name="rightText"/>
+        <attr name="rightImg"/>
+        <attr name="titleName"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyHomeItem">
+        <attr name="leftImg"/>
+        <attr name="rightText"/>
+        <attr name="middleText"/>
+    </declare-styleable>
+
+    <declare-styleable name="Emojicon">
+        <attr name="emojiconSize" format="dimension"/>
+        <attr name="emojiconTextStart" format="integer"/>
+        <attr name="emojiconTextLength" format="integer"/>
+        <attr name="emojiconUseSystemDefault" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ColoredRatingBar">
+        <attr name="indicator" format="boolean"/>
+        <attr name="rating" format="float"/>
+        <attr name="ratingtype" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="small" value="1"/>
+        </attr>
+        <attr name="coloredRatingBarStyle" format="reference"/>
+        <!-- Indicator RatingBar style. -->
+        <attr name="coloredRatingBarStyleIndicator" format="reference"/>
+        <!-- Small RatingBar style. -->
+        <attr name="coloredRatingBarStyleSmall" format="reference"/>
+        <!-- Small indicator RatingBar style. -->
+        <attr name="coloredRatingBarStyleSmallIndicator" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="TabItemView">
+        <attr name="text" format="string"/>
+        <attr name="ButtonImage"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CircleView">
+        <attr name="border_thickness" format="dimension"/>
+        <attr name="border_inside_color" format="color"/>
+        <attr name="border_outside_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyCircleStrokeView">
+        <attr name="start_color_stroke" format="color"/>
+        <attr name="end_color_stroke" format="color"/>
+        <attr name="start_color_fill" format="color"/>
+        <attr name="end_color_fill" format="color"/>
+        <attr name="stroke_width" format="dimension"/>
+        <attr name="circle_text" format="string|reference"/>
+        <attr name="circle_text_color" format="color"/>
+        <attr name="circle_text_width" format="dimension"/>
+        <attr name="circle_type">
+            <enum name="STROKE" value="0"/>
+            <enum name="FILL" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+    <attr name="item_count" format="integer"></attr>
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="item_count"/>
+    </declare-styleable>
+
+    <declare-styleable name="MyRatingBar">
+        <attr name="size" format="dimension"/>
+        <attr name="isindicator" format="boolean"/>
+        <attr name="margin" format="dimension"/>
+    </declare-styleable>
+
+
+    <!--roundiamgeView-->
+    <declare-styleable name="RoundedImageView">
+        <attr name="riv_corner_radius" format="dimension"/>
+        <attr name="riv_corner_radius_top_left" format="dimension"/>
+        <attr name="riv_corner_radius_top_right" format="dimension"/>
+        <attr name="riv_corner_radius_bottom_left" format="dimension"/>
+        <attr name="riv_corner_radius_bottom_right" format="dimension"/>
+        <attr name="riv_border_width" format="dimension"/>
+        <attr name="riv_border_color" format="color"/>
+        <attr name="riv_mutate_background" format="boolean"/>
+        <attr name="riv_oval" format="boolean"/>
+        <attr name="android:scaleType"/>
+        <attr name="riv_tile_mode">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+        <attr name="riv_tile_mode_x">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+        <attr name="riv_tile_mode_y">
+            <enum name="clamp" value="0"/>
+            <enum name="repeat" value="1"/>
+            <enum name="mirror" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

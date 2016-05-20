@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingBottom="@dimen/frame_05dp"
+    android:paddingTop="@dimen/frame_05dp">
+
+
+    <ImageView
+        android:id="@+id/iv_header"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="15dp" />
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/frame_05dp"
+        android:layout_toRightOf="@id/iv_header"
+        android:ellipsize="end"
+        android:maxEms="6"
+        android:singleLine="true"
+        android:text="风险控制等级甲乙"
+        android:textColor="#333333"
+        android:textSize="@dimen/font_small3_size" />
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_rate"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ll_money"
+        android:gravity="center"
+        android:text="11.30%"
+        android:textColor="#bababa"
+        android:textSize="@dimen/font_small3_size" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_money"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/iv_right"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/frame_25dp"
+            android:singleLine="true"
+            android:text="778.34元"
+            android:textColor="#ff3775"
+            android:textSize="@dimen/font_small3_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/90天"
+            android:textColor="#bababa"
+            android:textSize="@dimen/font_10_size" />
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/frame_15dp" />
+
+
+</RelativeLayout>

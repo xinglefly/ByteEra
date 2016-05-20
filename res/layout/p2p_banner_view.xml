@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+         />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_margin="@dimen/margin_oneside"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:singleLine="true"
+        android:text="攻略百科"
+        android:textColor="@color/know_text_color"
+        android:textSize="@dimen/font_medium_size" />
+
+</LinearLayout>

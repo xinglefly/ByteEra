@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--headview background-->
+    <color name="head_view_bg">#30d0df</color>
+    <color name="head_view">#006BB3</color>
+    <color name="content_bg">#F0F0F0</color>
+
+    <!--login activity_register-->
+    <color name="login_tv">#ACACAC</color>
+    <color name="login_bg">#0075c2</color>
+    <color name="login_bg2">#002532</color>
+    <color name="reg_verify">#636566</color>
+    <color name="search">#02578E</color>
+
+    <color name="babybull">#00a0e9</color>
+    <color name="discovery_lightblue">#0693ff</color>
+    <color name="discovery_black">#121212</color>
+    <color name="divide_color">#AEAEAE</color>
+
+
+    <!-- textColors -->
+    <color name="know_text_color">#137CC3</color>
+    <color name="actionbar_textcolor">#6e6e6e</color>
+
+    <!-- picture uploading -->
+    <color name="white">#ffffff</color>
+    <color name="white2">#fafafa</color>
+
+    <!-- 水鸭色 -->
+    <color name="green">#008000</color>
+    <!-- 暗绿色 -->
+    <color name="blue">#0000ff</color>
+    <!-- 海军色 -->
+    <color name="black">#000000</color>
+    <!-- 黑色 -->
+    <color name="transparent">#00000000</color>
+
+    <!-- 透明 -->
+    <!-- 上传图片添加的颜色 -->
+    <color name="none_color">#00000000</color>
+    <color name="plugin_camera_black">#000000</color>
+    <color name="albumback">#E1E0DE</color>
+    <color name="style_divider_color">#C9C7CD</color>
+    <!--蓝色标题-->
+    <color name="other_login">#a9a9a9</color>
+
+    <color name="bg_page">#ebebeb</color>
+    <color name="to_do">#ffaf2b</color>
+    <color name="head_view_bg2">#fff477</color>
+    <color name="wealth_task">#ffaf2b</color>
+    <color name="guss_financial">#e23737</color>
+    <color name="guss_change">#b23cc7</color>
+    <color name="buy_money">#4d49e7</color>
+    <color name="wealth_task_head">#713824</color>
+    <color name="wealth_item">#333333</color>
+    <color name="unfinished">#c55c39</color>
+    <color name="finished">#d1a799</color>
+    <color name="button_view_backgrond">#0075c2</color>
+    <color name="progress_color">#e98139</color>
+    <color name="add_focus">#ffb11e</color>
+    <color name="my_item_press_color">#22000000</color>
+    <color name="alpha_black">#33000000</color>
+    <color name="gray_text">#999999</color>
+    <color name="gray_text2">#444444</color>
+    <color name="line">#bbbbbb</color>
+    <color name="black_text">#888888</color>
+    <color name="default_white">#ffffff</color>
+    <color name="gray">#888888</color>
+    <color name="orange">#ffff00</color>
+    <color name="addtion_select_color">#f2f2f2</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="48dp"
+    android:background="@color/head_view_bg" >
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="28dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:scaleType="center"
+        android:src="@drawable/arrow" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_titlename"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="疯狂猜金融"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_big_size" />
+
+    <RelativeLayout
+        android:id="@+id/rel_guessfirst"
+        android:layout_width="60dp"
+        android:layout_height="47dp"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:layout_centerVertical="true" >
+
+        <ImageView
+            android:id="@+id/img_question"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:src="@drawable/guess_question" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_guesssec"
+        android:layout_width="77dp"
+        android:layout_height="47dp"
+        android:layout_alignParentRight="true"
+        android:visibility="gone"
+        android:layout_centerVertical="true" >
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_coincount"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:drawableLeft="@drawable/guess_coins"
+            android:gravity="center"
+            android:text="300000"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small6_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,115 @@
+package zhicaiproto;
+
+import "common.proto";
+option java_package = "com.zhicai.byteera.service.topic";
+
+option java_outer_classname = "Topic";
+
+// 1 获取所有的话题  返回GetAllTopicResponse
+message GetAllTopicReq {
+
+}
+
+message GetAllTopicResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated TopicItem item = 3;
+    required uint32 total_num = 4;          //话题总数
+}
+
+//单个话题
+message TopicItem{
+    required string topic_id = 1;           // 话题id
+    required string topic_img_url = 2;      // 话题对应的图片
+    required string topic_name = 3;         //话题名
+    required string topic_content = 4;      //话题对应的详细信息
+    required uint32 topic_num = 5;          //话题对应的期数
+    required uint32 hot_num = 6;            //热度
+    required uint32 answer_num = 7;         //答案数
+    repeated string image = 8;              //话题内容中对应的图片
+}
+
+// 2 获取单个话题下面的所有意见
+message getTopicOpinionReq{
+    required string topic_id = 1;             // 话题id
+    optional string user_id = 2;              // 自己的user_id
+}
+
+message getTopicOpinionResponse{
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated OpinionItem recommend_item = 3;             // 话题下的热度推荐意见
+    repeated OpinionItem item = 4;                       // 话题下的热度意见
+}
+
+
+message OpinionItem{
+    required string opinion_id = 1;
+    required string user_id = 2;                // 意见发表人对应的id
+    required string opinion_avatar = 3;         // 意见发表人对应的图片
+    required string opinion_name = 4;           //意见人对应的名字
+    required uint32 publish_time = 5;           //意见发布时间
+    required uint32 hot_num = 6;                //意见对应的热度
+    required uint32 comment_num = 7;            //意见的评论数
+    repeated Comment comment = 8;              //意见的评论人
+    required bool recommend = 9;               //热度推荐
+    required string content = 10;              // 内容
+    optional InstituteUser institute_user = 11;
+    repeated NormalUser same_recommend_user = 12;
+    optional bool zaning = 13;                 // 是否正在赞, 如果请求中没有user_id,返回数据中无此字段
+    optional FinancingCompany financing_company = 14;
+}
+
+// 暂不支持发图片
+//3 发表一条意见
+message PublishOpinionReq{
+    required string user_id = 1;    //意见发表人id
+    required string topic_id = 2;   //话题id
+    required string content = 3;    //发布的意见的内容
+    optional string company_id = 4;  //添加的公司id
+}
+
+message PublishOpinionResponse{
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional OpinionItem item = 3;
+}
+
+//3 发表一条评论
+message PublishCommentReq{
+    required string user_id = 1;    //意见发表人id
+    required string topic_id = 2;   //话题id
+    required string opinion_id = 3;   //意见id
+    required string content = 4;    //发布的内容
+    optional string to_user_id = 5; //回复某人，若无此字段则不是针对别人的回复
+}
+
+message PublishCommentResponse{
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string topic_id = 3;   //话题id
+    optional string opinion_id = 4;   //意见id
+    optional Comment comment = 5;
+}
+
+message TopicDozan {
+    required string opinion_id = 1;
+    required string user_id = 2;
+}
+
+message TopicDozanResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional bool zaning = 3;                     // 状态 true 表示正在赞 false相反
+    optional uint32 zan_cnt = 4;                  // 当前赞数
+}
+
+/*
+service chronos {
+    rpc get_all_topic (GetAllTopicReq) returns (GetAllTopicResponse);
+    rpc get_topic_opinion (getTopicOpinionReq) returns (getTopicOpinionResponse);
+    rpc publish_opinion (PublishOpinionReq) returns (PublishOpinionResponse);
+    rpc publish_comment (PublishCommentReq) returns (PublishCommentResponse);
+    rpc topic_dozan(TopicDozan) returns (TopicDozanResponse);
+}
+*/

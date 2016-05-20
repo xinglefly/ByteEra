@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/frame_05dp"
+        android:layout_marginRight="@dimen/frame_05dp"
+        android:layout_marginTop="@dimen/frame_05dp"
+        app:cardCornerRadius="@dimen/frame_05dp"
+        app:cardElevation="@dimen/frame_05dp"
+        app:cardPreventCornerOverlap="false">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.zhicai.byteera.widget.roundimage.RoundedImageView
+                android:id="@+id/iv_detail"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:scaleType="centerCrop"
+                app:riv_corner_radius_top_left="@dimen/frame_05dp"
+                app:riv_corner_radius_top_right="@dimen/frame_05dp"/>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_08dp"
+                android:text="买基金就是这么简单"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_small6_size"/>
+
+            <TextView
+                android:id="@+id/sub_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/frame_05dp"
+                android:layout_marginLeft="@dimen/frame_08dp"
+                android:text="1000元投资红包,额外收益等你来拿"
+                android:textColor="#db2724"
+                android:textSize="@dimen/font_small3_size"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

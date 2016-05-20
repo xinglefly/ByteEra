@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin7">
+
+    <ImageView
+        android:id="@+id/iv_left"
+        android:layout_width="@dimen/margin6"
+        android:layout_height="@dimen/margin6"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin"
+        android:src="@drawable/start_logo"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_toLeftOf="@+id/tv_button"
+        android:layout_toRightOf="@+id/iv_left"
+        android:gravity="center_vertical">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_primary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="疯狂猜金融"
+            android:textColor="#000000"
+            android:textSize="@dimen/font_small6_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_small"
+            android:layout_below="@+id/tv_primary"
+            android:text="挑战你的智库"
+            android:textSize="@dimen/font_small3_size"/>
+    </RelativeLayout>
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_button"
+        android:layout_width="@dimen/margin85"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:background="@color/to_do"
+        android:padding="@dimen/margin_oneside"
+        android:gravity="center"
+        android:text="去做"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_medium_size"/>
+</RelativeLayout>

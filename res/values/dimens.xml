@@ -1,0 +1,101 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Default font size -->
+
+    <dimen name="font_big5_size">50sp</dimen>
+    <dimen name="font_big24_size">24sp</dimen>
+    <dimen name="font_big_size">22sp</dimen>
+    <dimen name="font_medium_size">20sp</dimen>
+    <dimen name="font_small9_size">19sp</dimen>
+    <dimen name="font_small8_size">18sp</dimen>
+    <dimen name="font_small7_size">17sp</dimen>
+    <dimen name="font_small6_size">16sp</dimen>
+    <dimen name="font_small5_size">15sp</dimen>
+    <dimen name="font_small4_size">14sp</dimen>
+    <dimen name="font_small3_size">13sp</dimen>
+    <dimen name="font_small2_size">12sp</dimen>
+    <dimen name="font_small1_size">11sp</dimen>
+    <dimen name="font_10_size">10sp</dimen>
+    <dimen name="font_biggest_size">40sp</dimen>
+    <dimen name="font_24_size">24sp</dimen>
+    <dimen name="font_22_size">22sp</dimen>
+    <dimen name="font_30_size">30sp</dimen>
+    <dimen name="font_35_size">35sp</dimen>
+
+
+
+    <dimen name="title_size">15sp</dimen>
+    <dimen name="content_size">14sp</dimen>
+    <dimen name="small_size">12sp</dimen>
+
+
+    <!-- Default Margin size -->
+    <dimen name="margin_small">3dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="progress_bar">38dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="margin_oneside">10dp</dimen>
+    <dimen name="margin_doubleside">5dp</dimen>
+    <dimen name="margin1">10dp</dimen>
+    <dimen name="margin2">20dp</dimen>
+    <dimen name="margin25">25dp</dimen>
+    <dimen name="margin3">30dp</dimen>
+    <dimen name="margin35">35dp</dimen>
+    <dimen name="margin4">40dp</dimen>
+    <dimen name="margin5">50dp</dimen>
+    <dimen name="margin6">60dp</dimen>
+    <dimen name="margin7">70dp</dimen>
+    <dimen name="margin75">75dp</dimen>
+    <dimen name="margin8">80dp</dimen>
+    <dimen name="margin85">85dp</dimen>
+    <dimen name="margin11">110dp</dimen>
+
+    <!-- Default Paading size -->
+
+    <!-- hx chat -->
+    <dimen name="height_top_bar">46.0dip</dimen>
+    <dimen name="margin_chat_activity">5.0dip</dimen>
+    <dimen name="size_avatar">50.0dip</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_left">10dp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="ui_10_dip">10dip</dimen>
+    <dimen name="frame_36dp">36dp</dimen>
+    <dimen name="frame_35dp">35dp</dimen>
+    <dimen name="frame_34dp">34dp</dimen>
+    <dimen name="frame_33dp">33dp</dimen>
+    <dimen name="frame_32dp">32dp</dimen>
+    <dimen name="frame_31dp">31dp</dimen>
+    <dimen name="frame_30dp">30dp</dimen>
+    <dimen name="frame_29dp">29dp</dimen>
+    <dimen name="frame_28dp">28dp</dimen>
+    <dimen name="frame_27dp">27dp</dimen>
+    <dimen name="frame_26dp">26dp</dimen>
+    <dimen name="frame_25dp">25dp</dimen>
+    <dimen name="frame_24dp">24dp</dimen>
+    <dimen name="frame_23dp">23dp</dimen>
+    <dimen name="frame_22dp">22dp</dimen>
+    <dimen name="frame_21dp">21dp</dimen>
+    <dimen name="frame_20dp">20dp</dimen>
+    <dimen name="frame_19dp">19dp</dimen>
+    <dimen name="frame_18dp">18dp</dimen>
+    <dimen name="frame_17dp">17dp</dimen>
+    <dimen name="frame_16dp">16dp</dimen>
+    <dimen name="frame_15dp">15dp</dimen>
+    <dimen name="frame_14dp">14dp</dimen>
+    <dimen name="frame_13dp">13dp</dimen>
+    <dimen name="frame_12dp">12dp</dimen>
+    <dimen name="frame_11dp">11dp</dimen>
+    <dimen name="frame_10dp">10dp</dimen>
+    <dimen name="frame_09dp">9dp</dimen>
+    <dimen name="frame_08dp">8dp</dimen>
+    <dimen name="frame_07dp">7dp</dimen>
+    <dimen name="frame_06dp">6dp</dimen>
+    <dimen name="frame_05dp">5dp</dimen>
+    <dimen name="frame_04dp">4dp</dimen>
+    <dimen name="frame_03dp">3dp</dimen>
+    <dimen name="size_50">50dp</dimen>
+
+
+</resources>

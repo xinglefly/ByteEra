@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <HorizontalScrollView
+        android:id="@+id/ll_condition"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_view"
+        android:scrollbarAlwaysDrawHorizontalTrack="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/frame_10dp"
+            android:orientation="horizontal">
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_condition_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_10dp"
+                android:background="@drawable/textview_corner_shouyi_ischeck"
+                android:drawablePadding="@dimen/frame_05dp"
+                android:drawableRight="@drawable/shouyi_delete"
+                android:padding="5dp"
+                android:textColor="#101010"
+                android:textSize="@dimen/font_small4_size" />
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_condition_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_10dp"
+                android:background="@drawable/textview_corner_shouyi_ischeck"
+                android:drawablePadding="@dimen/frame_05dp"
+                android:drawableRight="@drawable/shouyi_delete"
+                android:padding="5dp"
+                android:textColor="#101010"
+                android:textSize="@dimen/font_small4_size" />
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_condition_bank"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_10dp"
+                android:background="@drawable/textview_corner_shouyi_ischeck"
+                android:drawablePadding="@dimen/frame_05dp"
+                android:drawableRight="@drawable/shouyi_delete"
+                android:padding="5dp"
+                android:text="直销银行"
+                android:textColor="#101010"
+                android:textSize="@dimen/font_small4_size" />
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_condition_p2p"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_10dp"
+                android:background="@drawable/textview_corner_shouyi_ischeck"
+                android:drawablePadding="@dimen/frame_05dp"
+                android:drawableRight="@drawable/shouyi_delete"
+                android:padding="5dp"
+                android:text="p2p"
+                android:textColor="#101010"
+                android:textSize="@dimen/font_small4_size" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_jump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/title_view"
+        android:layout_marginRight="@dimen/frame_05dp"
+        android:layout_marginTop="@dimen/frame_10dp"
+        android:drawableLeft="@drawable/shouyi_add"
+        android:drawablePadding="5dp"
+        android:padding="5dp"
+        android:text="设置条件"
+        android:textColor="#101010"
+        android:textSize="@dimen/font_small4_size" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.3dp"
+        android:layout_below="@id/tv_jump"
+        android:layout_marginTop="@dimen/frame_10dp"
+        android:background="#aeaeae" />
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:padding="3dp"
+        android:text="我要投入(元)"
+        android:textColor="#ff3775"
+        android:textSize="@dimen/font_small3_size" />
+
+    <EditText
+        android:id="@+id/et_coin"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_show"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_shouyi"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxEms="6"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="10000"
+        android:textColor="#ff3775"
+        android:textSize="@dimen/font_big24_size"
+        android:textStyle="bold" />
+
+
+    <SeekBar
+        android:id="@+id/seekbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_coin"
+        android:layout_marginLeft="@dimen/frame_05dp"
+        android:layout_marginRight="@dimen/frame_05dp"
+        android:layout_marginTop="20dp"
+        android:max="100050"
+        android:maxHeight="8dp"
+        android:progress="10000"
+        android:progressDrawable="@drawable/seekbar_style"
+        android:thumb="@drawable/seekbar_thumb" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_cnt_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/seekbar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:text="0"
+        android:textColor="#bababa" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_count2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/seekbar"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:text="10万"
+        android:textColor="#bababa" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_list_title"
+        android:layout_width="fill_parent"
+        android:layout_height="36dp"
+        android:layout_below="@id/seekbar"
+        android:layout_marginTop="@dimen/frame_30dp"
+        android:background="#eaeaea"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="产品"
+            android:textColor="#bababa"
+            android:textSize="@dimen/font_small4_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/frame_05dp"
+            android:layout_weight="1"
+            android:gravity="center|right"
+            android:text="利率"
+            android:textColor="#bababa"
+            android:textSize="@dimen/font_small4_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingLeft="@dimen/frame_10dp"
+            android:text="预期收益"
+            android:textColor="#ff3775"
+            android:textSize="@dimen/font_small4_size" />
+
+    </LinearLayout>
+
+
+    <com.zhicai.byteera.widget.LoadMoreListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/ll_list_title"
+        android:layout_marginTop="5dp"
+        android:divider="@color/transparent"
+        android:listSelector="#00000000" />
+
+
+</RelativeLayout>

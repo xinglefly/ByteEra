@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:layout_centerInParent="true">
+
+    <ImageView
+        android:id="@+id/img_tipcanle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin"
+        android:src="@drawable/guess_close" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_tips"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="@dimen/margin"
+        android:text="这是位于华东地区的一家上市银行。"
+        android:layout_margin="@dimen/margin"
+        android:layout_below="@id/img_tipcanle"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_medium_size"
+        android:textStyle="bold" />
+
+</RelativeLayout>

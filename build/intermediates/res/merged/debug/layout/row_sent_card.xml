@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="13dp" >
+
+    <LinearLayout
+        android:id="@+id/llTimeStamp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="68dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:background="#cccccc" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textColor="#cccccc"
+            android:textSize="@dimen/font_small2_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="68dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:background="#cccccc" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip" >
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/head_liang"
+            android:onClick="me"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/ll_card"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/iv_userhead"
+            android:background="@drawable/chatto_bg" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:paddingBottom="7dp"
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:paddingTop="7dp" >
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_card_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="名片"
+                    android:textColor="#808080"
+                    android:textSize="@dimen/font_small3_size"
+                    android:visibility="visible" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#e2e2e2"
+                    android:visibility="visible" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp" >
+
+                    <ImageView
+                        android:id="@+id/iv_card_avator"
+                        android:layout_width="49dp"
+                        android:layout_height="49dp"
+                        android:src="@drawable/head_liang" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@id/iv_card_avator"
+                        android:layout_alignTop="@id/iv_card_avator"
+                        android:layout_marginLeft="4dp"
+                        android:layout_toRightOf="@id/iv_card_avator"
+                        android:gravity="center_vertical"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/ll_nick"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical" >
+
+                            <com.zhicai.byteera.widget.MyTextView
+                                android:id="@+id/tv_card_nick"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:ellipsize="marquee"
+                                android:singleLine="true"
+                                android:text="巴可可"
+                                android:textColor="#000000"
+                                android:textSize="@dimen/font_small4_size" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="0"
+                                android:src="@drawable/arrow" />
+                        </LinearLayout>
+
+                        <com.zhicai.byteera.widget.MyTextView
+                            android:id="@+id/tv_card_mobile"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="6dp"
+                            android:text="15562617031"
+                            android:textColor="#808080"
+                            android:textSize="@dimen/font_small4_size" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/msg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:layout_toLeftOf="@id/ll_card"
+            android:clickable="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/msg_state_fail_resend"
+            android:visibility="gone" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_ack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/ll_card"
+            android:gravity="center"
+            android:text="@string/text_ack_msg"
+            android:textColor="#818181"
+            android:textSize="@dimen/font_small2_size"
+            android:visibility="invisible" />
+
+        <ProgressBar
+            android:id="@+id/pb_sending"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/ll_card"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

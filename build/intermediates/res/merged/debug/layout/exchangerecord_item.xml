@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="100dp"
+    android:background="@color/white">
+
+    <FrameLayout
+        android:id="@+id/fl_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="@dimen/frame_10dp">
+
+
+        <ImageView
+            android:id="@+id/iv_shopping_pic"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/consult_default" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_show"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|left"
+            android:background="#4bc6ba"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="1dp"
+            android:text="实物商品" />
+    </FrameLayout>
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_shopping_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/frame_10dp"
+        android:layout_toRightOf="@id/fl_pic"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="50元话费(有信App)几大姐夫i饿急急急"
+        android:textColor="#474747"
+        android:textSize="@dimen/font_small7_size"/>
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_shopping_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_shopping_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/frame_10dp"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:layout_toRightOf="@id/fl_pic"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="兑换时间：2015.9.18"
+        android:textColor="#808080"
+        android:textSize="@dimen/font_small6_size" />
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_deliver_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_shopping_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:layout_toRightOf="@id/tv_shopping_time"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="快递：圆通"
+        android:textColor="#808080"
+        android:textSize="@dimen/font_small6_size"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_xuni"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_shopping_time"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:layout_toRightOf="@id/fl_pic"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_xuni_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/frame_10dp"
+            android:padding="3dp"
+            android:singleLine="true"
+            android:text="兑换码:JXRTDJIL"
+            android:textColor="#808080"
+            android:textSize="@dimen/font_small6_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_xuni_copy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_corner_shouyi_ischeck"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:singleLine="true"
+            android:text="复制"
+            android:textColor="@color/head_view_bg"
+            android:textSize="@dimen/font_small6_size" />
+
+    </LinearLayout>
+
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_deliver_sn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_shopping_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="@dimen/frame_10dp"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:layout_toRightOf="@id/fl_pic"
+        android:padding="3dp"
+        android:singleLine="true"
+        android:text="单号：12205609824567"
+        android:textColor="#808080"
+        android:textSize="@dimen/font_small6_size"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

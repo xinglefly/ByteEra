@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_content"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/topic_show"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="5dp">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_colum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/qipao1"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="10dp"
+            android:text="11期"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small4_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_argue"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_colum"
+            android:maxLines="2"
+            android:text="聊聊那些APP体验特棒的平台房价开始了解发动机看来是"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small5_size"/>
+
+        <RelativeLayout
+            android:id="@+id/ll_argue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="30dp"
+            android:layout_toRightOf="@+id/tv_colum">
+
+            <ImageView
+                android:id="@+id/iv_argue"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/xiaolian"/>
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_argue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_toRightOf="@+id/iv_argue"
+                android:text="11个热议"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_small2_size"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/ll_argue"
+            android:textColor="#ececec">
+
+            <ImageView
+                android:id="@+id/iv_answer"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_centerVertical="true"
+                android:src="@drawable/earth"/>
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_toRightOf="@+id/iv_answer"
+                android:text="22个答案"
+                android:textColor="#ececec"
+                android:textSize="@dimen/font_small2_size"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

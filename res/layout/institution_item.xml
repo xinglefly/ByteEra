@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/group_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#eaeaea"
+        android:gravity="left|center"
+        android:paddingLeft="14.0dip"
+        android:paddingRight="14.0dip"
+        android:text="D"
+        android:textColor="#ff2f2f2f"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/item_alpha_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/base_list_divider_drawable" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:minHeight="40.0dip"
+        android:paddingLeft="@dimen/frame_15dp"
+        android:text="大连"
+        android:textColor="#ff2f2f2f"
+        android:textSize="@dimen/font_small6_size" />
+</LinearLayout>
+
+

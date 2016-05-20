@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.zhicai.byteera.widget.MyCircleStrokeView
+        android:id="@+id/csv_view"
+        android:layout_width="@dimen/size_50"
+        android:layout_height="@dimen/size_50"
+        android:layout_centerVertical="true"
+        android:layout_margin="@dimen/margin"
+        android:gravity="center"
+        zhicai:circle_text="11期"
+        zhicai:circle_text_color="@color/white"
+        zhicai:circle_text_width="@dimen/font_small4_size"
+        zhicai:circle_type="FILL"
+        zhicai:end_color_fill="@color/head_view_bg"
+        zhicai:end_color_stroke="@color/head_view_bg"
+        zhicai:start_color_fill="@color/head_view_bg"
+        zhicai:start_color_stroke="@color/head_view_bg"
+        zhicai:stroke_width="1dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_toRightOf="@+id/csv_view">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:text="这里是这个话题的标题是标题"
+            android:textSize="@dimen/font_small6_size"
+            android:textStyle="bold" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_popple_num"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:drawableLeft="@drawable/more_topic_user"
+            android:drawablePadding="5dp"
+            android:text="25个人参与"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/font_small3_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_answer_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_popple_num"
+            android:drawableLeft="@drawable/more_topic_answer"
+            android:drawablePadding="5dp"
+            android:text="18个答案"
+            android:textColor="@color/gray_text"
+            android:textSize="@dimen/font_small3_size" />
+    </RelativeLayout>
+</RelativeLayout>

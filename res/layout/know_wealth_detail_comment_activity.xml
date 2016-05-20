@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    android:fitsSystemWindows="true">
+
+    <View
+        android:id="@+id/top_head"
+        android:layout_width="match_parent"
+        android:layout_height="23dp"
+        android:background="@color/head_view_bg" />
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_below="@+id/top_head"
+        android:background="@color/head_view_bg">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="@dimen/frame_10dp"
+            android:scaleType="center"
+            android:src="@drawable/arrow" />
+
+        <ImageView
+            android:id="@+id/iv_edit"
+            android:layout_width="50dip"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@drawable/edit" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="评论详情"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small8_size" />
+    </RelativeLayout>
+
+    <com.zhicai.byteera.widget.HasHeadLoadMoreListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl"
+        android:visibility="gone" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_empty_comment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="赶快来抢沙发吧"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/font_small6_size"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/rl_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#eeeeee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:paddingBottom="3dp"
+        android:paddingTop="3dp"
+        android:visibility="gone">
+
+        <EditText
+            android:id="@+id/et_comment"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/zhicai_comment_shape"
+            android:focusable="true"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:hint="请输入你的想法"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            android:singleLine="true"
+            android:textSize="@dimen/font_small6_size" />
+
+        <TextView
+            android:id="@+id/tv_finish"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toRightOf="@+id/et_comment"
+            android:clickable="true"
+            android:gravity="center"
+            android:paddingLeft="@dimen/frame_10dp"
+            android:paddingRight="@dimen/frame_10dp"
+            android:text="完成"
+            android:textSize="@dimen/font_small5_size" />
+    </LinearLayout>
+</RelativeLayout>

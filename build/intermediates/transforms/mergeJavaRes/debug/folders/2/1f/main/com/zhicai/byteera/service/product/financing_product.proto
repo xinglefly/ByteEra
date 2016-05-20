@@ -1,0 +1,243 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.product";
+option java_outer_classname = "FinancingProduct";
+
+
+message Company {
+    required string name = 1;               // 公司名称
+    required string small_image = 2;        // 公司小图片
+	repeated LicaiProduct product = 3;      // 公司的理财产品
+	optional uint32 sellable_products = 5;  // 可售产品数
+}
+
+//+获取某个公司的产品列表       返回CompanyProductListResponse
+message CompanyProductlistReq {
+    required string institution_id = 1; //公司的id
+    required ProductType product_type = 2;
+    optional string user_id = 3; //当前用户的id
+}
+
+message CompanyProductListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiProduct product = 3;
+}
+
+// 1 获取产品列表,发送 ProductListReq， 服务端返回 ProductListResponse
+message ProductListReq {
+	required ProductType product_type = 1;
+	optional string user_id = 2;
+}
+
+message ProductListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+	repeated Company company = 3;
+}
+
+// 2 获取某用户的关注列表, 发送 GetUserWatchReq ，服务端返回 GetUserWatchResponse
+message GetUserWatchReq {
+    required string user_id = 1;
+}
+
+// 3 获取推荐列表, 发送 RecommendReq ，服务端返回 RecommendResponse
+message RecommendReq {
+    optional string user_id = 1;
+}
+
+message GetUserWatchResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+	repeated LicaiProduct product = 3;
+}
+
+message RecommendResponse
+{
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiProduct product = 3;
+}
+
+// 4 关注某款产品发送该消息, 服务端返回 CommonResponse
+message WatchProduct {
+    required string product_id = 1;
+    required string user_id = 2;
+}
+
+// 5 取消关注某款产品发送该消息, 服务端返回 CommonResponse
+message DeWatchProduct {
+    required string product_id = 1;
+    required string user_id = 2;
+}
+
+//收益列表的条件: 期限(天)
+message IncomeComparisionGetCondLimit {
+  optional uint32 max = 1; //最大值, 如365
+  optional uint32 min = 2; //最小值, 如30
+}
+
+//收益列表的条件: 收益率
+message IncomeComparisionGetCondIncome {
+  optional float max = 1; //最大值, 如0.3(代表30%)
+  optional float min = 2; //最小值, 如0.12(代表12%)
+}
+
+message IncomeComparisionGetReq {
+  optional IncomeComparisionGetCondLimit cond_limit = 1;
+  optional IncomeComparisionGetCondIncome cond_income = 2;
+  //repeated ProductType types = 3; //空表示所有?
+  optional string types = 3;        //产品类型,使用逗号分隔多个类型, 空字符串或不填表示全部
+  optional string product_id = 4;   //当前产品id, 用于分页
+  optional bool isafter = 5;        //方向, 用于分页
+}
+
+message IncomeComparisionGetResponse {
+  required uint32 errorno = 1;
+  optional string error_description = 2;
+  repeated LicaiProduct products = 3;
+}
+
+//=========================== Notification Condition ===========================
+
+enum NotificationIncomeType {
+    lt8 = 1;         // 小于8
+    gte8lt12 = 2;    // 大于等于8小于12
+    gte12lt16 = 3;   // 大于等于12小于16
+    gte16 = 4;       // 大于等于16
+}
+
+enum NotificationLimitType {
+    beginner = 1;     // 新手标
+    lte30 = 2;        // 小于等于30
+    gt30lte60 = 3;    // 大于30小于等于60
+    gt60lte90 = 4;    // 大于60小于等于90
+    gt90lte180 = 5;   // 大于90小于等于180
+    gt180 = 6;        // 大于180
+}
+
+message NotificationCondition {
+    optional NotificationIncomeType income_type = 1;    // 平均收益
+    optional NotificationLimitType limit_type = 2;      // 平均期限
+    optional string companies = 3;                      // 平台ID列表字符串,多个时以半角逗号分割
+}
+
+message NotificationConditionWithCompany {
+    optional NotificationIncomeType income_type = 1;    // 平均收益
+    optional NotificationLimitType limit_type = 2;      // 平均期限
+    repeated FinancingCompany companies = 3;            // 平台信息列表
+}
+
+message SetFinancingNotificationConditionReq {
+    required string user_id = 1;
+    required NotificationCondition condition = 2;
+}
+
+message GetFinancingNotificationConditionReq {
+    required string user_id = 1;
+}
+
+message GetFinancingNotificationConditionResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional NotificationConditionWithCompany condition = 3;
+    optional bool is_open = 4;  // True-打开, False-关闭
+}
+
+message SetFinancingNotificationSwitchStateReq {
+    required string user_id = 1;
+    required bool is_open = 2;  // True-打开, False-关闭
+}
+
+message GetCrawlingCompanyListReq {
+    optional ProductType type = 1;  //平台类型
+}
+
+message GetCrawlingCompanyListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated FinancingCompany companies = 3;
+}
+
+message GetProductInfoReq {
+    required string product_id = 1;
+}
+
+message GetProductInfoResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional ProductInfo product_info = 3;
+}
+
+message GetCompanyListReq {
+    required ProductType product_type = 1;
+}
+
+message GetCompanyListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+	repeated FinancingCompany companies = 3;
+}
+
+enum ProductOrderField {
+    crawl_date = 1;               //创建时间(抓取时间)
+    income = 2;                   // 收益
+    limit = 3;                    // 周期
+}
+
+message GetCompanyProductListReq {
+    optional string company_id = 1;             //平台ID
+    optional ProductType product_type = 2;      //产品类型
+    optional ProductOrderField order_field = 3; //排序字段
+    optional OrderType order_type = 4;          //排序类型
+    optional string product_id = 5;             //当前产品id, 用于分页
+    optional bool isafter = 6;                  //方向, 用于分页
+
+}
+
+message GetCompanyProductListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+	repeated LicaiProduct products = 3;
+}
+
+/*
+service chronos {
+
+    rpc financing_get_product(ProductListReq) returns (ProductListResponse);
+
+    rpc financing_get_watch(GetUserWatchReq) returns (GetUserWatchResponse);
+
+    rpc financing_get_recommend(RecommendReq) returns (RecommendResponse);
+
+    rpc financing_watch(WatchProduct) returns (CommonResponse);
+
+    rpc financing_dewatch(DeWatchProduct) returns (CommonResponse);
+
+    //收益列表获取, 带分页, 带条件, 顺序为先置顶项后常规项, 常规项按收益率从高到低排序. 注: 列表项中不区分置顶与否.
+    rpc income_comparision_get(IncomeComparisionGetReq) returns (IncomeComparisionGetResponse);
+
+    // 设定用户抢标通知的条件
+    rpc set_financing_notification_condition(SetFinancingNotificationConditionReq) returns (CommonResponse);
+
+    // 获取用户抢标通知的条件
+    rpc get_financing_notification_condition(GetFinancingNotificationConditionReq) returns (GetFinancingNotificationConditionResponse);
+
+    // 设定用户抢标通知的开启状态
+    rpc set_financing_notification_switch_state(SetFinancingNotificationSwitchStateReq) return (CommonResponse);
+
+    // 获取爬取平台的列表
+    rpc get_crawling_company_list(GetCrawlingCompanyListReq) return (GetCrawlingCompanyListResponse);
+
+    // 获取理财产品详情
+    rpc get_product_info(GetProductInfoReq) return (GetProductInfoResponse);
+
+    // 获取机构列表
+    rpc get_company_list(GetCompanyListReq) return (GetCompanyListResponse);
+
+    // 获取机构下的产品列表
+    rec get_company_product_list(GetCompanyProductListReq) return (GetCompanyProductListResponse);
+}
+*/

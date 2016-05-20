@@ -1,0 +1,247 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service";
+option java_outer_classname = "UserAttribute";
+
+message WatchGroup {
+    required string group_id = 1; //id
+    required string name = 2; //名称
+    required string image = 3;  //图片
+    optional string description = 4;  //描述
+}
+
+// 改变财币
+message CoinDeltaReq {
+    required string user_id = 1;
+    required int32 value = 2;      // 正数是加财币，负数是减财币
+}
+
+message CoinDeltaResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional uint32 coin_count = 3;       // 财币数量
+}
+
+// 修改密码
+message ChangePasswordReq {
+    required string user_id = 1;
+    required string old_pass = 2;
+    required string new_pass = 3;
+}
+
+message ChangePasswordResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+}
+
+// 设置密码
+message SetPasswordReq {
+    required string mobile_phone = 1;
+    required string new_pass = 2;
+}
+
+message SetPasswordResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+}
+
+// 上传头像
+message UploadHeadPortraitReq {
+    message ImageFile {
+        required string name = 1;  // 图片文件名字
+        required bytes data = 2;   // 图片文件内容（二进制）
+    }
+    required string user_id = 1;
+    required ImageFile file = 2;
+}
+
+message UploadHeadPortraitResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string head_portrait = 3;
+}
+
+// 用户修改自己的信息
+message ModifyUserAttrReq {
+    required string user_id = 1;
+    optional string mobile_phone = 2;             // 手机号码
+    optional string nickname = 3;                 // 昵称
+    optional SexType sex = 4 [default = MALE];    // 性别
+    optional string city = 5;                     // 城市
+    optional string birthday = 6;                 // 生日
+    optional string identify_card = 7;            // 身份证
+}
+
+message ModifyUserAttrResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+}
+
+// + 1 用 user_id 获取用户属性, 服务端返回 GetUserAttrResponse
+message GetUserAttrReq1 {
+    required string user_id = 1;
+    optional string user_id2 = 2;    // 可选，如果传了该字段，服务器返回的数据中会有watched字段，代表 user_id2 是否关注了 user_id
+}
+
+// + 2 用聊天帐号获取用户属性， 服务端返回 GetUserAttrResponse
+message GetUserAttrReq2 {
+    required string chat_account = 2;
+}
+
+message GetUserAttrResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string user_id = 3;
+    optional string mobile_phone = 4;
+    optional string head_portrait = 5;            // 头像
+    optional string nickname = 6;                 // 昵称
+    optional SexType sex = 7 [default = MALE];
+    optional uint32 coin = 8;
+    optional string city = 9;
+    optional uint32 watch_user_cnt = 10;          // 关注数
+    optional uint32 fans_user_cnt = 11;           // 粉丝数
+    optional uint32 avaliable_cash = 12;          // 可用现金
+    optional string chat_account = 13;            // 聊天账号
+    optional string invitation_code = 14;         // 本人的邀请码
+    optional uint32 friend_cnt = 15;              // 好友数
+    optional uint32 collect_cnt = 16;             // 我的收藏数
+    optional uint32 dongtai_cnt = 17;             // 我的动态消息数
+    optional string birthday = 18;                // 生日      格式：2015-03-05
+    optional string identify_card = 19;           // 身份证
+    optional bool watched = 20;                  // user_id2 是否关注了user_id，如果user_id2 不传，response中无此项
+}
+
+// + 3 获取用户的（粉丝，关注的人）, 服务端返回 GetUserRelationUserResponse
+message GetUserRelationUserReq {
+    enum Relation {
+        Fans = 2;
+        Watched = 3;
+    }
+    required string user_id = 1;
+    required Relation relation = 2;
+}
+
+// 这个类中的用户属性比较少
+message RelationUser  {
+    required string user_id = 1;                  // 用户id
+    required string head_portrait = 2;            // 头像
+    required string nickname = 3;                 // 昵称
+    required UserType type = 4;                   // 用户类型
+}
+
+message GetUserRelationUserResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated RelationUser user = 3;
+}
+
+// 获取用户的朋友, 服务端返回 GetUserFriendResponse
+message GetUserFriendReq {
+    required string user_id = 1;
+}
+
+
+message FriendUser {
+    required string user_id = 1;                  // 用户id
+    required string head_portrait = 2;            // 头像
+    required string nickname = 3;                 // 昵称
+    required string chat_account = 4;             // 聊天账号
+}
+
+message GetUserFriendResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated FriendUser user = 3;
+}
+
+
+// + 4 关注别人
+message WatchUserReq {
+    required string user_id = 1;
+    required string other_user_id = 2;
+}
+
+message WatchUserResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+}
+
+// + 5 取消关注别人
+message DeWatchUserReq {
+    required string user_id = 1;
+    required string other_user_id = 2;
+}
+
+message DeWatchUserResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+}
+
+//获取用户的关注信息请求
+message GetUserWatchInfoReq {
+    required string user_id = 1;
+}
+
+//获取当前用户关注用户列表响应
+message GetUserWatchUsersResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated RelationUser users = 3;
+}
+
+//获取当前用户关注机构列表响应
+message GetUserWatchInstitutesResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated InstituteUser institutes = 3;
+}
+
+//获取当前用户关注小组列表响应
+message GetUserWatchGroupsResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated WatchGroup groups = 3;
+}
+
+message SetUserDeviceIdReq {
+    required string user_id = 1;
+    required string device_id = 2;
+}
+
+/*
+service chronos {
+
+    rpc coindelta(CoinDeltaReq) returns (CoinDeltaResponse);
+
+    rpc change_password(ChangePasswordReq) returns (ChangePasswordResponse);
+
+    rpc set_password(SetPasswordReq) returns (SetPasswordResponse);
+
+    rpc upload_head_portrait(UploadHeadPortraitReq) returns (UploadHeadPortraitResponse);
+
+    rpc modify_user_attr(ModifyUserAttrReq) returns (ModifyUserAttrResponse);
+
+    rpc get_user_attr1(GetUserAttrReq2) returns (GetUserAttrResponse);
+
+    rpc get_user_attr2(GetUserAttrReq1) returns (GetUserAttrResponse);
+
+    rpc get_user_relation_user(GetUserRelationUserReq) returns (GetUserRelationUserResponse);
+
+    rpc get_user_friend_user(GetUserFriendReq) returns (GetUserFriendResponse);
+
+    rpc watch_user(WatchUserReq) returns (WatchUserResponse);
+
+    rpc dewatch_user(DeWatchUserReq) returns (DeWatchUserResponse);
+
+    rpc get_user_watch_users(GetUserWatchInfoReq) return (GetUserWatchUsersResponse);
+
+    rpc get_user_watch_institutes(GetUserWatchInfoReq) return (GetUserWatchInstitutesResponse);
+
+    rpc get_user_watch_groups(GetUserWatchInfoReq) return (GetUserWatchGroupsResponse);
+
+    // 设置用户的设备ID
+    rpc set_user_device_id(SetUserDeviceIdReq) return (CommonResponse);
+}
+*/

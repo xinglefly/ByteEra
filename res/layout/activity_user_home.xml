@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.zhicai.byteera.activity.community.dynamic.view.UserHomeHeadView
+        android:id="@+id/user_home_head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.zhicai.byteera.activity.community.dynamic.view.UserHomeTitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zhicai:leftImg="@drawable/organization_left"
+        zhicai:titleName="爱钱帮" />
+
+    <com.zhicai.byteera.widget.HasHeadLoadMoreListView
+        android:id="@+id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:scrollbars="none" />
+</RelativeLayout>

@@ -1,0 +1,93 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.register";
+option java_outer_classname = "Register";
+
+
+message RegisterReq {
+  required string mobile_phone = 1;
+  required string password = 2;
+  required string mobile_validate_code = 3;     // 手机短信验证码
+  optional string invitation_code = 4;          // 邀请码
+}
+
+
+// 注销帐号发送 CancelAccountRequest 消息， 服务器返回 CommonResponse 消息
+message CancelAccountRequest {
+  required string user_id = 1;
+}
+
+
+// 登录发送 LoginRequest， 服务器返回 LoginResponse
+message LoginRequest {
+  required string mobile_phone = 1;
+  required string password = 2;
+}
+
+message LoginResponse {
+  required uint32 errorno = 1;
+  optional string error_description = 2;
+  optional string user_id = 3;
+  optional string mobile_phone = 4;
+  optional string head_portrait = 5;            // 头像
+  optional string nickname = 6;                 // 昵称
+  optional SexType sex = 7 [default = MALE];
+  optional uint32 coin = 8;
+  optional string city = 9;
+  optional uint32 watch_user_cnt = 10;          // 关注数
+  optional uint32 fans_user_cnt = 11;           // 粉丝数
+  optional uint32 avaliable_cash = 12;          // 可用现金
+  optional string chat_account = 13;            // 聊天账号
+  optional string invitation_code = 14;         // 本人的邀请码
+  optional uint32 friend_cnt = 15;              // 好友数
+  optional uint32 collect_cnt = 16;             // 我的收藏数
+  optional uint32 dongtai_cnt = 17;             // 我的动态消息数
+  optional string birthday = 18;                // 生日      格式：2015-03-05
+  optional string identify_card = 19;           // 身份证
+}
+
+
+message ThirdPartyLoginRequest {
+  required string user_id = 1;
+}
+
+
+message ThirdPartyRegisterRequest {
+  required string user_id = 1;              // 用户ID
+  required string user_name = 2;            // 用户名
+  required string access_token = 3;         // Access Token
+  required string icon_url = 4;             // 头像链接
+  required ThirdPartyPlatform platform = 5; // 第三方平台
+}
+
+
+// 登出发送 LogoutRequest， 服务器返回 CommonResponse
+message LogoutRequest {
+  required string user_id = 1;
+}
+
+/*
+service chronos {
+
+    // 注册账号时发送 User 消息，服务器返回 CommonResponse 消息，
+    // 如果errorno是0表示注册成功，否则表示失败，error_description 将被设置
+    rpc register(RegisterReq) returns (CommonResponse);zZZx
+
+    // 注销账号
+    rpc cancel(CancelAccountRequest) returns (CommonResponse);
+
+    // 登录
+    rpc login(LoginRequest) returns (LoginResponse);
+
+    // 登出
+    rpc logout(LogoutRequest) returns (CommonResponse);
+
+    // 注册并登录
+    rpc register_and_login(RegisterReq) returns (LoginResponse);
+
+    // 第三方注册并登录
+    rpc third_party_register_and_login(ThirdPartyRegisterRequest) returns (LoginResponse);
+}
+*/

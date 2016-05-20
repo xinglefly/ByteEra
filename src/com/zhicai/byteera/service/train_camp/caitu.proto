@@ -1,0 +1,38 @@
+package zhicaiproto;
+
+option java_package = "com.zhicai.byteera.service.train_camp";
+option java_outer_classname = "GuessPic";
+
+
+message Mission {
+     required string image = 1;       // 图片
+     required string title = 2;       // 图片中的文字
+     required string url = 3;         // 下载链接
+     optional uint32 filesize = 4;    //文件大小
+}
+
+
+message MissionLevel {
+    required string level_name = 1;         // 就是 初级， 中级， 高级 ...
+    repeated Mission mission = 2;           // 关卡
+    required string background_image = 3;  // 背景图
+}
+
+
+message MissionPage {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated MissionLevel mission_level = 3;
+}
+
+
+// 进入猜图游戏时发送 MissionPageReq 消息，服务器返回 MissionPage 消息，
+// 如果 errorno 是 0 表示成功，否则表示失败，error_description 将被设置
+
+message MissionPageReq {
+}
+
+
+service chronos {
+    rpc mission(MissionPageReq) returns (MissionPage);
+}

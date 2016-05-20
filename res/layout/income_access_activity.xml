@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7fc">
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/head_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/frame_05dp"
+        zhicai:leftImg="@drawable/arrow"
+        zhicai:titleName="产品详情" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button"
+        android:layout_below="@id/head_title"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.zhicai.byteera.activity.product.view.IncomeSurveyView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/frame_05dp"
+                android:background="@color/white" />
+
+            <com.zhicai.byteera.activity.product.view.IncomeDetailView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/frame_05dp"
+                android:background="@color/white" />
+
+            <com.zhicai.byteera.activity.product.view.IncomeAccessItemView
+                android:id="@+id/jump_product"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_05dp"
+                android:layout_marginRight="@dimen/frame_05dp"
+                zhicai:leftText="产品详情" />
+
+
+            <com.zhicai.byteera.activity.product.view.IncomeAccessItemView
+                android:id="@+id/jump_organziation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_05dp"
+                android:layout_marginRight="@dimen/frame_05dp"
+                zhicai:leftText="机构详情" />
+
+            <com.zhicai.byteera.activity.product.view.IncomeAccessItemView
+                android:id="@+id/jump_risk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/frame_05dp"
+                android:layout_marginRight="@dimen/frame_05dp"
+                zhicai:leftText="风险控制" />
+
+
+            <com.zhicai.byteera.activity.product.view.IncomeAccessItemView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/frame_15dp"
+                android:layout_marginLeft="@dimen/frame_05dp"
+                android:layout_marginRight="@dimen/frame_05dp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="@dimen/frame_35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/frame_10dp"
+        android:background="@drawable/textview_corner_product"
+        android:gravity="left|center">
+
+        <TextView
+            android:id="@+id/tv_measure"
+            android:layout_width="70dp"
+            android:layout_height="fill_parent"
+            android:background="#ff3775"
+            android:drawableLeft="@drawable/measure_nomal"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:paddingLeft="@dimen/frame_06dp"
+            android:paddingRight="@dimen/frame_05dp"
+            android:text="收益测算"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small2_size" />
+
+        <TextView
+            android:id="@+id/tv_invest"
+            android:layout_width="250dp"
+            android:layout_height="fill_parent"
+            android:layout_toRightOf="@id/tv_measure"
+            android:gravity="center"
+            android:text="去投资"
+            android:textColor="#ff3775"
+            android:textSize="@dimen/font_small8_size" />
+    </RelativeLayout>
+
+</RelativeLayout>

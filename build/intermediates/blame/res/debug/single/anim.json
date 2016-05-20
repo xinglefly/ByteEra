@@ -1,0 +1,158 @@
+[
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/item_duang_show.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/anim/item_duang_show.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/modify_popup_enter.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/modify_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/snackbar_in.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/anim/snackbar_in.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/push_bottom_out.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/push_bottom_out.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/slide_out_to_right.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/slide_out_to_right.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/push_out_right.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/push_out_right.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/fab_out.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/anim/fab_out.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/voice_to_icon.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/voice_to_icon.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/popup_enter.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/popup_enter.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/rv_layout_animation.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/anim/rv_layout_animation.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/snackbar_out.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/anim/snackbar_out.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/popup_exit.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/popup_exit.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/push_out_left.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/push_out_left.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/slide_in_from_left.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/slide_in_from_left.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/item_duang_show2.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/anim/item_duang_show2.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/voice_from_icon.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/voice_from_icon.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/activity_translate_out.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/activity_translate_out.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/push_in_right.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/push_in_right.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/base_loading_large_anim.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/base_loading_large_anim.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/head_in.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/head_in.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/loading_rotate.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/loading_rotate.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/push_bottom_in.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/head_out.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/head_out.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/activity_translate_in.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/activity_translate_in.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/fade_out.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/fade_out.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/modify_popup_exit.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/modify_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/push_in_left.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/anim/push_in_left.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/fab_in.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/anim/fab_in.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/anim/abc_slide_out_bottom.xml"
+    }
+]

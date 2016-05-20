@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="410dp"
+    android:layout_gravity="center"
+    android:background="@drawable/textview_corner_exchange_bg">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+                <com.zhicai.byteera.widget.roundimage.RoundedImageView
+                    android:id="@+id/iv_change_pic"
+                    android:layout_width="fill_parent"
+                    android:layout_height="170dp"
+                    app:riv_corner_radius_top_left="@dimen/frame_08dp"
+                    app:riv_corner_radius_top_right="@dimen/frame_08dp"
+                    app:riv_oval="false" />
+
+                <ImageView
+                    android:id="@+id/iv_change_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="-4dp"
+                    android:padding="3dp"
+                    android:src="@drawable/chacha" />
+
+                <ImageView
+                    android:id="@+id/iv_change_accomplish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/yiduiwan"
+                    android:visibility="invisible" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_exchange"
+                android:layout_width="fill_parent"
+                android:layout_height="160dp"
+                android:orientation="vertical">
+
+                <!--兑换-->
+                <RelativeLayout
+                    android:id="@+id/rl_exchange"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="27dp"
+                    android:visibility="gone">
+
+                    <View
+                        android:layout_width="40dp"
+                        android:layout_height="0.4dp"
+                        android:layout_marginTop="@dimen/frame_10dp"
+                        android:layout_marginBottom="@dimen/frame_10dp"
+                        android:layout_toLeftOf="@+id/tv_change_name"
+                        android:background="#646464" />
+
+                    <com.zhicai.byteera.widget.MyTextView
+                        android:id="@+id/tv_change_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="@dimen/frame_15dp"
+                        android:layout_marginRight="@dimen/frame_15dp"
+                        android:ellipsize="end"
+                        android:maxLines="2"
+                        android:textColor="#121212"
+                        android:textSize="@dimen/font_small8_size" />
+
+                    <View
+                        android:layout_width="40dp"
+                        android:layout_height="0.4dp"
+                        android:layout_marginTop="@dimen/frame_10dp"
+                        android:layout_marginBottom="@dimen/frame_10dp"
+                        android:layout_toRightOf="@id/tv_change_name"
+                        android:background="#646464" />
+
+                    <com.zhicai.byteera.widget.MyTextView
+                        android:id="@+id/tv_change_number"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_change_name"
+                        android:layout_marginLeft="60dp"
+                        android:layout_marginRight="@dimen/frame_15dp"
+                        android:layout_marginTop="@dimen/frame_15dp"
+                        android:text="数量：20"
+                        android:textColor="#646464"
+                        android:textSize="@dimen/font_small6_size" />
+
+                    <com.zhicai.byteera.widget.MyTextView
+                        android:id="@+id/tv_change_coin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_change_name"
+                        android:layout_marginTop="@dimen/frame_15dp"
+                        android:layout_toRightOf="@id/tv_change_number"
+                        android:text="财富值：350"
+                        android:textColor="#646464"
+                        android:textSize="@dimen/font_small6_size" />
+
+                    <com.zhicai.byteera.widget.MyTextView
+                        android:id="@+id/tv_exchange"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_change_number"
+                        android:layout_centerInParent="true"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/textview_corner_exchange"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="立即兑换"
+                        android:textColor="@color/head_view_bg"
+                        android:textSize="@dimen/font_small8_size" />
+
+                </RelativeLayout>
+
+
+                <!--确认兑换-->
+                <RelativeLayout
+                    android:id="@+id/rl_confirm_exchange"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone">
+
+
+                    <com.zhicai.byteera.widget.MyTextView
+                        android:id="@+id/tv_exchange_des"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="@dimen/frame_20dp"
+                        android:layout_marginRight="@dimen/frame_20dp"
+                        android:ellipsize="end"
+                        android:gravity="center"
+                        android:maxLines="2"
+                        android:padding="4dp"
+                        android:textColor="#121212" />
+
+
+                    <com.zhicai.byteera.widget.MyTextView
+                        android:id="@+id/tv_exchange_cancle"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_exchange_des"
+                        android:layout_marginLeft="@dimen/frame_20dp"
+                        android:layout_marginRight="@dimen/frame_15dp"
+                        android:layout_marginTop="30dp"
+                        android:background="@drawable/textview_corner_exchange_cancel"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="取消"
+                        android:textColor="#646464"
+                        android:textSize="@dimen/font_small8_size" />
+
+                    <com.zhicai.byteera.widget.MyTextView
+                        android:id="@+id/tv_exchange_confirm"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tv_exchange_des"
+                        android:layout_marginTop="30dp"
+                        android:layout_toRightOf="@id/tv_exchange_cancle"
+                        android:background="@drawable/textview_corner_exchange"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="确认"
+                        android:textColor="@color/head_view_bg"
+                        android:textSize="@dimen/font_small8_size" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_exchange_des"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_change_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="奖品介绍："
+                    android:textColor="#646464"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <View
+                    android:id="@+id/view"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.4dp"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginRight="@dimen/frame_10dp"
+                    android:layout_marginTop="9dp"
+                    android:background="#646464" />
+
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_change_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/frame_05dp"
+                    android:text=""
+                    android:textColor="#646464"
+                    android:textSize="@dimen/font_small6_size" />
+            </LinearLayout>
+
+            <!--收获地址-->
+            <RelativeLayout
+                android:id="@+id/rl_exchange_address"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:visibility="gone">
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_add_des"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/frame_15dp"
+                    android:layout_marginLeft="@dimen/frame_15dp"
+                    android:layout_marginRight="@dimen/frame_15dp"
+                    android:layout_marginTop="@dimen/frame_15dp"
+                    android:ellipsize="end"
+                    android:maxLines="2"
+                    android:text="请填写您的信息，兑换后15个工作日内我们会统一发货，请耐心等待哦"
+                    android:textColor="#121212"
+                    android:textSize="@dimen/font_small5_size" />
+
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_add_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_add_des"
+                    android:layout_marginLeft="@dimen/frame_20dp"
+                    android:layout_marginRight="@dimen/frame_05dp"
+                    android:layout_marginTop="@dimen/frame_10dp"
+                    android:gravity="center"
+                    android:text="姓名:"
+                    android:textColor="#646464"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <EditText
+                    android:id="@+id/et_add_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/tv_add_des"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@id/tv_add_name"
+                    android:background="@null"
+                    android:maxLength="12"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <View
+                    android:id="@+id/view1"
+                    android:layout_width="250dp"
+                    android:layout_height="0.4dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/et_add_name"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="@dimen/frame_20dp"
+                    android:background="@color/gray" />
+
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_add_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_marginLeft="@dimen/frame_20dp"
+                    android:layout_marginRight="@dimen/frame_05dp"
+                    android:layout_marginTop="@dimen/frame_10dp"
+                    android:gravity="center"
+                    android:text="电话:"
+                    android:textColor="#646464"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <EditText
+                    android:id="@+id/et_add_phone"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view1"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@id/tv_add_name"
+                    android:background="@null"
+                    android:maxLength="12"
+                    android:padding="10dp"
+                    android:phoneNumber="true"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="250dp"
+                    android:layout_height="0.4dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/et_add_phone"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="@dimen/frame_20dp"
+                    android:background="@color/gray" />
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:layout_marginLeft="@dimen/frame_20dp"
+                    android:layout_marginRight="@dimen/frame_05dp"
+                    android:layout_marginTop="@dimen/frame_10dp"
+                    android:gravity="center"
+                    android:text="地址:"
+                    android:textColor="#646464"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <EditText
+                    android:id="@+id/et_address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view2"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@id/tv_add_name"
+                    android:background="@null"
+                    android:maxLength="12"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <View
+                    android:id="@+id/view3"
+                    android:layout_width="250dp"
+                    android:layout_height="0.4dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/et_address"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="@dimen/frame_20dp"
+                    android:background="@color/gray" />
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_postcode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_marginLeft="@dimen/frame_20dp"
+                    android:layout_marginRight="@dimen/frame_05dp"
+                    android:layout_marginTop="@dimen/frame_10dp"
+                    android:gravity="center"
+                    android:text="邮编:"
+                    android:textColor="#646464"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <EditText
+                    android:id="@+id/et_zip"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view3"
+                    android:layout_gravity="center_vertical"
+                    android:layout_toRightOf="@id/tv_add_name"
+                    android:background="@null"
+                    android:maxLength="12"
+                    android:padding="10dp"
+                    android:phoneNumber="true"
+                    android:singleLine="true"
+                    android:textSize="@dimen/font_small6_size" />
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="250dp"
+                    android:layout_height="0.4dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@id/et_zip"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="@dimen/frame_20dp"
+                    android:background="@color/gray" />
+
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_add_confirm"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/view4"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/frame_20dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/textview_corner_exchange"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="确认"
+                    android:textColor="@color/head_view_bg"
+                    android:textSize="@dimen/font_small8_size" />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/head_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        app:leftImg="@drawable/arrow"
+        app:titleName="财币任务" />
+
+    <LinearLayout
+        android:id="@+id/rl_banner"
+        android:layout_width="fill_parent"
+        android:layout_height="110dp"
+        android:layout_below="@+id/head_title"
+        android:background="#fede5e"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_15dp"
+            android:drawableTop="@drawable/daytask_ic1"
+            android:gravity="center"
+            android:text="拥有10财币"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_ranking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_15dp"
+            android:drawableTop="@drawable/daytask_ic2"
+            android:gravity="center"
+            android:text="好友中排第1名"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/tv_logindays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawablePadding="@dimen/frame_15dp"
+            android:drawableTop="@drawable/daytask_ic3"
+            android:gravity="center"
+            android:text="连续登陆1天"
+            android:textColor="#000000" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_daytask"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rl_banner"
+        android:divider="@color/divide_color"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:layout_marginRight="@dimen/frame_15dp"
+        android:dividerHeight="0.5dp"
+        android:fadeScrollbars="true"
+        android:fadingEdge="none"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        android:scrollingCache="false" />
+
+</RelativeLayout>

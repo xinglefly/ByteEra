@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/default_white">
+
+    <com.zhicai.byteera.widget.LoadingPage
+        android:id="@+id/loading_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.zhicai.byteera.activity.knowwealth.view.KnowWealthDetailListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/botton_line"
+        android:overScrollMode="never" />
+
+    <RelativeLayout
+        android:id="@+id/iv_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/frame_23dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:paddingBottom="@dimen/frame_15dp"
+            android:paddingLeft="@dimen/frame_15dp"
+            android:paddingRight="@dimen/frame_15dp"
+            android:paddingTop="@dimen/frame_15dp"
+            android:src="@drawable/fanhui" />
+    </RelativeLayout>
+
+    <com.zhicai.byteera.widget.KnowWeathDetailBottonLine
+        android:id="@+id/botton_line"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white">
+
+    <com.zhicai.byteera.widget.MyScrollView
+        android:id="@+id/scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:descendantFocusability="beforeDescendants"
+        android:fadingEdge="none"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.zhicai.byteera.activity.community.dynamic.view.MyHomeHeadView
+                android:id="@+id/head_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/frame_10dp" />
+
+
+            <com.zhicai.byteera.activity.community.dynamic.view.MyHomeItemView
+                android:id="@+id/my_soucang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_select_bg"
+                zhicai:leftImg="@drawable/mine_collect"
+                zhicai:middleText="我的收藏" />
+
+            <com.zhicai.byteera.activity.community.dynamic.view.MyHomeItemView
+                android:id="@+id/my_dontai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_select_bg"
+                zhicai:leftImg="@drawable/mine_dynamic"
+                zhicai:middleText="我的动态" />
+
+            <com.zhicai.byteera.activity.community.dynamic.view.MyHomeItemView
+                android:id="@+id/my_friends"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_select_bg"
+                zhicai:leftImg="@drawable/mine_friends"
+                zhicai:middleText="我的好友" />
+
+            <com.zhicai.byteera.activity.community.dynamic.view.MyHomeItemView
+                android:id="@+id/my_coinshop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_select_bg"
+                zhicai:leftImg="@drawable/mine_coinshop"
+                zhicai:middleText="财币商城" />
+
+            <com.zhicai.byteera.activity.community.dynamic.view.MyHomeItemView
+                android:id="@+id/my_cointask"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_select_bg"
+                zhicai:leftImg="@drawable/cointask"
+                zhicai:middleText="财币任务" />
+
+            <com.zhicai.byteera.activity.community.dynamic.view.MyHomeItemView
+                android:id="@+id/my_invitecode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/myitem_select_bg"
+                zhicai:leftImg="@drawable/invitecode"
+                zhicai:middleText="邀请码" />
+
+        </LinearLayout>
+    </com.zhicai.byteera.widget.MyScrollView>
+
+    <com.zhicai.byteera.activity.community.dynamic.view.UserHomeTitleView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        zhicai:rightImg="@drawable/my_setting" />
+</RelativeLayout>

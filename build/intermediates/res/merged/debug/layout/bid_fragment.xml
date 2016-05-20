@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/tv_condition"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginLeft="@dimen/frame_14dp"
+        android:gravity="center"
+        android:text="筛选条件"
+        android:textColor="#4f4f4f"
+        android:textSize="@dimen/font_small3_size" />
+
+    <TextView
+        android:id="@+id/tv_open"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:drawableLeft="@drawable/open"
+        android:drawablePadding="@dimen/frame_05dp"
+        android:gravity="center"
+        android:text="展开"
+        android:textColor="#bababa"
+        android:textSize="@dimen/font_small3_size" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_remind"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_below="@id/tv_condition"
+        android:background="#ff3775">
+
+        <TextView
+            android:layout_width="230dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/frame_10dp"
+            android:layout_toLeftOf="@+id/tv_show1"
+            android:gravity="center|left"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small2_size" />
+
+        <TextView
+            android:id="@+id/tv_switch_show"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="@dimen/frame_06dp"
+            android:layout_marginRight="@dimen/frame_10dp"
+            android:layout_toLeftOf="@+id/switch_open"
+            android:gravity="center"
+            android:text="已关闭提醒"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small3_size" />
+
+        <com.zhicai.byteera.widget.SwitchView
+            android:id="@+id/switch_open"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="12dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_remind_openbg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/rl_remind">
+
+        <TextView
+            android:id="@+id/tv_show"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="@dimen/frame_14dp"
+            android:gravity="center"
+            android:text="提醒记录"
+            android:textColor="#4f4f4f"
+            android:textSize="@dimen/font_small3_size" />
+
+        <TextView
+            android:id="@+id/tv_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/frame_14dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/textview_corner_shouyi"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="清空记录"
+            android:textColor="#ced4d4"
+            android:textSize="@dimen/font_small3_size" />
+
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_below="@id/tv_show"
+            android:layout_marginTop="5dp"
+            android:dividerHeight="0.5dp"
+            android:fadeScrollbars="true"
+            android:fadingEdge="none"
+            android:listSelector="#00000000"
+            android:scrollbars="none"
+            android:scrollingCache="false"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/rl_nodata"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tv_show"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_bidnodata"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/bidnodata" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/iv_bidnodata"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/frame_20dp"
+                android:text="暂无提醒记录喔，赶快添加吧！"
+                android:textColor="#bababa" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

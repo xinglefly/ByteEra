@@ -1,0 +1,45 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.information";
+option java_outer_classname = "Information";
+
+
+// 发送该消息获取咨询部分的首页内容，服务器返回 MainPage 消息
+message MainPageReq {
+    required ProductType product_type = 1;      // 类型                   必选
+    optional string zixunId = 2;                // 资讯ID                 可选
+    optional uint32 isafter = 3;                // 方向（1-> 后 , <-0 前） 可选
+}
+
+// 轮播
+message ADImg {
+    required string image_url = 1;  // 大缩略图
+    optional JumpPoint jump_point= 2; // 内部跳转
+    optional string jump_url = 3;     // 跳转URL
+}
+
+// 资讯
+message Zixun {
+    required string zixunId = 1; //资讯 ID
+    required string title = 2;          //标题
+    required string image_url = 3;      //小缩略图
+    required uint32 comment_times = 4;  //评论次数
+    required uint32 publish_time = 5;   //发布时间
+    required ProductType product_type = 6; // 类型
+}
+
+// response
+message MainPage {
+  required uint32 errorno = 1;              //错误代码
+  optional string error_description = 2;    //错误描述
+  repeated ADImg main_image = 3;            //轮播数组
+  repeated Zixun zixun = 4;                 //资讯数组
+}
+
+// cluster name 就是 service name， optype其实就是里面的方法名字
+service chronos {
+
+    rpc get_main_page(MainPageReq) returns (MainPage);
+}

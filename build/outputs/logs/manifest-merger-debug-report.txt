@@ -1,0 +1,824 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:1:1-296:12
+	xmlns:tools
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:2:5-51
+	xmlns:android
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:1:11-69
+	package
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:multidex:1.0.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:22.2.0] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.recruit-lifestyle/WaveSwipeRefreshLayout/1.6/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.github.zzz40500:AndroidSweetSheet:1.1.0] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:22.2.0] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:20:5-43
+MERGED from [me.drakeet.materialdialog:library:1.2.2] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/me.drakeet.materialdialog/library/1.2.2/AndroidManifest.xml:8:5-10:41
+MERGED from [ch.acra:acra:4.7.0] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/ch.acra/acra/4.7.0/AndroidManifest.xml:37:5-72
+MERGED from [com.orhanobut:logger:1.11] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.orhanobut/logger/1.11/AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:7:9-38
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:6:9-35
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+		INJECTED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml
+permission#com.zhicai.byteera.permission.JPUSH_MESSAGE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:8:5-114
+	android:protectionLevel
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:8:76-111
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:8:17-75
+uses-permission#com.zhicai.byteera.permission.JPUSH_MESSAGE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:9:5-83
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:9:22-80
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:11:5-71
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:11:22-68
+uses-permission#android.permission.CAMERA
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:12:5-65
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:12:22-62
+uses-permission#android.permission.GET_TASKS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:13:22-65
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:14:22-72
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:15:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:17:22-78
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:18:5-70
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:18:22-67
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:23:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:24:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:25:5-75
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:25:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:26:5-81
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:26:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:27:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:28:5-66
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:28:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:29:5-84
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:29:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:30:5-79
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:30:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:31:5-73
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:31:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:34:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:35:5-76
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:35:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:36:5-76
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:36:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:37:5-79
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:37:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:38:5-89
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:38:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:39:5-79
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:39:22-76
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:41:5-74
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:41:22-71
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:42:5-71
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:42:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:43:5-68
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:43:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:44:5-74
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:44:22-71
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:46:5-67
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:46:22-65
+permission#android.permission.BAIDU_LOCATION_SERVICE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:48:5-76
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:48:17-73
+application
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:50:5-295:19
+MERGED from [de.hdodenhof:circleimageview:1.3.0] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.3.0/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:22.2.0] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/cardview-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:54:9-41
+	android:allowBackup
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:52:9-35
+	android:icon
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:53:9-44
+	android:theme
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:55:9-44
+	tools:replace
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:56:9-51
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:51:9-30
+uses-library#android.test.runner
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:57:9-60
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:57:23-57
+activity#com.zhicai.byteera.activity.SelectAddressActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:59:9-60:20
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:59:19-65
+activity#com.zhicai.byteera.activity.WelcomeActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:61:9-66:20
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:61:19-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:62:13-65:29
+action#android.intent.action.MAIN
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:63:17-69
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:63:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:64:17-77
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:64:27-74
+activity#com.zhicai.byteera.activity.initialize.GuideActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:67:9-71
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:67:19-68
+activity#com.zhicai.byteera.activity.MainActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:69:9-111
+	android:windowSoftInputMode
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:69:57-108
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:69:19-56
+activity#com.zhicai.byteera.activity.initialize.LoginActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:70:9-71
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:70:19-68
+activity#com.zhicai.byteera.activity.initialize.SettingActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:71:9-73
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:71:19-70
+activity#com.zhicai.byteera.activity.initialize.AboutUSActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:72:9-73
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:72:19-70
+activity#com.zhicai.byteera.activity.initialize.RegisterActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:73:9-74
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:73:19-71
+activity#com.zhicai.byteera.activity.community.dynamic.activity.PublishDynamicActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:74:9-96
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:74:19-93
+activity#com.zhicai.byteera.activity.community.dynamic.activity.AlbumActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:75:9-87
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:75:19-84
+activity#com.zhicai.byteera.activity.community.dynamic.activity.GalleryActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:76:9-89
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:76:19-86
+activity#com.zhicai.byteera.activity.community.dynamic.activity.ImageFileActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:77:9-91
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:77:19-88
+activity#com.zhicai.byteera.activity.myhome.activity.ModifyUserInfoActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:78:9-85
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:78:19-82
+activity#com.zhicai.byteera.activity.myhome.activity.ChangeNickNameActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:79:9-85
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:79:19-82
+activity#com.zhicai.byteera.activity.community.dynamic.activity.ShowAllPhotoActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:80:9-94
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:80:19-91
+activity#com.zhicai.byteera.activity.knowwealth.view.KnowWealthDetailCommentActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:81:9-83:58
+	android:windowSoftInputMode
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:83:13-55
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:82:13-85
+activity#com.zhicai.byteera.activity.community.dynamic.activity.DynamicCommentDetailActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:84:9-86:58
+	android:windowSoftInputMode
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:86:13-55
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:85:13-93
+activity#com.zhicai.byteera.activity.myhome.activity.SelectCityAcitivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:87:9-82
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:87:19-79
+activity#com.zhicai.byteera.activity.myhome.activity.ChangePwdActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:88:9-80
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:88:19-77
+activity#com.zhicai.byteera.activity.myhome.activity.ChangeCardActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:89:9-81
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:89:19-78
+activity#com.zhicai.byteera.activity.myhome.activity.MyShoucangActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:90:9-81
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:90:19-78
+activity#com.zhicai.byteera.activity.myhome.activity.MyDynamicActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:91:9-80
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:91:19-77
+activity#com.zhicai.byteera.activity.initialize.UserProtocolActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:92:9-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:92:19-75
+activity#com.zhicai.byteera.activity.myhome.activity.MyFriendsActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:93:9-80
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:93:19-77
+activity#com.zhicai.byteera.activity.myhome.activity.MyCaiBiActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:94:9-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:94:19-75
+activity#com.zhicai.byteera.activity.myhome.activity.MyFansActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:95:9-77
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:95:19-74
+activity#com.zhicai.byteera.activity.myhome.activity.MyFocusActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:96:9-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:96:19-75
+activity#com.zhicai.byteera.activity.community.dynamic.activity.UserFocusActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:97:9-91
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:97:19-88
+activity#com.zhicai.byteera.activity.community.dynamic.activity.UserFansActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:98:9-90
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:98:19-87
+activity#com.zhicai.byteera.activity.myhome.activity.MyTixianActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:99:9-79
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:99:19-76
+activity#com.zhicai.byteera.activity.message.SelectAddressActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:100:9-76
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:100:19-73
+activity#com.zhicai.byteera.activity.community.dynamic.activity.ImagePagerActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:101:9-92
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:101:19-89
+activity#com.zhicai.byteera.activity.community.topic.actiivty.TopicDetailActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:102:9-91
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:102:19-88
+activity#com.zhicai.byteera.activity.community.topic.actiivty.TopicActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:103:9-84
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:103:19-82
+activity#com.zhicai.byteera.activity.knowwealth.view.WebViewActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:104:9-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:104:19-75
+activity#com.zhicai.byteera.activity.community.group.AllGroupActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:105:9-79
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:105:19-76
+activity#com.zhicai.byteera.activity.community.group.SelelctGroupActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:106:9-83
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:106:19-80
+activity#com.zhicai.byteera.activity.community.topic.actiivty.MoreTopicActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:107:9-89
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:107:19-86
+activity#com.zhicai.byteera.activity.community.group.MyGroupActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:108:9-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:108:19-75
+activity#com.zhicai.byteera.activity.community.dynamic.activity.AdditionActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:109:9-90
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:109:19-87
+activity#com.zhicai.byteera.activity.community.topic.actiivty.PublishOpinionActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:110:9-112:57
+	android:windowSoftInputMode
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:112:13-54
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:111:13-85
+activity#com.zhicai.byteera.activity.community.topic.actiivty.InstitutionListActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:113:9-115:57
+	android:windowSoftInputMode
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:115:13-54
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:114:13-86
+activity#com.zhicai.byteera.activity.community.dynamic.activity.OrganizationInfoActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:116:9-98
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:116:19-95
+activity#com.zhicai.byteera.activity.community.dynamic.activity.UserHomeActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:117:9-90
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:117:19-87
+activity#com.zhicai.byteera.activity.community.dynamic.activity.OrganizationHomeActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:118:9-98
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:118:19-95
+activity#com.zhicai.byteera.activity.community.dynamic.activity.GroupHomeActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:119:9-91
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:119:19-88
+activity#com.zhicai.byteera.activity.community.dynamic.activity.GroupHomeSecondActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:120:9-97
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:120:19-94
+activity#com.zhicai.byteera.activity.community.dynamic.activity.RatingActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:121:9-88
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:121:19-85
+activity#com.zhicai.byteera.activity.knowwealth.view.KnowWealthDetailCommentActivity2
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:122:9-124:58
+	android:windowSoftInputMode
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:124:13-55
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:123:13-86
+activity#com.zhicai.byteera.activity.shouyi.InComeConditionActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:127:9-77
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:127:19-74
+activity#com.zhicai.byteera.activity.community.dynamic.activity.exchangerecord.CoinStoreActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:130:9-106
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:130:19-103
+activity#com.zhicai.byteera.activity.community.dynamic.activity.exchangerecord.ExchangeRecordList
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:131:9-107
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:131:19-104
+activity#com.zhicai.byteera.activity.community.dynamic.activity.exchangerecord.ExchangeActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:132:9-134:57
+	android:theme
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:134:13-54
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:133:13-96
+activity#com.zhicai.byteera.activity.message.ChatActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:137:9-67
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:137:19-64
+activity#com.zhicai.byteera.activity.message.AlertDialogActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:138:9-111
+	android:theme
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:138:72-108
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:138:19-71
+activity#com.zhicai.byteera.activity.message.ContextMenuActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:139:9-111
+	android:theme
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:139:72-108
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:139:19-71
+activity#com.zhicai.byteera.activity.message.GroupDetailsActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:140:9-75
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:140:19-72
+activity#com.zhicai.byteera.activity.message.ExitGroupDialog
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:141:9-107
+	android:theme
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:141:68-104
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:141:19-67
+activity#com.zhicai.byteera.activity.message.PickContactNoCheckboxActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:142:9-84
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:142:19-81
+activity#com.zhicai.byteera.activity.message.GroupPickContactsActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:143:9-80
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:143:19-77
+activity#com.zhicai.byteera.activity.message.ShowBigImage
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:144:9-67
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:144:19-64
+activity#com.zhicai.byteera.activity.product.ProductDetailActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:146:9-75
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:146:19-73
+activity#com.zhicai.byteera.activity.product.JumpWebActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:147:9-69
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:147:19-67
+activity#com.zhicai.byteera.activity.initialize.FindPwdActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:148:9-73
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:148:19-70
+activity#com.zhicai.byteera.activity.initialize.FindPwdActivity2
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:149:9-74
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:149:19-71
+activity#com.zhicai.byteera.activity.community.dynamic.activity.RecommendActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:150:9-91
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:150:19-88
+activity#com.zhicai.byteera.activity.knowwealth.view.KnowWealthDetailActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:151:9-87
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:151:19-84
+activity#com.zhicai.byteera.activity.message.BaiduMapActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:152:9-71
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:152:19-68
+activity#com.zhicai.byteera.activity.message.ForwardMessageActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:153:9-77
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:153:19-74
+activity#com.zhicai.byteera.activity.message.SystemMessageActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:154:9-76
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:154:19-73
+activity#com.zhicai.byteera.activity.message.SearchResultActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:155:9-75
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:155:19-72
+activity#com.zhicai.byteera.activity.message.SearchFriendActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:156:9-75
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:156:19-72
+activity#com.zhicai.byteera.activity.message.CollectionActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:157:9-73
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:157:19-70
+activity#com.zhicai.byteera.activity.traincamp.DayTaskActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:159:9-72
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:159:19-69
+activity#com.zhicai.byteera.activity.traincamp.DailyTaskActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:160:9-74
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:160:19-71
+activity#com.zhicai.byteera.activity.traincamp.activity.WealthTaskActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:161:9-84
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:161:19-81
+activity#com.zhicai.byteera.activity.traincamp.activity.GuessMissionListActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:162:9-90
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:162:19-87
+activity#com.zhicai.byteera.activity.traincamp.activity.GuessGameActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:163:9-83
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:163:19-80
+activity#com.zhicai.byteera.activity.traincamp.activity.GuessPicActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:164:9-82
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:164:19-79
+activity#com.zhicai.byteera.activity.community.dynamic.adapter.SubjectActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:165:9-88
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:165:19-85
+activity#com.zhicai.byteera.activity.community.dynamic.adapter.SubjectDetailActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:166:9-94
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:166:19-91
+service#com.zhicai.byteera.activity.traincamp.downloader.DownloadService
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:168:9-82
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:168:18-79
+activity#com.zhicai.byteera.activity.traincamp.view.AwardWebView
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:170:9-92
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:170:19-89
+activity#com.zhicai.byteera.activity.shouyi.CompaniesListActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:171:9-93
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:171:19-90
+receiver#com.zhicai.byteera.commonutil.NetworkReceiver
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:173:9-177:20
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:173:19-61
+intent-filter#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:174:13-176:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:175:17-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:175:25-76
+receiver#com.easemob.chat.StartServiceReceiver
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:180:9-186:20
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:180:19-71
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON+android.intent.category.LAUNCHER
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:181:13-185:29
+	android:priority
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:181:28-51
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:182:17-79
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:182:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:183:17-82
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:183:25-79
+meta-data#EASEMOB_APPKEY
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:189:9-191:50
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:190:13-42
+	android:value
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:191:13-47
+service#com.easemob.chat.EMChatService
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:193:9-66
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:193:18-63
+service#com.baidu.location.f
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:195:9-198:41
+	android:process
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:198:13-38
+	android:enabled
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:197:13-35
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:196:13-48
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:199:9-201:64
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:200:13-52
+	android:value
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:201:13-61
+meta-data#UMENG_APPKEY
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:203:9-91
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:203:20-47
+	android:value
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:203:48-88
+meta-data#UMENG_CHANNEL
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:204:9-70
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:204:20-48
+	android:value
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:204:49-67
+activity#com.tencent.tauth.AuthActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:207:9-214:20
+	android:noHistory
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:207:65-89
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:207:19-64
+	android:launchMode
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:207:90-121
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:208:13-213:29
+action#android.intent.action.VIEW
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:209:17-69
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:209:25-66
+category#android.intent.category.DEFAULT
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:210:17-76
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:210:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:211:17-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:211:27-75
+data
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:212:17-60
+	android:scheme
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:212:23-57
+activity#com.tencent.connect.common.AssistActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:216:9-218:77
+	android:configChanges
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:218:13-74
+	android:theme
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:217:13-72
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:216:19-75
+activity#cn.jpush.android.ui.PushActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:221:9-231:20
+	android:configChanges
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:223:13-63
+	android:theme
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:225:13-60
+	android:exported
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:224:13-37
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:222:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.zhicai.byteera
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:226:13-230:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:227:17-75
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:227:25-72
+category#com.zhicai.byteera
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:229:17-63
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:229:27-60
+service#cn.jpush.android.service.DownloadService
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:233:9-123
+	android:exported
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:233:97-121
+	android:enabled
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:233:74-96
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:233:18-73
+service#cn.jpush.android.service.PushService
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:234:9-245:19
+	android:exported
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:237:13-37
+	android:enabled
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:236:13-35
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:235:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:239:13-244:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:240:17-75
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:240:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:241:17-73
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:241:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:242:17-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:242:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:243:17-76
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:243:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:247:9-254:19
+	android:exported
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:249:13-36
+	android:enabled
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:248:13-35
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:247:18-71
+intent-filter#cn.jpush.android.intent.DaemonService+com.zhicai.byteera
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:250:13-253:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:251:17-80
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:251:25-77
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:256:9-274:20
+	android:exported
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:259:13-37
+	android:enabled
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:258:13-35
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:257:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.zhicai.byteera
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:260:13-263:29
+	android:priority
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:260:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:261:17-94
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:261:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:264:13-267:29
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:265:17-77
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:265:25-74
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:268:13-273:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:269:17-78
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:269:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:270:17-80
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:270:25-77
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:277:9-100
+	android:exported
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:277:73-97
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:277:19-72
+receiver#com.zhicai.byteera.jpush.JpushReceiver
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:278:9-289:20
+	android:enabled
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:278:55-77
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:278:19-54
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+cn.jpush.android.intent.UNREGISTRATION+com.zhicai.byteera
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:279:13-288:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:280:17-79
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:280:25-76
+action#cn.jpush.android.intent.UNREGISTRATION
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:281:17-81
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:281:25-78
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:282:17-83
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:282:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:283:17-88
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:283:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:284:17-86
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:284:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:285:17-91
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:285:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:286:17-77
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:286:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:292:9-85
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:292:20-48
+	android:value
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:292:49-82
+meta-data#JPUSH_APPKEY
+ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:293:9-91
+	android:name
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:293:20-47
+	android:value
+		ADDED from /Users/chenzhenxing/Desktop/byteera/ByteEra/AndroidManifest.xml:293:48-88

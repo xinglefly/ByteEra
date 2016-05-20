@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/rl_head"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/group_bg"
+    android:orientation="vertical">
+
+    <!--<com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_group_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:text="理财大家庭"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/font_small8_size"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <com.zhicai.byteera.widget.CircleView
+            android:id="@+id/iv_head"
+            android:layout_width="108dp"
+            android:layout_height="108dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/jimuhezi"
+            zhicai:border_outside_color="#55ffffff"
+            zhicai:border_thickness="8dp"/>
+
+        <RelativeLayout
+            android:id="@+id/focus_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/iv_head">
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_dynamicnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="5dp"
+                android:text="8"
+                android:textColor="#f9983e"/>
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_dynamicnum"
+                android:text="今日动态"
+                android:textColor="#f9983e"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/iv_head">
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_commentnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:text="110"
+                android:textColor="#f9983e"/>
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_fans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_commentnum"
+                android:layout_centerHorizontal="true"
+                android:text="评论数"
+                android:textColor="#f9983e"/>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="理财分享，经验交流，大家联谊分享"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_guanzhu"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/group_guanzhu_bg"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_guanzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/group_guanzhu"/>
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_guanzhu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/iv_guanzhu"
+                android:gravity="center"
+                android:text="关注"
+                android:textColor="#ffffff"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_fans"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/group_guanzhu_bg"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_fans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/group_fans"/>
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/iv_fans"
+                android:gravity="center"
+                android:text="粉丝"
+                android:textColor="#ffffff"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>-->
+</LinearLayout>

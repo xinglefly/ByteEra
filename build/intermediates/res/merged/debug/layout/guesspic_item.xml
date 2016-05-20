@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_centerInParent="true"
+    android:layout_width="93dp"
+    android:layout_height="93dp">
+
+    <RelativeLayout
+        android:id="@+id/rel_guesspic"
+        android:layout_width="93dp"
+        android:layout_height="93dp"
+        android:background="#F38787"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/img_num"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_levelname"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/guess_1" />
+
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_levelname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:text="综合-初级"
+            android:textSize="@dimen/font_small6_size" />
+
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_guessid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_guessurl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+</FrameLayout>

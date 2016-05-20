@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_avatar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:src="@drawable/topic_hot" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:text="话题:聊聊你最喜欢的羊毛发动机上课了发动机上开了房间数量附近的克拉数据反馈的理解可怜的进口量是"
+        android:textColor="#222222"
+        android:textSize="@dimen/font_small5_size" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_title"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@id/iv_avatar"
+        android:lineSpacingExtra="3dp"
+        android:text="那么多的羊毛  你最喜欢死很么牌子的呢  fdf放大放大了松岛枫佛挡杀佛鬼斧神工"
+        android:textColor="#373737"
+        android:textSize="@dimen/font_small3_size" />
+
+    <com.zhicai.byteera.widget.NoScrollGridView
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_content"
+        android:layout_alignRight="@+id/tv_content"
+        android:layout_below="@+id/tv_content"
+        android:background="#00000000"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"
+        android:scrollbars="none" />
+</RelativeLayout>

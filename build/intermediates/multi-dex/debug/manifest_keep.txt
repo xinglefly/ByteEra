@@ -1,0 +1,111 @@
+-keep class com.zhicai.byteera.MyApp {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.zhicai.byteera.activity.SelectAddressActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.WelcomeActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.initialize.GuideActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.MainActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.initialize.LoginActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.initialize.SettingActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.initialize.AboutUSActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.initialize.RegisterActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.PublishDynamicActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.AlbumActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.GalleryActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.ImageFileActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.ModifyUserInfoActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.ChangeNickNameActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.ShowAllPhotoActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.knowwealth.view.KnowWealthDetailCommentActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.DynamicCommentDetailActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.SelectCityAcitivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.ChangePwdActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.ChangeCardActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.MyShoucangActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.MyDynamicActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.initialize.UserProtocolActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.MyFriendsActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.MyCaiBiActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.MyFansActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.MyFocusActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.UserFocusActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.UserFansActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.myhome.activity.MyTixianActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.SelectAddressActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.ImagePagerActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.topic.actiivty.TopicDetailActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.topic.actiivty.TopicActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.knowwealth.view.WebViewActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.group.AllGroupActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.group.SelelctGroupActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.topic.actiivty.MoreTopicActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.group.MyGroupActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.AdditionActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.topic.actiivty.PublishOpinionActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.topic.actiivty.InstitutionListActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.OrganizationInfoActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.UserHomeActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.OrganizationHomeActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.GroupHomeActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.GroupHomeSecondActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.RatingActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.knowwealth.view.KnowWealthDetailCommentActivity2 { <init>(); }
+-keep class com.zhicai.byteera.activity.shouyi.InComeConditionActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.exchangerecord.CoinStoreActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.exchangerecord.ExchangeRecordList { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.exchangerecord.ExchangeActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.ChatActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.AlertDialogActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.ContextMenuActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.GroupDetailsActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.ExitGroupDialog { <init>(); }
+-keep class com.zhicai.byteera.activity.message.PickContactNoCheckboxActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.GroupPickContactsActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.ShowBigImage { <init>(); }
+-keep class com.zhicai.byteera.activity.product.ProductDetailActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.product.JumpWebActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.initialize.FindPwdActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.initialize.FindPwdActivity2 { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.activity.RecommendActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.knowwealth.view.KnowWealthDetailActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.BaiduMapActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.ForwardMessageActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.SystemMessageActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.SearchResultActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.SearchFriendActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.message.CollectionActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.traincamp.DayTaskActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.traincamp.DailyTaskActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.traincamp.activity.WealthTaskActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.traincamp.activity.GuessMissionListActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.traincamp.activity.GuessGameActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.traincamp.activity.GuessPicActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.adapter.SubjectActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.community.dynamic.adapter.SubjectDetailActivity { <init>(); }
+-keep class com.zhicai.byteera.activity.traincamp.downloader.DownloadService { <init>(); }
+-keep class com.zhicai.byteera.activity.traincamp.view.AwardWebView { <init>(); }
+-keep class com.zhicai.byteera.activity.shouyi.CompaniesListActivity { <init>(); }
+-keep class com.zhicai.byteera.commonutil.NetworkReceiver { <init>(); }
+-keep class com.easemob.chat.StartServiceReceiver { <init>(); }
+-keep class com.easemob.chat.EMChatService { <init>(); }
+-keep class com.baidu.location.f { <init>(); }
+-keep class com.tencent.tauth.AuthActivity { <init>(); }
+-keep class com.tencent.connect.common.AssistActivity { <init>(); }
+-keep class cn.jpush.android.ui.PushActivity { <init>(); }
+-keep class cn.jpush.android.service.DownloadService { <init>(); }
+-keep class cn.jpush.android.service.PushService { <init>(); }
+-keep class cn.jpush.android.service.DaemonService { <init>(); }
+-keep class cn.jpush.android.service.PushReceiver { <init>(); }
+-keep class cn.jpush.android.service.AlarmReceiver { <init>(); }
+-keep class com.zhicai.byteera.jpush.JpushReceiver { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}
+-keep class com.android.tools.fd.** {
+    *;
+}
+-dontnote com.android.tools.fd.**,android.support.multidex.MultiDexExtractor

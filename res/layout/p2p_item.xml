@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="3dp"
+    android:background="@color/default_white"
+    android:gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/img_p2p_head"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="@dimen/margin"
+        android:background="@color/black" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_p2p_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_oneside"
+        android:layout_toRightOf="@id/img_p2p_head"
+        android:text="P2P词典"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_medium_size" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_p2p_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_p2p_title"
+        android:layout_marginLeft="@dimen/margin_oneside"
+        android:layout_marginTop="35dp"
+        android:layout_toRightOf="@id/img_p2p_head"
+        android:text="知财"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/font_small6_size" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/margin_oneside"
+        android:layout_centerVertical="true"
+        android:src="@drawable/into" />
+
+</RelativeLayout>

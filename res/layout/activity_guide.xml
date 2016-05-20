@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center" />
+
+        <RelativeLayout
+            android:id="@+id/rl_imgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/frame_30dp">
+
+            <ImageView
+                android:id="@+id/iv_1"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:src="@drawable/point_selected" />
+
+            <ImageView
+                android:id="@+id/iv_2"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_marginLeft="@dimen/frame_05dp"
+                android:layout_marginRight="@dimen/frame_05dp"
+                android:layout_toRightOf="@id/iv_1"
+                android:src="@drawable/point_unselected" />
+
+            <ImageView
+                android:id="@+id/iv_3"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_toRightOf="@id/iv_2"
+                android:src="@drawable/point_unselected" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_jump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="110dp"
+            android:text="跳过"
+            android:textSize="@dimen/font_small2_size"
+            android:textColor="#888888" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

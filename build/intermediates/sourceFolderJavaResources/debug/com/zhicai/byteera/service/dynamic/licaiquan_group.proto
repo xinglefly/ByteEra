@@ -1,0 +1,78 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.dynamic";
+option java_outer_classname = "DynamicGroup";
+
+message LicaiquanGroup {
+    required string group_id = 1;
+    required string name = 2;
+    required string image = 3;
+    required uint32 people_cnt = 4;
+    required bool watched = 5;
+    required string description = 6;
+    required uint32 dongtai_today_cnt = 7;
+    required uint32 comment_cnt = 8;
+    required string chat_group_id = 9;
+}
+
+message GetAllGroupReq {
+    optional string user_id = 1;                // ??
+    optional string pg_base = 2;                // 小组id(分页参数, 作为基准点)
+    optional uint32 pg_isafter = 3;             // 方向(分页参数, 1:之后, 0:之前)
+}
+
+message GetAllGroupResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiquanGroup group = 3;
+}
+
+message GetUserGroupReq {
+    required string user_id = 1;                // 用户id
+    optional string pg_base = 2;                // 用户id(分页参数, 作为基准点)
+    optional uint32 pg_isafter = 3;             // 方向(分页参数, 1:之后, 0:之前)
+}
+
+message GetUserGroupResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiquanGroup group = 3;
+}
+
+message EnterGroupApplyReq {
+    required string my_user_id = 1;
+    required string group_id = 2;
+}
+
+message EnterGroupApplyResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional bool watched = 3;
+}
+
+message GetGroupMemberReq {
+    required string group_id = 1;
+}
+
+message GetGroupMemberResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated NormalUser user = 3;
+}
+
+/*
+service chronos {
+    //[UPDATE]获取所有组(带分页, 10条/页)
+    rpc licaiquan_get_all_group(GetAllGroupReq) returns (GetAllGroupResponse);
+
+    //[UPDATE]获取某用户加入的小组(带分页, 10条/页)
+    rpc licaiquan_get_user_group(GetUserGroupReq) returns (GetUserGroupResponse);
+
+    //加入小组
+    rpc licaiquan_enter_group_apply(EnterGroupApplyReq) returns (EnterGroupApplyResponse);
+
+    rpc licaiquan_get_group_member(GetGroupMemberReq) returns (GetGroupMemberResponse);
+}
+*/

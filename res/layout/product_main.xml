@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white">
+
+    <View
+        android:id="@+id/top_head"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/head_view_bg"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:id="@+id/ll_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_head"
+        android:background="@color/head_view_bg"
+        android:orientation="horizontal">
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/id_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/view"
+            app:tabIndicatorColor="#FDDC39"
+            app:tabSelectedTextColor="#ffffff"
+            app:tabTextColor="#BEF9FF" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="7dp"
+            android:layout_toLeftOf="@+id/qiehuan"
+            android:background="@color/white" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/qiehuan"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/qiehuan_shape"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="4dp"
+            android:text="排名"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small3_size" />
+    </RelativeLayout>
+
+    <com.zhicai.byteera.widget.MyViewPager
+        android:id="@+id/bank_pager"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_indicator" />
+</RelativeLayout>

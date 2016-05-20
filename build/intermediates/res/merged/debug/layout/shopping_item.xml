@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="180dp"
+    android:layout_height="190dp"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:id="@+id/iv_shopping_pic"
+        android:layout_width="110dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/consult_default" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_shopping_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_shopping_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/frame_05dp"
+        android:layout_marginRight="@dimen/frame_05dp"
+        android:layout_marginTop="15dp"
+        android:padding="2dp"
+        android:singleLine="true"
+        android:text="50元话费(有信App)几大姐夫i饿急急急"
+        android:textColor="#121212"
+        android:textSize="@dimen/font_small6_size" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_shopping_name"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_shopping_coin"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textview_shopping_corner"
+            android:drawableLeft="@drawable/jinbi"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="1000"
+            android:textColor="#898989"
+            android:textSize="@dimen/font_small6_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_shopping_remain"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/frame_06dp"
+            android:background="@drawable/textview_shopping_remain_corner"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="剩余2033"
+            android:textColor="#ff5500"
+            android:textSize="@dimen/font_small6_size" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rl_head"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#287db5">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_head"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/jimuhezi"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_toRightOf="@+id/iv_head">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="理财大家庭"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_small8_size"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:text="肥嘟嘟三个防水开关和粉色的咖啡打开打算"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_intro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_head"
+        android:layout_toRightOf="@+id/iv_head">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fdjklfa"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_intro"
+        android:layout_marginTop="10dp"
+        android:background="#44000000"
+       >
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:padding="10dp">-->
+
+            <!--<com.zhicai.byteera.widget.MyTextView-->
+                <!--android:id="@+id/tv_focus"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:drawableLeft="@drawable/follow"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:text="关注"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="@dimen/font_small6_size"/>-->
+        <!--</RelativeLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="@color/alpha_black"/>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:padding="10dp">-->
+
+            <!--<com.zhicai.byteera.widget.MyTextView-->
+                <!--android:id="@+id/tv_chat"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true"-->
+                <!--android:drawableLeft="@drawable/chat"-->
+                <!--android:drawablePadding="5dp"-->
+                <!--android:text="聊天"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="@dimen/font_small6_size"/>-->
+        <!--</RelativeLayout>-->
+
+        <!--<View-->
+            <!--android:layout_width="1dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center_vertical"-->
+            <!--android:layout_marginBottom="5dp"-->
+            <!--android:layout_marginTop="5dp"-->
+            <!--android:background="@color/alpha_black"/>-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1"-->
+            <!--android:padding="10dp">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerInParent="true">-->
+
+                <!--<com.zhicai.byteera.widget.MyTextView-->
+                    <!--android:id="@+id/tv_fans"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+
+                    <!--android:text="粉丝"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="@dimen/font_small6_size"/>-->
+
+                <!--<com.zhicai.byteera.widget.MyTextView-->
+                    <!--android:id="@+id/tv_fans_num"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:layout_marginLeft="5dp"-->
+                    <!--android:layout_toRightOf="@+id/tv_fans"-->
+                    <!--android:text="100"-->
+                    <!--android:textColor="@color/white"-->
+                    <!--android:textSize="@dimen/font_small6_size"/>-->
+            <!--</RelativeLayout>-->
+
+        <!--</RelativeLayout>-->
+    </LinearLayout>
+
+</RelativeLayout>

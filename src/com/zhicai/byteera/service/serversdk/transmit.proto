@@ -1,0 +1,26 @@
+package serversdkproto;
+
+option java_package = "com.zhicai.byteera.service.serversdk";
+option java_outer_classname = "TransmitProtos";
+
+message ClientRequest {
+    required string msg_id = 1;
+    required string cluster = 2;
+    required string op_type = 3;
+    required string payload = 4;
+    required string interface_version = 5;      // interface version
+    required string protocol_version = 6;       // protocol version
+    optional bool stick_routing = 7;
+    optional bool trace = 8;
+}
+
+message ServerResponse {
+    enum ServerMsgType {
+        NormalResponse = 1;
+        Push = 2;
+    }
+    required string msg_id = 1;
+    required string payload = 2;
+    required ServerMsgType msg_type= 3;
+    optional string trace_info = 4;
+}

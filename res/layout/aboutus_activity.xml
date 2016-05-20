@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/head_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zhicai:leftImg="@drawable/arrow"
+        zhicai:titleName="关于我们" />
+
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/start_logo" />
+
+    <TextView
+        android:id="@+id/tv_zhicai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:text="知财"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_small5_size" />
+
+
+    <TextView
+        android:id="@+id/tv_version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_zhicai"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:text="Android  1.0.0版"
+        android:textColor="#ff3775"
+        android:textSize="@dimen/font_small3_size" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/tv_version"
+        android:layout_marginLeft="@dimen/frame_36dp"
+        android:layout_marginRight="@dimen/frame_36dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/gray" />
+
+
+    <TextView
+        android:id="@+id/tv_weixin"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginLeft="@dimen/frame_36dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:text="微信公众号"
+        android:textColor="#364054"
+        android:textSize="@dimen/font_small5_size" />
+
+    <TextView
+        android:id="@+id/tv_weixin_value"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view"
+        android:layout_marginRight="@dimen/frame_26dp"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:layout_toRightOf="@id/tv_weixin"
+        android:gravity="left"
+        android:text="zhicaijun"
+        android:textColor="#364054"
+        android:textSize="@dimen/font_small4_size" />
+
+
+    <TextView
+        android:id="@+id/tv_web"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_weixin"
+        android:layout_marginLeft="@dimen/frame_36dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:text="官方网站"
+        android:textColor="#364054"
+        android:textSize="@dimen/font_small5_size" />
+
+    <TextView
+        android:id="@+id/tv_web_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_weixin"
+        android:layout_marginRight="@dimen/frame_26dp"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:layout_toRightOf="@id/tv_weixin"
+        android:gravity="left"
+        android:text="wwww.myzhicai.com"
+        android:textColor="#364054"
+        android:textSize="@dimen/font_small4_size" />
+
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_web"
+        android:layout_marginLeft="@dimen/frame_36dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:text="反馈邮箱"
+        android:textColor="#364054"
+        android:textSize="@dimen/font_small5_size" />
+
+    <TextView
+        android:id="@+id/tv_email_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_web"
+        android:layout_marginRight="@dimen/frame_26dp"
+        android:layout_marginTop="@dimen/frame_20dp"
+        android:layout_toRightOf="@id/tv_email"
+        android:gravity="left"
+        android:text="support@zijiehulian.com"
+        android:textColor="#364054"
+        android:textSize="@dimen/font_small4_size" />
+
+
+    <TextView
+        android:id="@+id/tv_copyright"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_company"
+        android:layout_marginBottom="@dimen/frame_08dp"
+        android:gravity="center"
+        android:text="版权所有"
+        android:textColor="#0b51b0"
+        android:textSize="@dimen/font_small4_size" />
+
+
+    <TextView
+        android:id="@+id/tv_company"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/frame_08dp"
+        android:gravity="center"
+        android:text="北京字节互联信息科技有限公司"
+        android:textColor="#364054"
+        android:textSize="@dimen/font_small4_size" />
+
+
+</RelativeLayout>

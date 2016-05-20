@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/dialog_background"
+    android:paddingTop="@dimen/frame_20dp">
+
+    <TextView
+        android:id="@+id/tv_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/frame_05dp"
+        android:drawableLeft="@drawable/measure"
+        android:drawablePadding="@dimen/frame_10dp"
+        android:gravity="center"
+        android:text="收益计算"
+        android:textColor="#4E4E4E"
+        android:textSize="@dimen/font_small7_size" />
+
+    <ImageView
+        android:id="@+id/img_back"
+        android:layout_width="@dimen/frame_15dp"
+        android:layout_height="@dimen/frame_15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/frame_15dp"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:src="@drawable/product_exit" />
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_below="@id/tv_calculate"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginTop="@dimen/frame_15dp"
+        android:background="@color/gray" />
+
+
+    <TextView
+        android:id="@+id/tv_money"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="金额"
+        android:textColor="#4E4E4E"
+        android:textSize="@dimen/font_small7_size" />
+
+
+    <EditText
+        android:id="@+id/et_money_val"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view1"
+        android:background="@drawable/edit_shouyi"
+        android:gravity="right"
+        android:layout_toLeftOf="@+id/tv_yuan"
+        android:inputType="number"
+        android:maxEms="6"
+        android:singleLine="true"
+        android:text="0"
+        android:textColor="#ff3775"
+        android:textSize="@dimen/font_small7_size" />
+
+    <TextView
+        android:id="@+id/tv_yuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/view1"
+        android:layout_marginRight="@dimen/frame_15dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="元"
+        android:textColor="#ff3775"
+        android:textSize="@dimen/font_small7_size" />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_below="@id/tv_money"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginTop="@dimen/frame_15dp"
+        android:background="@color/gray" />
+
+
+    <TextView
+        android:id="@+id/tv_limit"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view2"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="期限"
+        android:textColor="#4E4E4E"
+        android:textSize="@dimen/font_small7_size" />
+
+
+    <TextView
+        android:id="@+id/tv_limit_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/view2"
+        android:layout_marginRight="@dimen/frame_15dp"
+        android:text="0天"
+        android:textColor="#ff3775"
+        android:textSize="@dimen/font_small7_size" />
+
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="fill_parent"
+        android:layout_height="0.2dp"
+        android:layout_below="@id/tv_limit"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginTop="@dimen/frame_15dp"
+        android:background="@color/gray" />
+
+
+    <TextView
+        android:id="@+id/tv_expect"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view3"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="产品预期收益"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small7_size" />
+
+
+    <TextView
+        android:id="@+id/tv_expect_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/view3"
+        android:layout_marginRight="@dimen/frame_15dp"
+        android:text="0元"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small7_size" />
+
+    <TextView
+        android:id="@+id/tv_current"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_expect"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:layout_marginTop="@dimen/frame_15dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="银行活期收益"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small7_size" />
+
+
+    <TextView
+        android:id="@+id/tv_current_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_expect"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginRight="@dimen/frame_15dp"
+        android:layout_marginTop="@dimen/frame_15dp"
+        android:text="0元"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small7_size" />
+
+    <TextView
+        android:id="@+id/tv_yuebao"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_current"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="余额宝"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small7_size" />
+
+
+    <TextView
+        android:id="@+id/tv_yuebao_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_current"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginRight="@dimen/frame_15dp"
+        android:text="0元"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small7_size" />
+
+    <TextView
+        android:id="@+id/tv_deferral"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_yuebao"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginLeft="@dimen/frame_15dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:text="半年定存"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small7_size" />
+
+
+    <TextView
+        android:id="@+id/tv_deferral_val"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_yuebao"
+        android:layout_marginBottom="@dimen/frame_15dp"
+        android:layout_marginRight="@dimen/frame_15dp"
+        android:text="0元"
+        android:textColor="#838383"
+        android:textSize="@dimen/font_small7_size" />
+
+
+</RelativeLayout>

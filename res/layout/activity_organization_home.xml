@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_white">
+
+    <com.zhicai.byteera.activity.community.dynamic.view.OrganizationHomeHeadView
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        zhicai:background="@color/transparent"
+        zhicai:leftImg="@drawable/arrow" />
+
+
+    <com.zhicai.byteera.widget.HasHeadLoadMoreListViewNoMeasure
+        android:id="@+id/list_view"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:scrollbars="none" />
+
+
+    <RelativeLayout
+        android:id="@+id/rl_dianping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/default_white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/publish_opinion_shape">
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@+id/iv"
+                android:drawableLeft="@drawable/comment"
+                android:drawablePadding="8dp"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:text="去点评"
+                android:textColor="#777777"
+                android:textSize="@dimen/font_small4_size" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+

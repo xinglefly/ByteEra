@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <include
+        layout="@layout/head_view_guess"
+        android:id="@+id/guess_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/guess_header"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/rel_primary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_oneside"
+                android:visibility="gone">
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_primary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/margin"
+                    android:layout_marginLeft="@dimen/margin_oneside"
+                    android:text=""
+                    android:textSize="@dimen/font_medium_size" />
+
+
+                <com.zhicai.byteera.activity.traincamp.util.ExpandGridView
+                    android:id="@+id/gv_primary"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@id/tv_primary"
+                    android:gravity="center"
+                    android:numColumns="3"
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="10dp" />
+
+                <View
+                    style="@style/viewLine"
+                    android:layout_below="@id/gv_primary"
+                    android:layout_marginTop="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_middle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_oneside"
+                android:visibility="gone">
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_middle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/margin"
+                    android:layout_marginLeft="@dimen/margin_oneside"
+                    android:text=""
+                    android:textSize="@dimen/font_medium_size" />
+
+                <com.zhicai.byteera.activity.traincamp.util.ExpandGridView
+                    android:id="@+id/gv_middle"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@id/tv_middle"
+                    android:gravity="center"
+                    android:numColumns="3"
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="10dp" />
+
+                <View
+                    style="@style/viewLine"
+                    android:layout_below="@id/gv_middle"
+                    android:layout_marginTop="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_high"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_oneside"
+                android:visibility="gone">
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_high"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/margin"
+                    android:text=""
+                    android:layout_marginLeft="@dimen/margin_oneside"
+                    android:textSize="@dimen/font_medium_size" />
+
+                <com.zhicai.byteera.activity.traincamp.util.ExpandGridView
+                    android:id="@+id/gv_high"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@id/tv_high"
+                    android:gravity="center"
+                    android:numColumns="3"
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="10dp" />
+
+                <View
+                    style="@style/viewLine"
+                    android:layout_below="@id/gv_high"
+                    android:layout_marginTop="20dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_composite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_oneside"
+                android:visibility="gone">
+
+                <com.zhicai.byteera.widget.MyTextView
+                    android:id="@+id/tv_composite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|left"
+                    android:padding="@dimen/margin"
+                    android:layout_marginLeft="@dimen/margin_oneside"
+                    android:text=""
+                    android:textSize="@dimen/font_medium_size" />
+
+                <com.zhicai.byteera.activity.traincamp.util.ExpandGridView
+                    android:id="@+id/gv_composite"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@id/tv_composite"
+                    android:gravity="center"
+                    android:numColumns="3"
+                    android:horizontalSpacing="10dp"
+                    android:verticalSpacing="10dp" />
+
+                <View
+                    style="@style/viewLine"
+                    android:layout_below="@id/gv_composite"
+                    android:layout_marginTop="20dp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

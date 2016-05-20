@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/group_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selectcity_index_bg"
+        android:gravity="left|center"
+        android:paddingBottom="5.0dip"
+        android:paddingLeft="14.0dip"
+        android:paddingRight="14.0dip"
+        android:paddingTop="5.0dip"
+        android:text="D"
+        android:textColor="#ff2f2f2f"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/group_title"
+        android:paddingBottom="@dimen/margin"
+        android:paddingLeft="@dimen/margin"
+        android:paddingRight="20dp"
+        android:paddingTop="@dimen/margin">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/head_view"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:src="@drawable/add_friends_icon_address"
+            zhicai:type="circle" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_item_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_weight="1"
+            android:text="我的名字"
+            android:textColor="@color/black_text"
+            android:textSize="@dimen/font_small7_size" />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <CheckBox
+                android:id="@+id/cb_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="false"
+                android:focusable="false" />
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_yaoqing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="邀请"
+                android:textColor="@color/know_text_color" />
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

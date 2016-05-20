@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/default_white"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingTop="10dp">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_item_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_toRightOf="@id/img_item_head"
+        android:singleLine="true"
+        android:text="春暖花开"
+        android:textColor="#000000"
+        android:textSize="@dimen/font_small4_size"/>
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_fenxiang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_toRightOf="@+id/tv_item_title"
+        android:text="分享一个链接"
+        android:textSize="@dimen/font_small2_size"/>
+    <!-- dynamic layout -->
+    <LinearLayout
+        android:id="@+id/rel_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_item_title"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_toRightOf="@id/img_item_head"
+        android:orientation="vertical">
+        <!-- 显示全部，字数限制未知 -->
+        <include layout="@layout/content_all"/>
+        <!-- 查看详情 -->
+        <include layout="@layout/content_part"/>
+        <!-- 专题 -->
+        <include layout="@layout/content_link"/>
+
+    </LinearLayout>
+    <!-- time -->
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tv_item_title"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"
+        android:text="3月20日 "
+        android:textSize="@dimen/small_size"/>
+    <!-- praise -->
+    <RelativeLayout
+        android:id="@+id/prise_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rel_content"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_toLeftOf="@+id/revert_container">
+
+        <ImageView
+            android:id="@+id/img_praise"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/heart_detail"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_item_praisecount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/img_praise"
+            android:gravity="center"
+            android:text="622"
+            android:textSize="@dimen/small_size"/>
+    </RelativeLayout>
+
+    <!-- revert -->
+    <RelativeLayout
+        android:id="@+id/revert_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/rel_content"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginTop="@dimen/margin">
+
+        <ImageView
+            android:id="@+id/img_revert"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="5dp"
+
+            android:src="@drawable/icon_comment"/>
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_item_revertvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/img_revert"
+            android:gravity="center"
+            android:text="580"
+            android:textSize="@dimen/small_size"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/revert_container"
+        android:layout_marginTop="8dp"
+        android:background="@color/line"/>
+</RelativeLayout>

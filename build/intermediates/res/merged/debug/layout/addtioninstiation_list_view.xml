@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_p2p"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/addtion_item_bg"
+            android:gravity="center"
+            android:text="P2P" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/tv_zhongchou"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/addtion_item_bg"
+            android:gravity="center"
+            android:tag="2"
+            android:text="众筹" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <TextView
+            android:id="@+id/tv_bank"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/addtion_item_bg"
+            android:gravity="center"
+            android:tag="3"
+            android:text="直销银行" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="1px"
+        android:layout_height="match_parent"
+        android:background="@color/line" />
+
+    <com.zhicai.byteera.widget.LoadMoreListView
+        android:id="@+id/load_more_list_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:listSelector="#00000000" />
+</LinearLayout>
+

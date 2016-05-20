@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/guide_3">
+
+    <Button
+        android:id="@+id/mstart"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/find_pwd_selector"
+        android:text="开启知财"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_small8_size" />
+
+</RelativeLayout>

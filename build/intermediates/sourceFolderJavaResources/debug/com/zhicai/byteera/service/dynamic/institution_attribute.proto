@@ -1,0 +1,188 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.dynamic";
+
+option java_outer_classname = "InstitutionAttribute";
+
+//+ 获取机构列表
+message InstitutionListReq {
+    required uint32 client_version = 1;           // 传入手机端机构列表版本号
+}
+
+message InstitutionListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated InstituteUser instituteUser = 3;     // 机构用户列表，如果手机端版本号和服务端版本号一致，此列表为空
+    required uint32 server_version = 4;           // 服务端机构列表版本号
+}
+
+
+
+message InstitutionGetByTypeReq {
+    optional string user_id = 1;
+    optional string institute_user_id = 2;  //当前机构id, 用于分页
+    optional bool isafter = 3;  //方向, 用于分页
+    required InstituteType institute_type = 4;  //类型
+}
+
+message InstitutionGetByTypeResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated InstituteUserWithRelation instituteUser_with_rel = 3;     //机构用户列表(包含是否已关注的标识), 按id升序排列, 每次返回20个(如满足条件的不足20个, 则返回所有满足条件的)
+}
+
+
+// 获取全量机构列表
+message FinancingCompanyListReq {
+}
+
+message FinancingCompanyListResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated FinancingCompany financing_company = 3;
+}
+
+
+//  获取机构发言人用户属性, 服务端返回 GetInstitutionAttrResponse
+message GetInstitutionAttrReq {
+    required string user_id = 1;
+    optional string user_id2 = 2; //通过user_id2来判断有没有关注该机构
+}
+message GetInstitutionAttrResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string institution_id = 3;
+    optional string head_portrait = 4;
+    optional string institution_name = 5; // 机构名字
+    optional uint32 fans_user_cnt = 6; // 粉丝数
+    optional uint32 dongtai_cnt = 7; // 动态消息数
+    optional uint32 chanpin_cnt = 8; // 产品条数
+    optional bool watched = 9; // 返回是否关注了该机构
+    optional uint32 score = 10;           // 平均分数
+    optional uint32 risk_score = 11;      // 风险分数
+    optional uint32 exp_score = 12;       // 体验分数
+    optional uint32 income_score = 13;    // 收益分数
+    optional uint32 evaluate_user_count = 14; // 参与评分的人数
+    optional bool evaluated = 15;        // true 已评分 false 未评分。 如果未登录则返回数据无此字段
+    optional InstituteType institute_type = 16;
+    optional float latest_amount = 17;        // 昨日成交额, 单位为万元
+    optional uint32 latest_investors = 18;     // 昨日投资人数, 单位为人
+}
+
+//  获取机构公司属性, 服务端返回 GetInstitutionCompanyAttrResponse
+message GetInstitutionCompanyAttrReq {
+    required string inst_user_id = 1;
+}
+
+message P2PCompanyInfo {
+    required string name = 1;                        // 名称
+    required string registered_capital = 2;          // 注册资本
+    required string trusteeship = 3;                 // 资金托管
+    required bool auto_bid = 4;                      // 自动投标
+    required bool debt_transfer = 5;                 // 债权转让
+    required string bid_ensure = 6;                  // 投标保障
+    required string ensure_model = 7;                // 保障模式
+    required string financing_history = 8;           // 融资情况
+    required string manage_cost = 9;                 // 管理费
+    required string recharge_cost = 10;              // 充值费
+    required string withdraw_cost = 11;              // 提现费
+    required string vip_yearly_payment = 12;         // VIP费用
+    required string full_name = 13;                  // 隶属公司
+    required string area = 14;                       // 所在地
+    required string online_time = 15;                // 上线时间
+    required string corporate_representative = 16;   // 法人
+    required string website = 17;                    // 网址
+    required string icp = 18;                        // ICP备案号
+    required string customer_service = 19;           // 客服
+    required string lixifeiyong = 20;                // 利息费用
+}
+
+message ZhongchouCompanyInfo {
+    required string name = 1;                  // 名称
+    required string full_name = 2;             // 隶属公司
+    required string icp = 3;                   // ICP备案号
+    required string model = 4;                 // 业务模式
+    required string product  = 5;              // 主要产品
+    required string website = 6;               // 网址
+    required string recharge_limit = 7;       // 充值提现限制
+    required string limit_amount = 8;         // 起投金额
+}
+
+message GetInstitutionCompanyAttrResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string inst_user_id = 3;           // 机构发言人用户id
+    optional P2PCompanyInfo p2p_company_info = 4;
+    optional ZhongchouCompanyInfo zhongchou_company_info = 5;
+}
+
+message DoEvaluateReq {
+    required string inst_user_id = 1;
+    required string my_user_id = 2;
+    required uint32 risk_score = 3;
+    required uint32 exp_score = 4;
+    required uint32 income_score = 5;
+}
+
+message DoEvaluateResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string inst_user_id = 3;
+    optional uint32 score = 4;        // 平均分数
+    optional uint32 risk_score = 5;   // 风险分数
+    optional uint32 exp_score = 6;    // 体验分数
+    optional uint32 income_score = 7; // 收益分数
+    optional uint32 evaluate_user_count = 8; // 参与评分的人数
+}
+
+
+//关注或取消关注机构
+message WatchInstitutionReq {
+    required string user_id = 1;  //机构用户
+    required string other_user_id = 2;  //用户
+}
+
+message WatchInstitutionResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional bool watched = 3; //返回是否关注改机构
+}
+
+message GetInstituteProductReq {
+    required string inst_user_id = 1;
+    optional string normal_user_id = 2;
+}
+
+
+message GetInstituteProductResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    required string inst_user_id = 3;
+    repeated LicaiProduct product = 4;
+}
+
+/*
+service chronos {
+
+    rpc get_institution_list(InstitutionListReq) returns (InstitutionListResponse);
+
+    //根据类别获取机构, 包含是否已关注的标识, 带分页.
+    rpc institution_get_by_type(InstitutionGetByTypeReq) returns (InstitutionGetByTypeResponse);
+
+    // 获取机构用户详情
+    rpc get_institution_attr(GetInstitutionAttrReq) returns (GetInstitutionAttrResponse);
+
+    rpc get_institution_company_attr(GetInstitutionCompanyAttrReq) returns (GetInstitutionCompanyAttrResponse);
+
+    rpc do_evaluate(DoEvaluateReq) returns (DoEvaluateResponse);
+
+    rpc watch_institution(WatchInstitutionReq) returns (WatchInstitutionResponse);
+
+    // 获取机构产品
+    rpc get_institute_product(GetInstituteProductReq) returns (GetInstituteProductResponse);
+
+    rpc get_financing_company_list(FinancingCompanyListReq) returns (FinancingCompanyListResponse);
+}
+*/

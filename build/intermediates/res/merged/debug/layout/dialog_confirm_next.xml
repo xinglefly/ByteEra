@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="220dp"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@color/white"
+    android:layout_centerInParent="true">
+
+    <ImageView
+        android:id="@+id/img_canle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/margin"
+        android:src="@drawable/guess_close" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_confirm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/margin"
+        android:text="回答正确"
+        android:layout_margin="@dimen/margin"
+        android:layout_below="@id/img_canle"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_big_size"
+        android:textStyle="bold" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_confirm_coin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_confirm"
+        android:padding="2dp"
+        android:gravity="center"
+        android:text="金币 +30"
+        android:textColor="#FDD432"
+        android:textSize="@dimen/font_medium_size" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_confirm_coin"
+        android:layout_margin="@dimen/margin"
+        android:paddingLeft="10dp"
+        android:text="积木盒子"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_small8_size" />
+
+    <TextView
+        android:id="@+id/tv_answer_explain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:singleLine="false"
+        android:maxLines="11"
+        android:ellipsize="end"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="积木盒子积木盒子积木盒子积木盒子积木盒子积木盒子积木盒子积木积积木盒子积木盒子积木木盒子积木盒子积木积木盒子积木盒子积木积木盒子积木盒子积木盒子积木盒子"
+        android:textSize="@dimen/font_small8_size" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_answer_explain"
+        android:layout_marginTop="@dimen/margin_oneside"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_share"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#4747F3"
+            android:text="分享"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="@dimen/font_small8_size" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="#38D138"
+            android:text="下一题"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:textSize="@dimen/font_small8_size" />
+    </LinearLayout>
+
+</RelativeLayout>

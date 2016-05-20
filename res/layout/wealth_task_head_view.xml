@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:padding="@dimen/margin1"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin1"
+        android:layout_marginTop="@dimen/margin1"
+        android:text="您持有财币"
+        android:textColor="@color/wealth_task_head"
+        android:textSize="@dimen/font_small8_size" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_coincount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin1"
+        android:layout_marginTop="@dimen/margin1"
+        android:layout_toRightOf="@+id/tv_1"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_small8_size" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:textColor="@color/wealth_task_head"
+        android:id="@+id/tv_2"
+        android:textSize="@dimen/font_medium_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin4"
+        android:text="在小伙伴中排名第" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:layout_marginLeft="@dimen/margin1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_big5_size"
+        android:id="@+id/tv_ranking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/tv_2"
+        android:text="1" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:layout_marginLeft="@dimen/margin1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/font_medium_size"
+        android:layout_toRightOf="@+id/tv_ranking"
+        android:text="位" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:textColor="@color/wealth_task_head"
+        android:textSize="@dimen/font_small8_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tv_logindays"
+        android:text="你已经连续登陆" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:layout_marginLeft="2dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_small8_size"
+        android:id="@+id/tv_logindays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/tv_5"
+        android:text="1" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:layout_marginLeft="@dimen/margin_small"
+        android:textColor="@color/wealth_task_head"
+        android:textSize="@dimen/font_small8_size"
+        android:id="@+id/tv_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:text="天" />
+</RelativeLayout>

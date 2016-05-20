@@ -1,0 +1,27 @@
+package zhicaiproto;
+
+option java_package = "com.zhicai.byteera.service.serversdk";
+option java_outer_classname = "ServerPush";
+
+message TestPayload {
+    required bytes data = 1;
+}
+
+message AddFriendRequestPayload {
+    required string user_id = 1;
+    required string nickname = 2;
+    required string head_portrait = 3;
+}
+
+message PushMsg {
+    enum Type {
+        Test = 1;             // payload 为 TestPayload
+        AddFriend = 2;        // payload 为 AddFriendRequestPayload
+    }
+    required Type type = 1;
+    required bytes payload = 2;
+}
+
+message ServerPushMsg {
+    repeated PushMsg msg = 1;
+}

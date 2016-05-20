@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/content_all"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="分散投资走众筹、p2p、票据何种比例，分配能均衡风险与收益比 "
+        android:textColor="#000000"
+        android:textSize="@dimen/font_small3_size"/>
+
+    <com.zhicai.byteera.widget.NoScrollGridView
+        android:id="@+id/grid_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_all"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:horizontalSpacing="5dp"
+        android:background="#00000000"
+        android:numColumns="2"
+        android:verticalSpacing="5dp"/>
+
+</RelativeLayout>

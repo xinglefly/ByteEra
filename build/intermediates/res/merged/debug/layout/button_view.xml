@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/head_view"
+    android:layout_marginTop="@dimen/margin1">
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_day_task"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_view_background_checked_left"
+        android:padding="@dimen/margin"
+        android:textColor="@color/white"
+        android:textSize="@dimen/font_small6_size"
+        android:text="每日任务" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:textColor="@color/button_view_backgrond"
+        android:id="@+id/tv_praise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tv_day_task"
+        android:background="@drawable/button_view_background_unchecked_right"
+        android:padding="@dimen/margin"
+        android:textSize="@dimen/font_small6_size"
+        android:text="成就奖励" />
+</RelativeLayout>

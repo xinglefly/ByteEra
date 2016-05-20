@@ -1,0 +1,207 @@
+package zhicaiproto;
+
+option java_package = "com.zhicai.byteera.service";
+option java_outer_classname = "Common";
+
+
+enum SexType {
+    MALE = 1;
+    FEMALE = 2;
+}
+
+enum ThirdPartyPlatform {
+    QQ = 1;
+    WEIXIN = 2;
+    WEIBO = 3;
+}
+
+enum ProductType {
+    zhiCai_all = 1;         // 全部
+    zhiCai_p2p = 2;         // P2P
+    zhiCai_zhongchou = 3;   // 众筹
+    zhiCai_piaoju = 4;      // 票据
+    zhiCai_zxyh = 5;        // 直销银行
+    zhiCai_hlwbx = 6;       // 互联网保险
+    zhiCai_hlwlc = 7;       // 互联网理财
+    zhiCai_jijin = 8;       // 基金
+    zhiCai_xiaofei = 9;     // 消费金融
+}
+
+enum ProductSubType {
+    Normal_type = 1;        // 普通标
+    Novice_type = 2;        // 新手标
+    All_type = 99;          // 全部类型
+}
+
+enum ProductStatus {
+    PreSale_status = 1;      // 预售
+    Normal_status = 2;       // 正常
+    SaleOut_status = 3;      // 售完
+    All_status = 99;         // 全部状态
+}
+
+enum InstituteType {
+    P2P = 1;               // P2P
+    Zhongchou = 2;         // 众筹
+    Zxyh = 3;              // 直销银行
+}
+
+enum OrderType {
+    AESC = 1;               //升序
+    DESC = 2;               //降序
+}
+
+enum JumpPoint {
+    My_Information = 1;              // 我的->个人资料
+    My_Licaizhangben = 2;            // 我的->理财账本
+    My_AccountManage = 3;            // 我的->账户管理
+    Shequ_Huati = 4;                 // 社区->话题
+    Shequ_Dongtai_Licaiwenwen = 5;   // 社区->动态->理财问问
+    Xunlianying_Monilicai = 6;       // 训练营->模拟理财
+    Chanpinhui_Watched = 7;          // 产品汇->我的关注
+    Chat_InviteFriend = 8;           // 聊天->邀请好友
+    CoinTask_Exchange = 9;           // 财币任务->商城兑换
+}
+
+enum UserType {
+    Normal = 1;            // 普通用户
+    InstituteSpokeMan = 2;     // 机构发言人
+    GroupMaster = 3;           // 部落小组管理员
+}
+
+message CommonResponse {
+  required uint32 errorno = 1;
+  optional string error_description = 2;
+}
+
+// 基础对象 评论
+message Comment {
+    required uint32 comment_index = 1;      // 评论 ID
+    required uint32 publish_time = 2;       // 发布时间
+    required string user_id = 3;            // 用户id
+    required string head_portrait = 4;      // 头像
+    required string nickname = 5;           // 用户昵称
+    required string content = 6;            // 评论内容
+    optional NormalUser to_user = 7;        // 回复谁,针对某人发评论需要此字段
+}
+
+// 基础对象 赞
+message Zan {
+    required uint32 zan_index = 1;          // 赞 ID
+    required uint32 publish_time = 2;       // 发布时间
+    required string user_id = 3;            // 用户id
+    required string head_portrait = 4;      // 头想
+    required string nickname = 5;           // 用户昵称
+}
+
+message LicaiProduct
+{
+	required string product_id = 1;       //id
+    required string small_image = 2;      //头像
+    required string product_title = 3;    //标题
+    required float product_income = 4;    //收益，值为 0.05 就是 5%
+    required float product_income_in_limit = 5;    //期限内收益(收益*期限)
+    required uint32 product_coin = 6;     //融资金额
+    required uint32 product_limit = 7;    //期限, 值为 5 就是 5个月
+    required bool product_watch = 8;      //是否关注，是0就是没关注，其他的都是关注
+    optional float progress = 9;          //投标进度, 1为满标, 小于1时为未满标
+    optional string product_url = 10;     //产品详情url
+    optional string company_name = 11;    //平台名称
+    optional ProductSubType sub_type = 16;//子类型
+    optional ProductStatus status = 17;   //状态
+    optional int64 sale_begin_time = 18;  //起售时间
+}
+
+message InstituteUser {
+    required string user_id = 1;                  // 用户id
+    required string head_portrait = 2;            // 头像
+    required string nickname = 3;                 // 昵称
+}
+
+//InstitutionUser(包含是否已关注的标识)
+message InstituteUserWithRelation {
+    required InstituteUser user = 1;  //机构用户
+    required bool watched = 2; //是否已关注
+}
+
+message NormalUser {
+    required string user_id = 1;                  // 用户id
+    required string head_portrait = 2;            // 头像
+    required string nickname = 3;                 // 昵称
+}
+
+message FinancingCompany {
+    required string company_id = 1;
+    required string company_name = 2;
+    required string company_image = 3;            // 头像
+    required uint32 company_type = 4;             // 2:p2p, 3:众筹, 4:票据，5:直销银行
+    optional uint32 products_number = 5;          // 产品数量
+    optional string tags = 6;                     // 商品tag, 多个tag时以逗号分隔
+}
+
+
+message ExchangeItem                                    // 兑换商品信息
+{
+    required string item_id = 1;                        // 商品ID
+    required string item_name = 2;                      // 商品名称
+    required string item_image = 3;                     // 商品图片
+    required uint32 display_order = 4;                  // 商品排序
+    required uint32 item_total_count = 5;                  // 商品总量
+    required uint32 item_left_count = 6;                   // 商品剩余数量
+    required uint32 item_coin = 7;                         // 兑换所需财币
+    required uint32 item_type = 8;                         // 商品类型：1: 实物商品 2: 固定值数字商品 3: 动态值数字商品
+    required string item_desc = 9;                      // 商品描述
+    required int64 create_time = 10;                     // 商品创建时间戳
+    optional FinancingCompany from_company = 11;        // 商品来源公司
+}
+
+message ExchangeRecord                                  // 兑换商品记录
+{
+    required string record_id = 1;                      // 兑换记录的ID
+    required string item_id = 2;                        // 商品ID
+    required string item_name = 3;                      // 商品名称
+    required string item_image = 4;                     // 商品图片
+    required uint32 item_coin = 5;                      // 兑换消耗的财币
+    required uint32 item_type = 6;                      // 兑换商品类型：1: 实物商品 2: 固定值数字商品 3: 动态值数字商品
+    required string item_desc = 7;                      // 商品描述
+    required int64 create_time = 8;                     // 兑换时间
+    optional string exchange_item_content = 9;          // 兑换数字商品内容
+    optional string receiver_name = 10;                 // 实物商品的收件人姓名
+    optional string receiver_tel = 11;                  // 实物商品的收件人电话
+    optional string receiver_address = 12;              // 实物商品的收件人地址
+    optional string receiver_zip = 13;                  // 实物商品的收件人邮编
+    optional uint32 deliver_status = 14;                // 实物商品的邮寄状态
+    optional string deliver_company = 15;               // 实物商品的快递公司
+    optional string deliver_sn = 16;                    // 实物商品的快递单号
+    optional string deliver_time = 17;                  // 实物商品的邮寄时间
+}
+
+message StandardProductInfo                             //基准理财产品信息
+{
+    required float current_deposit = 1;                 //活期存款
+    required float yuebao = 2;                          //余额宝
+    required float fixed_deposit = 3;                   //六个月定期存款
+    required float fund = 4;                            //基金
+}
+
+message ProductInfo                                             //理财产品信息
+{
+    required string title = 1;                                  //产品标题
+    required float progress = 2;                                //产品详情链接
+    required float income = 3;                                  //收益
+    required uint32 limit = 4;                                  //投资期限(天)
+    required int32 amount = 5;                                  //金额(元)
+    required string repayment_type = 6;                         //还款方式
+    required string fee = 7;                                    //费用
+    required string publish_date = 8;                           //发布日期
+    required string end_date = 9;                               //结息日期
+    required string detail_url = 10;                            //产品详情链接
+    required string company_url = 11;                           //公司信息链接
+    required string risk_info_url = 12;                         //风险控制链接
+    required string origin_url = 13;                            //原始链接
+    required string company_name = 14;                          //平台名称
+    required StandardProductInfo standard_product_info = 15;    //传统理财方式的信息
+    optional ProductSubType sub_type = 16;                      //子类型
+    optional ProductStatus status = 17;                         //状态
+    optional int64 sale_begin_time = 18;                        //起售时间
+}

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20.0dip"
+    android:layout_marginRight="20.0dip"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_copy"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1.0dip"
+        android:background="@drawable/context_menu_item_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="copy"
+        android:padding="10.0dip"
+        android:text="@string/copy_message"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_medium_size" />
+
+    <View
+        android:id="@+id/copy_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@android:color/darker_gray" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_delete"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/context_menu_item_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="delete"
+        android:padding="10.0dip"
+        android:text="@string/delete_message"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_medium_size" />
+
+    <View
+        android:id="@+id/delete_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@android:color/darker_gray" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_forward"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/context_menu_item_bg"
+        android:clickable="true"
+        android:gravity="center_vertical"
+        android:onClick="forward"
+        android:padding="10.0dip"
+        android:text="@string/forward"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/font_medium_size" />
+
+    <View
+        android:id="@+id/forward_line"
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

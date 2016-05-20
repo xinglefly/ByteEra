@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="180dp" />
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/view"
+        android:background="#4fc8d0"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rl_dynamic"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_dynamic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="平台动态"
+                android:textColor="@color/default_white"
+                android:textSize="@dimen/font_small6_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_product"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.zhicai.byteera.widget.MyTextView
+                android:id="@+id/tv_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:text="可投标的"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/font_small6_size" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:layout_alignBottom="@+id/iv_indicator"
+        android:background="@color/default_white" />
+
+    <ImageView
+        android:id="@+id/iv_indicator"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_below="@+id/ll"
+        android:layout_marginTop="-10dp"
+        android:background="@drawable/juxing_bg"
+        android:padding="5dp"
+        android:src="@drawable/juxing" />
+</RelativeLayout>

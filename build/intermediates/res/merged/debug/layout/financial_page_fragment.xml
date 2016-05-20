@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    android:orientation="vertical">
+
+    <com.zhicai.byteera.widget.LoadingPage
+        android:id="@+id/loading_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/head_view"
+        android:visibility="gone" />
+
+
+    <com.zhicai.byteera.widget.MySwipeRefreshLayout
+        android:id="@+id/swipe_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head_view">
+
+        <com.zhicai.byteera.widget.LoadMoreListView
+            android:id="@+id/list_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+    </com.zhicai.byteera.widget.MySwipeRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/content_link"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:background="#e0e0e0">
+
+    <ImageView
+        android:id="@+id/iv_institution"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="4dp"/>
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_institution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/iv_institution"
+        android:maxLines="2"
+        android:text="附近的考虑房管局的深刻理解"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_small2_size"/>
+
+    <ImageView
+        android:id="@+id/iv_rightback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="5dp"
+        android:layout_margin="@dimen/frame_10dp"/>
+
+
+</RelativeLayout>

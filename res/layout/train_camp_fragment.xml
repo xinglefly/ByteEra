@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    android:background="@color/default_white"
+    android:layout_below="@+id/rl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/train_head"/>
+
+        <!--<include layout="@layout/head_view_second" />-->
+
+        <com.zhicai.byteera.activity.traincamp.view.TrainCampItemView
+            android:id="@+id/wealth_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            zhicai:buttonColor="#dbdbdb"
+            zhicai:buttonText="去做"
+            zhicai:leftImage="@drawable/train_1"
+            zhicai:primaryText="财币任务"
+            zhicai:secondText="玩任务，得理财本金"/>
+
+        <com.zhicai.byteera.activity.traincamp.view.TrainCampItemView
+            android:id="@+id/guss_financial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f6f6f6"
+            zhicai:buttonColor="#c7c6c6"
+            zhicai:buttonText="去疯"
+            zhicai:leftImage="@drawable/train_2"
+            zhicai:primaryText="疯狂猜金融"
+            android:visibility="invisible"
+            zhicai:secondText="挑战你的金融智库"/>
+
+        <com.zhicai.byteera.activity.traincamp.view.TrainCampItemView
+            android:id="@+id/guss_change"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            zhicai:buttonColor="#dbdbdb"
+            zhicai:buttonText="去猜"
+            zhicai:leftImage="@drawable/train_3"
+            zhicai:primaryText="大盘猜涨跌"
+            android:visibility="invisible"
+            zhicai:secondText="预测涨跌，翻倍赢本金"/>
+
+        <com.zhicai.byteera.activity.traincamp.view.TrainCampItemView
+            android:id="@+id/buy_money"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f6f6f6"
+            zhicai:buttonColor="#c7c6c6"
+            zhicai:buttonText="去买"
+            zhicai:leftImage="@drawable/train_4"
+            zhicai:primaryText="模拟买理财"
+            android:visibility="invisible"
+            zhicai:secondText="财币模拟交易，赢人民币真实收益"/>
+
+        <com.zhicai.byteera.activity.traincamp.view.TrainCampItemView
+            android:id="@+id/answer_coin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            zhicai:buttonColor="#dbdbdb"
+            zhicai:buttonText="去答"
+            zhicai:leftImage="@drawable/train_5"
+            zhicai:primaryText="答题得现金"
+            android:visibility="invisible"
+            zhicai:secondText="财币模拟交易，赢人民币真实收益"/>
+    </LinearLayout>
+</ScrollView>
+

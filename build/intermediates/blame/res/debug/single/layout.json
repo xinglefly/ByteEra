@@ -1,0 +1,1226 @@
+[
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_attention_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_attention_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/layout_rv_sweet.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/layout/layout_rv_sweet.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/plugin_camera_album.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/plugin_camera_album.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_friends_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_friends_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/product_main.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/product_main.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/userhome_dynamic_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/userhome_dynamic_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_group_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_group_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/customer_notitfication_layout_one.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/customer_notitfication_layout_one.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/content_link.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/content_link.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_group_pick_contacts.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_group_pick_contacts.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/content_all.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/content_all.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/customer_notitfication_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/customer_notitfication_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/layout_vp_sweet.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/layout/layout_vp_sweet.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_guide_02.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/item_guide_02.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_search_result.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_search_result.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_group_popupwindows.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/item_group_popupwindows.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/dialog_consume_coin.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/dialog_consume_coin.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/product_p2p.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/product_p2p.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/dialog_game.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/dialog_game.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_guide_01.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/item_guide_01.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/share_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/share_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/recommend_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/recommend_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/select_group_grid_view_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/select_group_grid_view_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/system_message_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/system_message_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_calculate_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_calculate_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/wealth_task_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/wealth_task_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/companies_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/companies_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/organzation_home_head.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/organzation_home_head.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/change_nickname_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/change_nickname_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_access_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_access_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/message.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/message.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_find_pwd2.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_find_pwd2.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_received_message.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_received_message.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/drawer_right.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/drawer_right.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_contact_with_checkbox.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_contact_with_checkbox.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/listview.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/listview.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/plugin_camera_show_all_photo.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/plugin_camera_show_all_photo.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/know_wealth_botton_line.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/know_wealth_botton_line.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/shopping_button_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/shopping_button_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/subject_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/subject_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_dynamic_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_dynamic_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_more_topic.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_more_topic.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/user_home_header_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/user_home_header_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_search_friend.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_search_friend.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/share_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/share_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_focus_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_focus_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/get_photo_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/get_photo_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/alpha_bet_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/alpha_bet_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/loading_page_empty.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/loading_page_empty.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/load_more_listview.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/load_more_listview.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/comment_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/comment_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/jump_web_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/jump_web_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/select_address_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/select_address_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_chat.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_chat.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_sent_file.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_sent_file.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/line.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/line.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_guide.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_guide.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/modify_userinfo_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/modify_userinfo_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_context_menu.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_context_menu.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_baidumap.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_baidumap.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/user_home_title.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/user_home_title.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/search_city_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/search_city_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/setting_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/setting_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/selelct_group_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/selelct_group_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/image_detail_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/image_detail_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/content_part.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/content_part.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/head_view_second.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/head_view_second.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/train_camp_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/train_camp_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/bid_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/bid_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/change_pws_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/change_pws_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/layout_materialdialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/me.drakeet.materialdialog/library/1.2.2/res/layout/layout_materialdialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_focus_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_focus_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/customshare_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/customshare_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_show_video.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_show_video.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_expression.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_expression.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/notification_template_lines.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_lines.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_received_location.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_received_location.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/img_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/img_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_alert_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_alert_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/linear_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/linear_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_home_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_home_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_survey_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_survey_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/product_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/product_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/button_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/button_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_published_grida.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/item_published_grida.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_guess_answer_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_guess_answer_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/xuni_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/xuni_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/footview_search.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/footview_search.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_add_friends.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_add_friends.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/banding_phone_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/banding_phone_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/base_load_empty_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/base_load_empty_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/know_wealth_detail_comment_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/know_wealth_detail_comment_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/all_group_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/all_group_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/list_more_loading.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/list_more_loading.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_simple_dropdown_hint.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_access_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_access_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/exchange_list.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/exchange_list.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/drawer_right_title_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/drawer_right_title_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/aboutus_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/aboutus_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/guesspic_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/guesspic_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/know_wealth_detail_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/know_wealth_detail_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/topic_comment_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/topic_comment_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/dialog_confirm_next.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/dialog_confirm_next.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/wealth_task_head_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/wealth_task_head_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_contact.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_contact.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/listview_result_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/listview_result_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_wealth_task.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_wealth_task.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_received_card.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_received_card.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_home_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_home_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/shouyi_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/shouyi_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/addtioninstiation_list_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/addtioninstiation_list_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/awardwebview.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/awardwebview.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/topic_item_title.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/topic_item_title.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/plugin_camera_gallery.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/plugin_camera_gallery.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/dynamic_comment_detail_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/dynamic_comment_detail_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/layout_custom_sweet.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/layout/layout_custom_sweet.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/shopping_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/shopping_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/head_view_guess.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/head_view_guess.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/community_main.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/community_main.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_rel_fm.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_rel_fm.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/change_card_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/change_card_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/expression_gridview.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/expression_gridview.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/grid_view_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/grid_view_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/change_nickname_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/change_nickname_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/drawer_right_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/drawer_right_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/notification_media_cancel_action.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_vertical_rv.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/layout/item_vertical_rv.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_received_voice.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_received_voice.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/addition_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/addition_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/change_sex_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/change_sex_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/publish_opinion_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/publish_opinion_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/exchangerecord_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/exchangerecord_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_main_tabhost.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_main_tabhost.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_find_pwd.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_find_pwd.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_exchange.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_exchange.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_collection.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_collection.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/plugin_camera_image_file.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/plugin_camera_image_file.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/logout_actionsheet.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/logout_actionsheet.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/round_img.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/round_img.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_guess_mission_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_guess_mission_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/companies_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/companies_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/city_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/city_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_coinstore.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_coinstore.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/public_dynamic_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/public_dynamic_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_sent_card.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_sent_card.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/tab_item_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/tab_item_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_group_home.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_group_home.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/product_p2p_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/product_p2p_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/public_dynamic_options.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/public_dynamic_options.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_popupwindows.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/item_popupwindows.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_contact.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/item_contact.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/user_home_category.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/user_home_category.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_know_weath_detail.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_know_weath_detail.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/plugin_camera_select_imageview.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/plugin_camera_select_imageview.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/addition_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/addition_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/group_home_head_new.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/group_home_head_new.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/search_user_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/search_user_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/focus_pople_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/focus_pople_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_guess_mission.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_guess_mission.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/list_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/list_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/know_wealth_detail_header_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/know_wealth_detail_header_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/day_task_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/day_task_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/loading_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/loading_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/dynamic_list_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/dynamic_list_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_condition.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_condition.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_received_picture.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_received_picture.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_sent_message.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_sent_message.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_guess_game.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_guess_game.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_guess_game_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_guess_game_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/rating_bar.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/rating_bar.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/dynamic_main.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/dynamic_main.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/layout_snackbar_include.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_tixian_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_tixian_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_sent_location.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_sent_location.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_pick_contact_no_checkbox.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_pick_contact_no_checkbox.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/tab_bottom.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/tab_bottom.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/subject_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/subject_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_sent_picture.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_sent_picture.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_guide_03.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/item_guide_03.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_friends_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_friends_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_chat_history.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_chat_history.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/achieve_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/achieve_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/rating_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/rating_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/loading_page_loading.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/loading_page_loading.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/pop_add.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/pop_add.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/head_view_main.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/head_view_main.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/knowwealth_main.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/knowwealth_main.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/topic_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/topic_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/exit_edit_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/exit_edit_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/layout_grid_menu.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/layout/layout_grid_menu.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/image_detail_pager.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/image_detail_pager.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/institution_list_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/institution_list_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/topic_detail_content.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/topic_detail_content.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/modify_sex.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/modify_sex.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/group_listview_header.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/group_listview_header.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_group_details.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_group_details.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_tixian_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_tixian_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/p2p_banner_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/p2p_banner_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/loading_page_error.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/loading_page_error.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/topic_detail_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/topic_detail_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/select_birthday_dialog.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/select_birthday_dialog.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_organization_home.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_organization_home.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/chat_neterror_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/chat_neterror_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_sent_video.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_sent_video.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_fans_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_fans_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/knowwealth_info_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/knowwealth_info_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_user_home.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_user_home.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/dialog_tip.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/dialog_tip.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/user_home_collect_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/user_home_collect_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/day_task_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/day_task_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/subject_detail_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/subject_detail_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/design_navigation_item_header.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/message_main.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/message_main.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_caibi_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_caibi_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/notification_template_big_media.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/item_horizon_rv.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.github.zzz40500/AndroidSweetSheet/1.1.0/res/layout/item_horizon_rv.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_fans_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_fans_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/bidpush_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/bidpush_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/my_home_head.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/my_home_head.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/finacingfragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/finacingfragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/institution_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/institution_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/pop_pulldown.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/pop_pulldown.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/financial_page_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/financial_page_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/more_topic_item_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/more_topic_item_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_guess.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_guess.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_topic_detail.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_topic_detail.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/shou_cang_acitivity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/shou_cang_acitivity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_sent_voice.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_sent_voice.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/organization_home_header_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/organization_home_header_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/user_protocol_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/user_protocol_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/pop_bit_condition.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/pop_bit_condition.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/banner_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/banner_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/xuni_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/xuni_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_show_big_image.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_show_big_image.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/tribe_home_head.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/tribe_home_head.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/shopping_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/shopping_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/grid.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/grid.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/group_second_page.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/group_second_page.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_detail_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_detail_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/subject_detail_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/subject_detail_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_received_video.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_received_video.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/shouyi_button_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/shouyi_button_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/organization_info.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/organization_info.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/select_addresss_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/select_addresss_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/day_task_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/day_task_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/blank_view.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/blank_view.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/addition_organization_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/addition_organization_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/web_view_activity.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/web_view_activity.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_system_message.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_system_message.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/notification_media_action.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/recommend_activity_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/recommend_activity_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/group_home_head.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/group_home_head.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/activity_welcome.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/p2p_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/p2p_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/topic_fragment.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/topic_fragment.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/banner_dynamic.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/banner_dynamic.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/income_access_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/income_access_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/select_city_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/select_city_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/layout_snackbar.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/design/22.2.0/res/layout/layout_snackbar.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/all_group_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/all_group_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/train_camp_item.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/train_camp_item.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/plugin_camera_select_folder.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/plugin_camera_select_folder.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/classroom_main.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/classroom_main.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/user_home_head.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/user_home_head.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/row_received_file.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/row_received_file.xml"
+    },
+    {
+        "merged": "/Users/chenzhenxing/Desktop/byteera/ByteEra/build/intermediates/res/merged/debug/layout/p2p_classroom.xml",
+        "source": "/Users/chenzhenxing/Desktop/byteera/ByteEra/res/layout/p2p_classroom.xml"
+    }
+]

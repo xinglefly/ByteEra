@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="30dp"
+    android:paddingRight="@dimen/frame_30dp">
+
+
+    <LinearLayout
+        android:id="@+id/ll_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/textview_corner_group_pop"
+        android:orientation="vertical">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_cancle_joined"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="取消关注"
+            android:textColor="#585858"
+            android:textSize="@dimen/font_small8_size" />
+
+        <View
+            android:layout_width="280dp"
+            android:layout_height="0.2dp"
+            android:layout_gravity="center"
+            android:background="@color/gray" />
+
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="fill_parent"
+            android:layout_height="55dp"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="#585858"
+            android:textSize="@dimen/font_small8_size" />
+    </LinearLayout>
+
+</RelativeLayout>

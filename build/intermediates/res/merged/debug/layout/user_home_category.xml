@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:background="@drawable/userhome_bline"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/ll_dynamic"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_dynamic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/dongtai_selector"
+            android:gravity="center"
+            android:text="动态"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_small4_size" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_collect"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_collect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:drawablePadding="8dp"
+            android:drawableRight="@drawable/shoucang_selector"
+            android:gravity="center"
+            android:text="收藏"
+            android:textColor="#666666"
+            android:textSize="@dimen/font_small4_size" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

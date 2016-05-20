@@ -1,0 +1,260 @@
+package zhicaiproto;
+
+import "common.proto";
+
+option java_package = "com.zhicai.byteera.service.dynamic";
+option java_outer_classname = "Dynamic";
+
+
+// 共 8 个接口，已经数字标出
+
+// 消息通用字段
+message MsgCommonField {
+    required string msg_id = 1;           // 消息 id
+    required uint32 publish_time = 2;     // 发布时间
+    required string user_id = 3;          // 消息发布者的 id
+    required string nickname = 4;         // 昵称
+    required string head_portrait = 5;    // 头像
+    repeated Zan zan = 6;                 // 赞
+    repeated Comment comment = 7;         // 评论
+    required UserType user_type = 8;      // 用户类型
+}
+
+// 普通消息
+message NormalMsg {
+    required MsgCommonField common_field = 1;
+    optional string content = 2;
+    repeated string image = 3;
+}
+
+// 分享内部链接消息
+message ShareInternalMsg {
+    required MsgCommonField common_field = 1;
+    required string zixun_id = 2;              // 分享的资讯id
+    required string title = 3;                 // 标题
+    required string small_image = 4;           // 缩略图
+    optional string content = 5;               // 用户分享时可以输入文字
+}
+
+// 分享外部链接消息
+message ShareExternalMsg {
+    required MsgCommonField common_field = 1;
+    required string share_url = 2;             // 分享的 URL
+    optional string content = 3;               // 用户分享时可以输入文字
+}
+
+
+// 理财圈消息 （ 里面m1 m2 m3字段，有且只有一个有数据）
+message LicaiquanItem {
+    enum MsgType {
+        NORMAL = 1;
+        SHARE_INTERNAL = 2;
+        SHARE_EXTERNAL = 3;
+    }
+    required MsgType type = 1;          // 消息类型
+    optional NormalMsg m1 = 2;
+    optional ShareInternalMsg m2 = 3;
+    optional ShareExternalMsg m3= 4;
+    optional string group_id = 5;     // + 属于的组id
+    optional string group_name = 6;     // + 属于的组名
+}
+
+// 1 获取理财圈消息， GetMsg 请求, 服务器返回 GetMsgResponse
+// 进入动态页面时发送该消息，已登录传 user_id 未登录不传
+message GetMsg {
+    optional string msg_id = 1;
+    optional bool isafter = 2;
+    optional string user_id = 3;         // + 访问该页面可不登录所以该字段可传可不传
+}
+
+message GetMsgResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiquanItem item = 3;          // 理财圈消息数组
+}
+
+// + 获取小组消息, 服务器返回 GetGroupMsgResponse
+message GetGroupMsgReq {
+    required string group_id = 1;
+    optional string msg_id = 2;     // 锚点
+    optional bool isafter = 3;      // 锚点之前或之后（时间）下拉刷新时为true，查看更多为false
+}
+
+message GetGroupMsgResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiquanItem item = 3;          // 理财圈消息数组
+}
+
+
+message GetInstituteReq {
+    required string institute_user_id = 1;  //机构用户id
+    optional string msg_id = 2;     // 锚点
+    optional bool isafter = 3;      // 锚点之前或之后（时间）下拉刷新时为true，查看更多为false
+}
+
+message GetInstituteResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiquanItem item = 3;          // 理财圈消息数组
+}
+
+// 获取用户发送的理财圈消息， 服务端返回 GetMyMsgResponse
+// 获取最新的消息，msg_id isafter 都不传，查看更多时，msg_id 和 isafter 应该传值
+message GetUserMsg {
+    required string user_id = 1;
+    optional string msg_id = 2;       // 锚点
+    optional bool isafter = 3;        // false 锚点以前（时间），不能为true ，因为不提供下拉刷新的功能
+}
+
+message GetUserMsgResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    repeated LicaiquanItem item = 3;          // 理财圈消息数组
+}
+
+// 删除自己发的理财圈消息， 服务端返回 DeleteMyMsgResponse
+message DeleteMyMsg {
+    required string user_id = 1;
+    required string msg_id = 2;
+}
+
+message DeleteMyMsgResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+}
+
+// 2 发布理财圈消息（普通），服务器返回 PublishNormalMsgResponse
+message PublishNormalMsg {
+    message ImageFile {
+        required string name = 1;  // 图片文件名字
+        required bytes data = 2;   // 图片文件内容（二进制）
+    }
+    required string user_id = 1;
+    optional string content = 2;
+    repeated ImageFile image_file = 3;
+    optional string group_id = 4;  // 关联的理财圈
+    optional string institute_user_id = 5;  // 关联的机构用户
+}
+
+message PublishNormalMsgResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional NormalMsg msg = 3;
+}
+
+// 3 发布理财圈消息（分享内部链接），服务器返回 PublishShareInternalMsgResponse
+message PublishShareInternalMsg {
+    required string user_id = 1;
+    required string shared_zixun_id = 2;
+    optional string content = 3;
+    optional string group_id = 4;   // 关联的理财圈
+    optional string institute_user_id = 5;  // 关联的机构用户
+}
+
+message PublishShareInternalMsgResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional ShareInternalMsg msg = 3;
+}
+
+// 4 发布理财圈消息（分享外部链接），服务器返回 PublishShareExternalMsgResponse
+message PublishShareExternalMsg {
+    required string user_id = 1;
+    required string shared_url = 2;
+    optional string content = 3;
+    optional string group_id = 4;   // 关联的理财圈
+    optional string institute_user_id = 5;  // 关联的机构用户
+}
+
+message PublishShareExternalMsgResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional ShareExternalMsg msg = 3;
+}
+
+// 5 点赞。 发送 DoZan 服务端返回 DoZanResponse
+message DoZan {
+    required string msg_id = 1;
+    required string user_id = 2;
+}
+
+message DoZanResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional Zan zan = 3;
+}
+
+// 6 取消赞。 发送 UndoZan 服务端返回 UndoZanResponse
+message UndoZan {
+    required string msg_id = 1;
+    required string user_id = 2;
+}
+
+message UndoZanResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string msg_id = 3;
+    optional uint32 zan_index = 4;
+}
+
+// 7 评论。发送 DoComment 服务端返回 DoCommentResponse
+message DoComment {
+    required string msg_id = 1;
+    required string user_id = 2;
+    required string content = 3;
+}
+
+message DoCommentResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string msg_id = 3;
+    optional Comment comment = 4;
+}
+
+// 8 取消评论. 发送 UndoComment 服务端返回 UndoCommentResponse
+// 只能是发评论的人自己取消评论，参数中的 user_id 也是评论者的
+message UndoComment {
+    required string msg_id = 1;
+    required string user_id = 2;
+    required uint32 comment_index = 3;
+}
+
+message UndoCommentResponse {
+    required uint32 errorno = 1;
+    optional string error_description = 2;
+    optional string msg_id = 3;
+    optional uint32 comment_index = 4;
+}
+
+/*
+service chronos {
+    //获取所有动态
+    rpc licaiquan_get_msg(GetMsg) returns (GetMsgResponse);
+
+    //获取理财圈小组动态
+    rpc licaiquan_get_group_msg(GetGroupMsgReq) returns (GetGroupMsgResponse);
+
+    //获取理财圈机构动态
+    rpc licaiquan_get_institute_msg(GetInstituteReq) returns (GetInstituteResponse);
+
+    //获取个人发表的动态
+    rpc licaiquan_get_usermsg(GetUserMsg) returns (GetUserMsgResponse);
+
+    rpc licaiquan_delete_mymsg(DeleteMyMsg) returns (DeleteMyMsgResponse);
+
+    rpc licaiquan_pub_normal_msg(PublishNormalMsg) returns (PublishNormalMsgResponse);
+
+    rpc licaiquan_pub_int_msg(PublishShareInternalMsg) returns (PublishShareInternalMsgResponse);
+
+    rpc licaiquan_pub_exturl_msg(PublishShareExternalMsg) returns (PublishShareExternalMsgResponse);
+
+    rpc licaiquan_dozan(DoZan) returns (DoZanResponse);
+
+    rpc licaiquan_undozan(UndoZan) returns (UndoZanResponse);
+
+    rpc licaiquan_docomment(DoComment) returns (DoCommentResponse);
+
+    rpc licaiquan_undocomment(UndoComment) returns (UndoCommentResponse);
+}
+*/

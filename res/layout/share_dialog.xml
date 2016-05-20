@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/shape_bg_2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="评论"
+            android:textSize="@dimen/font_small7_size" />
+
+        <ImageView
+            android:id="@+id/iv_quit"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/cha" />
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/rl"
+        android:background="@color/line" />
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/line"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:hint="快快写下您的感受吧~"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="5dp"
+        android:textSize="@dimen/font_small4_size" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/et_comment"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:background="@color/line" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/et_comment"
+        android:background="@drawable/shape_bg_3">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_share"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/share_ok_selector"
+            android:gravity="center"
+            android:text="分享"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_small4_size" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

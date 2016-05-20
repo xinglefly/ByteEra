@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/default_white"
+    android:orientation="vertical">
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/head_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:leftImg="@drawable/arrow"
+        app:titleName="机构选择" />
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/id_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/view"
+        app:tabIndicatorColor="@color/head_view_bg"
+        app:tabSelectedTextColor="@color/head_view_bg"
+        app:tabTextColor="@color/gray_text" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee">
+
+        <com.zhicai.byteera.widget.ClearEditText
+            android:id="@+id/et_msg_search"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_marginBottom="@dimen/frame_05dp"
+            android:layout_marginLeft="@dimen/frame_05dp"
+            android:layout_marginRight="@dimen/frame_10dp"
+            android:layout_marginTop="@dimen/frame_08dp"
+            android:background="@drawable/base_edit_input"
+            android:drawableLeft="@drawable/icon_msg_search"
+            android:drawablePadding="10dp"
+            android:hint="搜索"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:textSize="@dimen/font_small5_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_top_bar"
+        android:background="@color/head_view_bg"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:onClick="back"
+            android:scaleType="centerInside"
+            android:src="@drawable/back_selector" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/Select_the_contact"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/font_medium_size" />
+
+        <Button
+            android:layout_width="53dp"
+            android:layout_height="33dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/btn_add_group_selector"
+            android:onClick="save"
+            android:text="@string/button_save"
+            android:textColor="#fff"
+            android:textSize="@dimen/font_small6_size" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:cacheColorHint="#00000000"
+            android:descendantFocusability="afterDescendants"
+            android:divider="#D4D4D4"
+            android:dividerHeight="1px"
+            android:fastScrollEnabled="true" />
+
+        <com.zhicai.byteera.widget.Sidebar
+            android:id="@+id/sidebar"
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:clickable="true" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/floating_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#00fff0"
+            android:gravity="center"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_biggest_size"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

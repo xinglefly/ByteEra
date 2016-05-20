@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_buttom"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:background="@color/default_white"
+    android:orientation="horizontal">
+
+
+    <com.zhicai.byteera.widget.TabItemView
+        android:id="@+id/tab_income"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        zhicai:ButtonImage="@drawable/tab_income_btn"
+        zhicai:text="简单投" />
+
+    <com.zhicai.byteera.widget.TabItemView
+        android:id="@+id/tab_product"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        zhicai:ButtonImage="@drawable/tab_product_btn"
+        zhicai:text="产品汇" />
+
+
+    <com.zhicai.byteera.widget.TabItemView
+        android:id="@+id/tab_find"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        zhicai:ButtonImage="@drawable/tab_find_btn"
+        zhicai:text="发现" />
+
+    <com.zhicai.byteera.widget.TabItemView
+        android:id="@+id/tab_mine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        zhicai:ButtonImage="@drawable/tab_mine_btn"
+        zhicai:text="我的" />
+
+
+</LinearLayout>

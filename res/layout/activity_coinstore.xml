@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:zhicai="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.zhicai.byteera.widget.HeadViewMain
+        android:id="@+id/head_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        zhicai:leftImg="@drawable/arrow"
+        zhicai:rightText="我的兑换"
+        zhicai:titleName="财务商城" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/head_title"
+        android:layout_marginTop="@dimen/frame_10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="您当前财富值："
+            android:textColor="#121212"
+            android:textSize="@dimen/font_small6_size" />
+
+        <com.zhicai.byteera.widget.MyTextView
+            android:id="@+id/tv_coin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/qian"
+            android:padding="3dp"
+            android:paddingRight="3dp"
+            android:drawablePadding="@dimen/frame_05dp"
+            android:text="4564"
+            android:textColor="#ff5500"
+            android:textSize="@dimen/font_small6_size" />
+
+    </LinearLayout>
+
+
+    <com.zhicai.byteera.activity.community.dynamic.view.ShoppingButtonView
+        android:id="@+id/button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_header"
+        android:layout_centerHorizontal="true" />
+
+    <com.zhicai.byteera.widget.MyTextView
+        android:id="@+id/tv_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_view"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/frame_04dp"
+        android:singleLine="true"
+        android:text="此财币兑换活动由知财主办，与你使用的设备生产厂商公司无关"
+        android:textColor="#c3c3c3"
+        android:textSize="@dimen/font_small3_size" />
+
+    <FrameLayout
+        android:id="@+id/rl_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/frame_05dp"
+        android:layout_below="@+id/tv_des" />
+
+</RelativeLayout>
